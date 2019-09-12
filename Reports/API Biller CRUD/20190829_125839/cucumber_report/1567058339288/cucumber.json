@@ -1,0 +1,262 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 33,
+        "name": "Update Biller Config Failed",
+        "description": "",
+        "id": "update-biller-config-failed;update-biller-config-failed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14033679,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "url : https://trunko.sumpahpalapa.com/biller/id/config",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://trunko.sumpahpalapa.com/biller/id/config",
+                  "offset": 6
+                }
+              ],
+              "location": "Steps.url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3591923,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Method : POST",
+            "match": {
+              "arguments": [
+                {
+                  "val": "POST",
+                  "offset": 9
+                }
+              ],
+              "location": "Steps.method(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1195202,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User Input id : 1000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1000",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.userInputId(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2853584,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Request body : {\"key\":\"value\"}",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{\"key\":\"value\"}",
+                  "offset": 15
+                }
+              ],
+              "location": "Steps.requestBody(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 756255479,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3242483,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User Get Http response code : 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 34,
+        "name": "Update Biller Config Failed",
+        "description": "",
+        "id": "update-biller-config-failed;update-biller-config-failed;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 791811,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "url : https://trunko.sumpahpalapa.com/biller/id/config",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://trunko.sumpahpalapa.com/biller/id/config",
+                  "offset": 6
+                }
+              ],
+              "location": "Steps.url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2004603,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Method : POST",
+            "match": {
+              "arguments": [
+                {
+                  "val": "POST",
+                  "offset": 9
+                }
+              ],
+              "location": "Steps.method(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1221590,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User Input id : 63",
+            "match": {
+              "arguments": [
+                {
+                  "val": "63",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.userInputId(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1160295,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Request body : testError",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testError",
+                  "offset": 15
+                }
+              ],
+              "location": "Steps.requestBody(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 278266631,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2768881,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User Get Http response code : 500",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Update Biller Config Failed",
+    "description": "",
+    "id": "update-biller-config-failed",
+    "keyword": "Feature",
+    "uri": "/Users/reinard/Documents/Katalon Project/Trunko/Include/features/API Biller CRUD/Update Biller Config Failed.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,160 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 34,
+        "name": "Product Mapping Success",
+        "description": "",
+        "id": "product-mapping-success;product-mapping-success;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1078918,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Command Type : purchase Config Set",
+            "match": {
+              "arguments": [
+                {
+                  "val": "purchase Config Set",
+                  "offset": 15
+                }
+              ],
+              "location": "Steps.commandType(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2101999,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Product Mapping : 175 Config Set",
+            "match": {
+              "arguments": [
+                {
+                  "val": "175 Config Set",
+                  "offset": 18
+                }
+              ],
+              "location": "Steps.productMapping(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 983401,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User Input command_type : purchase",
+            "match": {
+              "arguments": [
+                {
+                  "val": "purchase",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1033250,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Input product_id : 175",
+            "match": {
+              "arguments": [
+                {
+                  "val": "175",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 570247157,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22672525,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Get remote_product_id : PKREG60WS",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PKREG60WS",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.getRemoteProductId(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23995748,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "price : 4900",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4900",
+                  "offset": 8
+                }
+              ],
+              "location": "Steps.price(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Product Mapping Success",
+    "description": "",
+    "id": "product-mapping-success",
+    "keyword": "Feature",
+    "uri": "/Users/reinard/Documents/Katalon Project/Trunko/Include/features/Kraken - BM Adapter/Product Mapping Success.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

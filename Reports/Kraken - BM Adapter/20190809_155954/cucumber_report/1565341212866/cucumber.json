@@ -1,0 +1,436 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 34,
+        "name": "Product Mapping Failed",
+        "description": "",
+        "id": "product-mapping-failed;product-mapping-failed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 998125,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Command Type : purchase Config Set",
+            "match": {
+              "arguments": [
+                {
+                  "val": "purchase Config Set",
+                  "offset": 15
+                }
+              ],
+              "location": "Steps.commandType(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 917836,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Product Mapping : 2 Config Not Set",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2 Config Not Set",
+                  "offset": 18
+                }
+              ],
+              "location": "Steps.productMapping(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 897112,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User Input command_type : purchase",
+            "match": {
+              "arguments": [
+                {
+                  "val": "purchase",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1804583,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Input product_id : 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 303406335,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12713444,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Get response_code : 99",
+            "match": {
+              "arguments": [
+                {
+                  "val": "99",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.getResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 66381750,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "message : Product mapping not found",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Product mapping not found",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.message(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "Product Mapping Failed",
+        "description": "",
+        "id": "product-mapping-failed;product-mapping-failed;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 930402,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Command Type : reversal Config Set",
+            "match": {
+              "arguments": [
+                {
+                  "val": "reversal Config Set",
+                  "offset": 15
+                }
+              ],
+              "location": "Steps.commandType(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1469935,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Product Mapping : 3 Config Not Set",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3 Config Not Set",
+                  "offset": 18
+                }
+              ],
+              "location": "Steps.productMapping(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1364325,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User Input command_type : reversal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "reversal",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 879508,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Input product_id : 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 276716721,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26879803,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Get response_code : 99",
+            "match": {
+              "arguments": [
+                {
+                  "val": "99",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.getResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25567875,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "message : Product mapping not found",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Product mapping not found",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.message(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 36,
+        "name": "Product Mapping Failed",
+        "description": "",
+        "id": "product-mapping-failed;product-mapping-failed;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 790124,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Command Type : advise Config Set",
+            "match": {
+              "arguments": [
+                {
+                  "val": "advise Config Set",
+                  "offset": 15
+                }
+              ],
+              "location": "Steps.commandType(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 689215,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Product Mapping : 4 Config Not Set",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4 Config Not Set",
+                  "offset": 18
+                }
+              ],
+              "location": "Steps.productMapping(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 894404,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User Input command_type : advise",
+            "match": {
+              "arguments": [
+                {
+                  "val": "advise",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 821394,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Input product_id : 4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 223917483,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18199353,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Get response_code : 99",
+            "match": {
+              "arguments": [
+                {
+                  "val": "99",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.getResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15727397,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "message : Product mapping not found",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Product mapping not found",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.message(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Product Mapping Failed",
+    "description": "",
+    "id": "product-mapping-failed",
+    "keyword": "Feature",
+    "uri": "/Users/reinard/Documents/Katalon Project/Trunko/Include/features/Kraken - BM Adapter/Product Mapping Failed.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.53465">
+<testcase classname="Command Type Failed" name="Command Type Failed" time="0.53465">
+<system-out><![CDATA[Given Command Type : test Config Set........................................passed
+When User Input command_type : test.........................................passed
+And Send request............................................................passed
+Then Get response_code : 99.................................................passed
+And message : Command type api config not Found.............................passed
+]]></system-out>
+</testcase>
+</testsuite>

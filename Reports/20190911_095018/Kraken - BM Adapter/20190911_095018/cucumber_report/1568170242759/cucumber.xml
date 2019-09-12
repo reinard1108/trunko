@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.544258">
+<testcase classname="Product Mapping Success" name="Product Mapping Success" time="0.544258">
+<failure message="com.kms.katalon.core.exception.StepFailedException: Expected element property value 'PKREG60WS' is not equal with actual property value ''&#10;&#9;at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)&#10;&#9;at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)&#10;&#9;at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)&#10;&#9;at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)&#10;&#9;at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)&#10;&#9;at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)&#10;&#9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#10;&#9;at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)&#10;&#9;at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)&#10;&#9;at com.ea.steps.Steps.getRemoteProductId(Steps.groovy:175)&#10;&#9;at ✽.Get remote_product_id : PKREG60WS(/Users/reinard/Documents/Katalon Project/Trunko/Include/features/Kraken - BM Adapter/Product Mapping Success.feature:29)&#10;"><![CDATA[Given Command Type : purchase Config Set....................................passed
+And Product Mapping : 1 Config Set..........................................passed
+When User Input command_type : purchase.....................................passed
+And Input product_id : 1....................................................passed
+And Send request............................................................passed
+Then Get remote_product_id : PKREG60WS......................................failed
+And price : 4900............................................................skipped
+
+StackTrace:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'PKREG60WS' is not equal with actual property value ''
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)
+	at com.ea.steps.Steps.getRemoteProductId(Steps.groovy:175)
+	at ✽.Get remote_product_id : PKREG60WS(/Users/reinard/Documents/Katalon Project/Trunko/Include/features/Kraken - BM Adapter/Product Mapping Success.feature:29)
+]]></failure>
+</testcase>
+</testsuite>

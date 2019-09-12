@@ -1,0 +1,118 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 32,
+        "name": "Get Biller List Success",
+        "description": "",
+        "id": "get-biller-list-success;get-biller-list-success;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1214475,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "url : https://trunko.sumpahpalapa.com/biller/",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://trunko.sumpahpalapa.com/biller/",
+                  "offset": 6
+                }
+              ],
+              "location": "Steps.url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1048744,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Method : GET",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET",
+                  "offset": 9
+                }
+              ],
+              "location": "Steps.method(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 150475014,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User send request",
+            "match": {
+              "location": "Steps.userSendRequest()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepFailedException: Expected status code is \u0027200\u0027 but actual status code is \u0027401\u0027\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\n\tat com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:212)\n\tat com.ea.steps.Steps.getHttpResponseCode(Steps.groovy:241)\n\tat ✽.User Get Http response code : 200(/Users/reinard/Documents/Katalon Project/Trunko/Include/features/API Biller CRUD/Get Biller List Success.feature:27)\n",
+              "duration": 13561380,
+              "status": "failed"
+            },
+            "line": 27,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "List of Biller",
+            "match": {
+              "location": "Steps.listOfBiller()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Get Biller List Success",
+    "description": "",
+    "id": "get-biller-list-success",
+    "keyword": "Feature",
+    "uri": "/Users/reinard/Documents/Katalon Project/Trunko/Include/features/API Biller CRUD/Get Biller List Success.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

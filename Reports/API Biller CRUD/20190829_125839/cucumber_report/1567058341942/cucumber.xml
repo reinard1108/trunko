@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="2.166879">
+<testcase classname="Update Biller Config Success" name="Update Biller Config Success" time="2.166879">
+<system-out><![CDATA[Given url : https://trunko.sumpahpalapa.com/biller/id/config................passed
+And Method : POST...........................................................passed
+When User Input id : 8......................................................passed
+And Request body : {"Key":"Value"}..........................................passed
+And Send request............................................................passed
+Then User Get Http response code : 200......................................passed
+And Biller Config Updated...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

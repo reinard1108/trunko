@@ -1,0 +1,118 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 32,
+        "name": "Get Biller List Success",
+        "description": "",
+        "id": "get-biller-list-success;get-biller-list-success;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1674623,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "url : https://trunko.sumpahpalapa.com/biller/",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://trunko.sumpahpalapa.com/biller/",
+                  "offset": 6
+                }
+              ],
+              "location": "Steps.url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1070354,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Method : GET",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET",
+                  "offset": 9
+                }
+              ],
+              "location": "Steps.method(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 654047749,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User send request",
+            "match": {
+              "location": "Steps.userSendRequest()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3654948,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1672829,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "List of Biller",
+            "match": {
+              "location": "Steps.listOfBiller()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Get Biller List Success",
+    "description": "",
+    "id": "get-biller-list-success",
+    "keyword": "Feature",
+    "uri": "/Users/reinard/Documents/Katalon Project/Trunko/Include/features/API Biller CRUD/Get Biller List Success.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

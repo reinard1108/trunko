@@ -1,0 +1,442 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 50,
+        "name": "Request - Response Mapping Success",
+        "description": "",
+        "id": "request---response-mapping-success;request---response-mapping-success;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 739254,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Mapping Config Set",
+            "match": {
+              "location": "Steps.mappingConfig()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3898438,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User Input command_type : purchase",
+            "match": {
+              "arguments": [
+                {
+                  "val": "purchase",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 836476,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Input transaction_id : 6855945",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6855945",
+                  "offset": 23
+                }
+              ],
+              "location": "Steps.inputTransactionId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 815849,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Input transaction_biller_id : 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.inputTransactionBillerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 743513,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Input customer_id : 085363783000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "085363783000",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.inputCustomerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 822417,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Input partner_id : 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputPartnerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 976838,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Input product_id : 175",
+            "match": {
+              "arguments": [
+                {
+                  "val": "175",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 711109,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Input biller_id : 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 18
+                }
+              ],
+              "location": "Steps.inputBillerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 925951,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Input biller_label : trunko_test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_test",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.inputBillerLabel(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1182269,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Input rawdata : {\"customer_number\":\"085363783000\",\"data\":{\"biller_message\":\"Pengisian Voucher sebesar 25000 ke nomor 085363783000 pada tanggal 18/07/2019 09:54:44 telah berhasil dengan no ref \\u003c0051003619319900\\u003e\",\"rc_biller\":\"0000\",\"remote_transaction_id\":\"110931978314\",\"serial_number\":\"0051003619319900\"},\"status\":\"sukses\",\"transaction_id\":6855945}",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{\"customer_number\":\"085363783000\",\"data\":{\"biller_message\":\"Pengisian Voucher sebesar 25000 ke nomor 085363783000 pada tanggal 18/07/2019 09:54:44 telah berhasil dengan no ref \\u003c0051003619319900\\u003e\",\"rc_biller\":\"0000\",\"remote_transaction_id\":\"110931978314\",\"serial_number\":\"0051003619319900\"},\"status\":\"sukses\",\"transaction_id\":6855945}",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.inputRawdata(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 419183805,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16009402,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Get transaction_id : 6855945",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6855945",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.getTransactionId(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16342848,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "transaction_biller_id : 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.transactionBillerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15489076,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "remote_transaction_id : 110931978314",
+            "match": {
+              "arguments": [
+                {
+                  "val": "110931978314",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.remoteTransactionId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12741331,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "remote_product_id : PKREG60WS",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PKREG60WS",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.remoteProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15160837,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "customer_id : 085363783000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "085363783000",
+                  "offset": 14
+                }
+              ],
+              "location": "Steps.customerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13658384,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "response_code : 00",
+            "match": {
+              "arguments": [
+                {
+                  "val": "00",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.responseCode(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13924021,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "price : 4900",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4900",
+                  "offset": 8
+                }
+              ],
+              "location": "Steps.price(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18019531,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "amount : 7000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7000",
+                  "offset": 9
+                }
+              ],
+              "location": "Steps.amount(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13835462,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "serial_number : 0051003619319900",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0051003619319900",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.serialNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15187906,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "biller_rescode : 0000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0000",
+                  "offset": 17
+                }
+              ],
+              "location": "Steps.billerRescode(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21281400,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "message : Pengisian Voucher sebesar 25000 ke nomor 085363783000 pada tanggal 18/07/2019 09:54:44 telah berhasil dengan no ref \u003c0051003619319900\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pengisian Voucher sebesar 25000 ke nomor 085363783000 pada tanggal 18/07/2019 09:54:44 telah berhasil dengan no ref \u003c0051003619319900\u003e",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.message(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20103773,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "rawdata : {\"customer_number\":\"085363783000\",\"data\":{\"biller_message\":\"Pengisian Voucher sebesar 25000 ke nomor 085363783000 pada tanggal 18/07/2019 09:54:44 telah berhasil dengan no ref \\u003c0051003619319900\\u003e\",\"rc_biller\":\"0000\",\"remote_transaction_id\":\"110931978314\",\"serial_number\":\"0051003619319900\"},\"status\":\"sukses\",\"transaction_id\":6855945}",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{\"customer_number\":\"085363783000\",\"data\":{\"biller_message\":\"Pengisian Voucher sebesar 25000 ke nomor 085363783000 pada tanggal 18/07/2019 09:54:44 telah berhasil dengan no ref \\u003c0051003619319900\\u003e\",\"rc_biller\":\"0000\",\"remote_transaction_id\":\"110931978314\",\"serial_number\":\"0051003619319900\"},\"status\":\"sukses\",\"transaction_id\":6855945}",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.rawdata(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Request - Response Mapping Success",
+    "description": "",
+    "id": "request---response-mapping-success",
+    "keyword": "Feature",
+    "uri": "/Users/reinard/Documents/Katalon Project/Trunko/Include/features/Kraken - BM Adapter/Request - Response Mapping Success.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

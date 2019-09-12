@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.517475">
+<testcase classname="Biller Label Success" name="Biller Label Success" time="0.517475">
+<system-out><![CDATA[Given Biller Label : trunko_test Set........................................passed
+When User Input biller_label : trunko_test..................................passed
+And Send request............................................................passed
+Then Get response_code : 00.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

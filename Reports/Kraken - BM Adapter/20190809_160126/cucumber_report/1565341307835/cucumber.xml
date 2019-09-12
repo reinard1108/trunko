@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="1.013616">
+<testcase classname="Request - Response Mapping Success" name="Request - Response Mapping Success" time="1.013616">
+<system-out><![CDATA[Given Mapping Config Set....................................................passed
+When User Input command_type : purchase.....................................passed
+And Input transaction_id : 6855945..........................................passed
+And Input transaction_biller_id : 1.........................................passed
+And Input customer_id : 085363783000........................................passed
+And Input partner_id : 6....................................................passed
+And Input product_id : 175..................................................passed
+And Input biller_id : 1.....................................................passed
+And Input biller_label : trunko_test........................................passed
+And Input rawdata : {"customer_number":"085363783000","data":{"biller_message":"Pengisian Voucher sebesar 25000 ke nomor 085363783000 pada tanggal 18/07/2019 09:54:44 telah berhasil dengan no ref \u003c0051003619319900\u003e","rc_biller":"0000","remote_transaction_id":"110931978314","serial_number":"0051003619319900"},"status":"sukses","transaction_id":6855945}.passed
+And Send request............................................................passed
+Then Get transaction_id : 6855945...........................................passed
+And transaction_biller_id : 1...............................................passed
+And remote_transaction_id : 110931978314....................................passed
+And remote_product_id : PKREG60WS...........................................passed
+And customer_id : 085363783000..............................................passed
+And response_code : 00......................................................passed
+And price : 4900............................................................passed
+And amount : 7000...........................................................passed
+And serial_number : 0051003619319900........................................passed
+And biller_rescode : 0000...................................................passed
+And message : Pengisian Voucher sebesar 25000 ke nomor 085363783000 pada tanggal 18/07/2019 09:54:44 telah berhasil dengan no ref <0051003619319900>.passed
+And rawdata : {"customer_number":"085363783000","data":{"biller_message":"Pengisian Voucher sebesar 25000 ke nomor 085363783000 pada tanggal 18/07/2019 09:54:44 telah berhasil dengan no ref \u003c0051003619319900\u003e","rc_biller":"0000","remote_transaction_id":"110931978314","serial_number":"0051003619319900"},"status":"sukses","transaction_id":6855945}.passed
+]]></system-out>
+</testcase>
+</testsuite>

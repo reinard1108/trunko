@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.70578">
+<testcase classname="Product Mapping Success" name="Product Mapping Success" time="0.70578">
+<system-out><![CDATA[Given Command Type : purchase Config Set....................................passed
+And Product Mapping : 1 Config Set..........................................passed
+When User Input command_type : purchase.....................................passed
+And Input product_id : 1....................................................passed
+And Send request............................................................passed
+Then Get remote_product_id : PKREG60WS......................................passed
+And price : 4900............................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

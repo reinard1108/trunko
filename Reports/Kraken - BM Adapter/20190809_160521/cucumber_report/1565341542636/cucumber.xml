@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="1.100921">
+<testcase classname="Product Mapping Failed" name="Product Mapping Failed" time="0.285273">
+<system-out><![CDATA[Given Command Type : purchase Config Set....................................passed
+And Product Mapping : 2 Config Not Set......................................passed
+When User Input command_type : purchase.....................................passed
+And Input product_id : 2....................................................passed
+And Send request............................................................passed
+Then Get response_code : 99.................................................passed
+And message : Product mapping not found.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Product Mapping Failed" name="Product Mapping Failed 2" time="0.447239">
+<system-out><![CDATA[Given Command Type : reversal Config Set....................................passed
+And Product Mapping : 3 Config Not Set......................................passed
+When User Input command_type : reversal.....................................passed
+And Input product_id : 3....................................................passed
+And Send request............................................................passed
+Then Get response_code : 99.................................................passed
+And message : Product mapping not found.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Product Mapping Failed" name="Product Mapping Failed 3" time="0.368409">
+<system-out><![CDATA[Given Command Type : advise Config Set......................................passed
+And Product Mapping : 4 Config Not Set......................................passed
+When User Input command_type : advise.......................................passed
+And Input product_id : 4....................................................passed
+And Send request............................................................passed
+Then Get response_code : 99.................................................passed
+And message : Product mapping not found.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

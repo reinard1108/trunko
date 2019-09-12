@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.345427">
+<testcase classname="Biller Label Failed" name="Biller Label Failed" time="0.345427">
+<system-out><![CDATA[Given Biller Label : test Not Set...........................................passed
+When User Input biller_label : test.........................................passed
+And Send request............................................................passed
+Then Get response_code : 99.................................................passed
+And message : Biller config not found.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

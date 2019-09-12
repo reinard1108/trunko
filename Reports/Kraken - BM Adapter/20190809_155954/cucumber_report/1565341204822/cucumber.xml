@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="3.74711">
+<testcase classname="Command Type Success" name="Command Type Success" time="2.823742">
+<system-out><![CDATA[Given Command Type : purchase Config Set....................................passed
+When User Input command_type : purchase.....................................passed
+And Send request............................................................passed
+Then Get response_code : 00.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Command Type Success" name="Command Type Success 2" time="0.460716">
+<system-out><![CDATA[Given Command Type : advise Config Set......................................passed
+When User Input command_type : advise.......................................passed
+And Send request............................................................passed
+Then Get response_code : 00.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Command Type Success" name="Command Type Success 3" time="0.462652">
+<system-out><![CDATA[Given Command Type : reversal Config Set....................................passed
+When User Input command_type : reversal.....................................passed
+And Send request............................................................passed
+Then Get response_code : 00.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
