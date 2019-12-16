@@ -1,0 +1,802 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 36,
+        "name": "Rules Mapping Success",
+        "description": "",
+        "id": "rules-mapping-success;rules-mapping-success;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 50629275,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Biller Config Set and Rules set as {\"rules\":[{\"conditions\":[{\"data\":\"[status]\",\"operator\":\"equal\",\"value\":\"sukses\",\"logic\":\"and\"},{\"data\":\"[data.serial_number]\",\"operator\":\"equal\",\"value\":\"a\",\"logic\":\"\"}],\"operations\":[{\"data\":\"next\",\"function\":\"\",\"value\":\"advice\"}]},{\"conditions\":[{\"data\":\"[status]\",\"operator\":\"equal\",\"value\":\"gagal\",\"logic\":\"or\"},{\"data\":\"[data.serial_number]\",\"operator\":\"equal\",\"value\":\"0051003619319900\",\"logic\":\"\"}],\"operations\":[{\"data\":\"next\",\"function\":\"\",\"value\":\"reversal\"}]}]}",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{\"rules\":[{\"conditions\":[{\"data\":\"[status]\",\"operator\":\"equal\",\"value\":\"sukses\",\"logic\":\"and\"},{\"data\":\"[data.serial_number]\",\"operator\":\"equal\",\"value\":\"a\",\"logic\":\"\"}],\"operations\":[{\"data\":\"next\",\"function\":\"\",\"value\":\"advice\"}]},{\"conditions\":[{\"data\":\"[status]\",\"operator\":\"equal\",\"value\":\"gagal\",\"logic\":\"or\"},{\"data\":\"[data.serial_number]\",\"operator\":\"equal\",\"value\":\"0051003619319900\",\"logic\":\"\"}],\"operations\":[{\"data\":\"next\",\"function\":\"\",\"value\":\"reversal\"}]}]}",
+                  "offset": 35
+                }
+              ],
+              "location": "Steps.BillerConfigSetAndRulesSet(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 972702064,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User Input command_type : advise",
+            "match": {
+              "arguments": [
+                {
+                  "val": "advise",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8385561,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Input product_id : 175",
+            "match": {
+              "arguments": [
+                {
+                  "val": "175",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2904386036,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1938954,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User Get FBS response status : sukses",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sukses",
+                  "offset": 31
+                }
+              ],
+              "location": "Steps.userGetFBSResponseStatus(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7010483,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User Get FBS response data.serial_number : a",
+            "match": {
+              "arguments": [
+                {
+                  "val": "a",
+                  "offset": 43
+                }
+              ],
+              "location": "Steps.userGetFbsResponseSerialNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33979361,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 217059049,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User get next command : advice",
+            "match": {
+              "arguments": [
+                {
+                  "val": "advice",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userGetNextCommand(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 37,
+        "name": "Rules Mapping Success",
+        "description": "",
+        "id": "rules-mapping-success;rules-mapping-success;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10779196,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Biller Config Set and Rules set as {\"rules\":[{\"conditions\":[{\"data\":\"[status]\",\"operator\":\"equal\",\"value\":\"sukses\",\"logic\":\"and\"},{\"data\":\"[data.serial_number]\",\"operator\":\"equal\",\"value\":\"a\",\"logic\":\"\"}],\"operations\":[{\"data\":\"next\",\"function\":\"\",\"value\":\"advice\"}]},{\"conditions\":[{\"data\":\"[status]\",\"operator\":\"equal\",\"value\":\"gagal\",\"logic\":\"or\"},{\"data\":\"[data.serial_number]\",\"operator\":\"equal\",\"value\":\"0051003619319900\",\"logic\":\"\"}],\"operations\":[{\"data\":\"next\",\"function\":\"\",\"value\":\"reversal\"}]}]}",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{\"rules\":[{\"conditions\":[{\"data\":\"[status]\",\"operator\":\"equal\",\"value\":\"sukses\",\"logic\":\"and\"},{\"data\":\"[data.serial_number]\",\"operator\":\"equal\",\"value\":\"a\",\"logic\":\"\"}],\"operations\":[{\"data\":\"next\",\"function\":\"\",\"value\":\"advice\"}]},{\"conditions\":[{\"data\":\"[status]\",\"operator\":\"equal\",\"value\":\"gagal\",\"logic\":\"or\"},{\"data\":\"[data.serial_number]\",\"operator\":\"equal\",\"value\":\"0051003619319900\",\"logic\":\"\"}],\"operations\":[{\"data\":\"next\",\"function\":\"\",\"value\":\"reversal\"}]}]}",
+                  "offset": 35
+                }
+              ],
+              "location": "Steps.BillerConfigSetAndRulesSet(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2306922,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User Input command_type : purchase",
+            "match": {
+              "arguments": [
+                {
+                  "val": "purchase",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1368217,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Input product_id : 26",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 893043144,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3026290,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User Get FBS response status : gagal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gagal",
+                  "offset": 31
+                }
+              ],
+              "location": "Steps.userGetFBSResponseStatus(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1203707,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User Get FBS response data.serial_number : 110931978314",
+            "match": {
+              "arguments": [
+                {
+                  "val": "110931978314",
+                  "offset": 43
+                }
+              ],
+              "location": "Steps.userGetFbsResponseSerialNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3825235,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 36480336,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User get next command : reversal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "reversal",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userGetNextCommand(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "Rules Mapping Success",
+        "description": "",
+        "id": "rules-mapping-success;rules-mapping-success;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2281923,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Biller Config Set and Rules set as {\"rules\":[{\"conditions\":[{\"data\":\"[status]\",\"operator\":\"equal\",\"value\":\"sukses\",\"logic\":\"and\"},{\"data\":\"[data.serial_number]\",\"operator\":\"equal\",\"value\":\"a\",\"logic\":\"\"}],\"operations\":[{\"data\":\"next\",\"function\":\"\",\"value\":\"advice\"}]},{\"conditions\":[{\"data\":\"[status]\",\"operator\":\"equal\",\"value\":\"gagal\",\"logic\":\"or\"},{\"data\":\"[data.serial_number]\",\"operator\":\"equal\",\"value\":\"0051003619319900\",\"logic\":\"\"}],\"operations\":[{\"data\":\"next\",\"function\":\"\",\"value\":\"reversal\"}]}]}",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{\"rules\":[{\"conditions\":[{\"data\":\"[status]\",\"operator\":\"equal\",\"value\":\"sukses\",\"logic\":\"and\"},{\"data\":\"[data.serial_number]\",\"operator\":\"equal\",\"value\":\"a\",\"logic\":\"\"}],\"operations\":[{\"data\":\"next\",\"function\":\"\",\"value\":\"advice\"}]},{\"conditions\":[{\"data\":\"[status]\",\"operator\":\"equal\",\"value\":\"gagal\",\"logic\":\"or\"},{\"data\":\"[data.serial_number]\",\"operator\":\"equal\",\"value\":\"0051003619319900\",\"logic\":\"\"}],\"operations\":[{\"data\":\"next\",\"function\":\"\",\"value\":\"reversal\"}]}]}",
+                  "offset": 35
+                }
+              ],
+              "location": "Steps.BillerConfigSetAndRulesSet(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1582837,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User Input command_type : inquiry",
+            "match": {
+              "arguments": [
+                {
+                  "val": "inquiry",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1131633,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Input product_id : 221",
+            "match": {
+              "arguments": [
+                {
+                  "val": "221",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1015605723,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1388194,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User Get FBS response status : sukses",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sukses",
+                  "offset": 31
+                }
+              ],
+              "location": "Steps.userGetFBSResponseStatus(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1113623,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User Get FBS response data.serial_number : 0051003619319900",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0051003619319900",
+                  "offset": 43
+                }
+              ],
+              "location": "Steps.userGetFbsResponseSerialNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3884092,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 27728279,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User get next command : reversal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "reversal",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userGetNextCommand(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 39,
+        "name": "Rules Mapping Success",
+        "description": "",
+        "id": "rules-mapping-success;rules-mapping-success;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1642695,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Biller Config Set and Rules set as {\"rules\":[{\"conditions\":[{\"data\":\"[status]\",\"operator\":\"equal\",\"value\":\"sukses\",\"logic\":\"and\"},{\"data\":\"[data.serial_number]\",\"operator\":\"equal\",\"value\":\"a\",\"logic\":\"\"}],\"operations\":[{\"data\":\"next\",\"function\":\"\",\"value\":\"advice\"}]},{\"conditions\":[{\"data\":\"[status]\",\"operator\":\"equal\",\"value\":\"gagal\",\"logic\":\"or\"},{\"data\":\"[data.serial_number]\",\"operator\":\"equal\",\"value\":\"0051003619319900\",\"logic\":\"\"}],\"operations\":[{\"data\":\"next\",\"function\":\"\",\"value\":\"reversal\"}]}]}",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{\"rules\":[{\"conditions\":[{\"data\":\"[status]\",\"operator\":\"equal\",\"value\":\"sukses\",\"logic\":\"and\"},{\"data\":\"[data.serial_number]\",\"operator\":\"equal\",\"value\":\"a\",\"logic\":\"\"}],\"operations\":[{\"data\":\"next\",\"function\":\"\",\"value\":\"advice\"}]},{\"conditions\":[{\"data\":\"[status]\",\"operator\":\"equal\",\"value\":\"gagal\",\"logic\":\"or\"},{\"data\":\"[data.serial_number]\",\"operator\":\"equal\",\"value\":\"0051003619319900\",\"logic\":\"\"}],\"operations\":[{\"data\":\"next\",\"function\":\"\",\"value\":\"reversal\"}]}]}",
+                  "offset": 35
+                }
+              ],
+              "location": "Steps.BillerConfigSetAndRulesSet(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1378761,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User Input command_type : reversal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "reversal",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1543672,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Input product_id : 175",
+            "match": {
+              "arguments": [
+                {
+                  "val": "175",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 639999878,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1387604,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User Get FBS response status : sukses",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sukses",
+                  "offset": 31
+                }
+              ],
+              "location": "Steps.userGetFBSResponseStatus(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2594399,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User Get FBS response data.serial_number : serial",
+            "match": {
+              "arguments": [
+                {
+                  "val": "serial",
+                  "offset": 43
+                }
+              ],
+              "location": "Steps.userGetFbsResponseSerialNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3412621,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19813023,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User get next command : null",
+            "match": {
+              "arguments": [
+                {
+                  "val": "null",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userGetNextCommand(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 40,
+        "name": "Rules Mapping Success",
+        "description": "",
+        "id": "rules-mapping-success;rules-mapping-success;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1553302,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Biller Config Set and Rules set as {\"rules\":[{\"conditions\":[{\"data\":\"[status]\",\"operator\":\"equal\",\"value\":\"sukses\",\"logic\":\"and\"},{\"data\":\"[data.serial_number]\",\"operator\":\"equal\",\"value\":\"a\",\"logic\":\"\"}],\"operations\":[{\"data\":\"next\",\"function\":\"\",\"value\":\"advice\"}]},{\"conditions\":[{\"data\":\"[status]\",\"operator\":\"equal\",\"value\":\"gagal\",\"logic\":\"or\"},{\"data\":\"[data.serial_number]\",\"operator\":\"equal\",\"value\":\"0051003619319900\",\"logic\":\"\"}],\"operations\":[{\"data\":\"next\",\"function\":\"\",\"value\":\"reversal\"}]}]}",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{\"rules\":[{\"conditions\":[{\"data\":\"[status]\",\"operator\":\"equal\",\"value\":\"sukses\",\"logic\":\"and\"},{\"data\":\"[data.serial_number]\",\"operator\":\"equal\",\"value\":\"a\",\"logic\":\"\"}],\"operations\":[{\"data\":\"next\",\"function\":\"\",\"value\":\"advice\"}]},{\"conditions\":[{\"data\":\"[status]\",\"operator\":\"equal\",\"value\":\"gagal\",\"logic\":\"or\"},{\"data\":\"[data.serial_number]\",\"operator\":\"equal\",\"value\":\"0051003619319900\",\"logic\":\"\"}],\"operations\":[{\"data\":\"next\",\"function\":\"\",\"value\":\"reversal\"}]}]}",
+                  "offset": 35
+                }
+              ],
+              "location": "Steps.BillerConfigSetAndRulesSet(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1143923,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User Input command_type : reversal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "reversal",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1036625,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Input product_id : 26",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 827868904,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1510154,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User Get FBS response status : gagal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gagal",
+                  "offset": 31
+                }
+              ],
+              "location": "Steps.userGetFBSResponseStatus(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1199025,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User Get FBS response data.serial_number : a",
+            "match": {
+              "arguments": [
+                {
+                  "val": "a",
+                  "offset": 43
+                }
+              ],
+              "location": "Steps.userGetFbsResponseSerialNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4560762,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29210137,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User get next command : reversal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "reversal",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userGetNextCommand(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Rules Mapping Success",
+    "description": "to ensure mapping between condition and operation run well",
+    "id": "rules-mapping-success",
+    "keyword": "Feature",
+    "uri": "/Users/reinard/Documents/Katalon Project/Trunko/Include/features/Kraken - BM Adapter/Rules Mapping Success.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.058414">
+<testcase classname="Biller Label Success" name="Biller Label Success" time="0.058414">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given Biller Label : trunko_test Set........................................undefined
+When User Input biller_label : trunko_test..................................skipped
+And Send request............................................................skipped
+Then Get response_code : 00.................................................skipped
+]]></failure>
+</testcase>
+</testsuite>

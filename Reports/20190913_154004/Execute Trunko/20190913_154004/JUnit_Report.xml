@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Execute Trunko" time="19" tests="1" failures="0" errors="0">
+    <testsuite name="Execute Trunko" tests="1" failures="0" errors="0" time="19" timestamp="2019-09-13 15:40:18" hostname="reinard - 172.22.11.231" id="Test Suites/Execute Trunko">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="/Users/reinard/Documents/Katalon Project/Trunko/Reports/20190913_154004/Execute Trunko/20190913_154004"/>
+            <property name="logFiles" value="/Users/reinard/Documents/Katalon Project/Trunko/Reports/20190913_154004/Execute Trunko/20190913_154004/execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="reinard - 172.22.11.231"/>
+            <property name="hostAddress" value="172.22.11.231"/>
+            <property name="os" value="Mac OS X 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+        </properties>
+        <testcase name="Test Cases/Kraken - BM Adapter/Execute Trunko" classname="Test Cases/Kraken - BM Adapter/Execute Trunko" status="PASSED">
+            <system-out>2019-09-13 15:40:19 - [TEST_CASE][PASSED] - Test Cases/Kraken - BM Adapter/Execute Trunko: Test Cases/Kraken - BM Adapter/Execute Trunko
+
+2019-09-13 15:40:19 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Kraken - BM Adapter/Execute Trunko.feature"): Feature file: 'Include/features/Kraken - BM Adapter/Execute Trunko.feature' was passed
+
+2019-09-13 15:40:20 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Kraken - BM Adapter/Execute Trunko.feature' and extract report to folder: '/Users/reinard/Documents/Katalon Project/Trunko/Reports/20190913_154004/Execute Trunko/20190913_154004/cucumber_report/1568364019814'...
+
+2019-09-13 15:40:21 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Biller Config Not Found: SCENARIO Biller Config Not Found
+
+2019-09-13 15:40:21 - [TEST_STEP][PASSED] - Biller Config : tidak ada Not Set: Biller Config : tidak ada Not Set
+
+2019-09-13 15:40:21 - [MESSAGE][PASSED] - Biller Config : tidak ada Not Set
+
+2019-09-13 15:40:21 - [TEST_STEP][PASSED] - User Input biller_label : tidak ada: User Input biller_label : tidak ada
+
+2019-09-13 15:40:22 - [MESSAGE][PASSED] - User Input biller_label : tidak ada
+
+2019-09-13 15:40:22 - [TEST_STEP][PASSED] - Send request: Send request
+
+2019-09-13 15:40:25 - [MESSAGE][INFO] - HAR: /Users/reinard/Documents/Katalon Project/Trunko/Reports/20190913_154004/Execute Trunko/20190913_154004/requests/main/0.har
+
+2019-09-13 15:40:25 - [MESSAGE][PASSED] - Send request successfully
+
+2019-09-13 15:40:25 - [MESSAGE][PASSED] - Send request
+
+2019-09-13 15:40:25 - [TEST_STEP][PASSED] - User Get Http response code : 501: User Get Http response code : 501
+
+2019-09-13 15:40:25 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-09-13 15:40:25 - [MESSAGE][PASSED] - User Get Http response code : 501
+
+2019-09-13 15:40:25 - [TEST_STEP][PASSED] - message : Biller config not found: message : Biller config not found
+
+2019-09-13 15:40:25 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:25 - [MESSAGE][PASSED] - message : Biller config not found
+
+2019-09-13 15:40:25 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Biller Config Not Found: SCENARIO Biller Config Not Found
+
+2019-09-13 15:40:25 - [TEST_STEP][PASSED] - Biller Config : TestBiller Not Set: Biller Config : TestBiller Not Set
+
+2019-09-13 15:40:25 - [MESSAGE][PASSED] - Biller Config : TestBiller Not Set
+
+2019-09-13 15:40:25 - [TEST_STEP][PASSED] - User Input biller_label : TestBiller: User Input biller_label : TestBiller
+
+2019-09-13 15:40:25 - [MESSAGE][PASSED] - User Input biller_label : TestBiller
+
+2019-09-13 15:40:25 - [TEST_STEP][PASSED] - Send request: Send request
+
+2019-09-13 15:40:26 - [MESSAGE][INFO] - HAR: /Users/reinard/Documents/Katalon Project/Trunko/Reports/20190913_154004/Execute Trunko/20190913_154004/requests/main/1.har
+
+2019-09-13 15:40:26 - [MESSAGE][PASSED] - Send request successfully
+
+2019-09-13 15:40:26 - [MESSAGE][PASSED] - Send request
+
+2019-09-13 15:40:26 - [TEST_STEP][PASSED] - User Get Http response code : 501: User Get Http response code : 501
+
+2019-09-13 15:40:26 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-09-13 15:40:26 - [MESSAGE][PASSED] - User Get Http response code : 501
+
+2019-09-13 15:40:26 - [TEST_STEP][PASSED] - message : Biller config not found: message : Biller config not found
+
+2019-09-13 15:40:26 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:26 - [MESSAGE][PASSED] - message : Biller config not found
+
+2019-09-13 15:40:26 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Product Mapping Not Found: SCENARIO Product Mapping Not Found
+
+2019-09-13 15:40:26 - [TEST_STEP][PASSED] - Product Mapping : 2 Config Not Set: Product Mapping : 2 Config Not Set
+
+2019-09-13 15:40:26 - [MESSAGE][PASSED] - Product Mapping : 2 Config Not Set
+
+2019-09-13 15:40:26 - [TEST_STEP][PASSED] - User Input biller_label : trunko_test: User Input biller_label : trunko_test
+
+2019-09-13 15:40:26 - [MESSAGE][PASSED] - User Input biller_label : trunko_test
+
+2019-09-13 15:40:26 - [TEST_STEP][PASSED] - User Input product_id : 2: User Input product_id : 2
+
+2019-09-13 15:40:26 - [MESSAGE][PASSED] - User Input product_id : 2
+
+2019-09-13 15:40:26 - [TEST_STEP][PASSED] - Send request: Send request
+
+2019-09-13 15:40:27 - [MESSAGE][INFO] - HAR: /Users/reinard/Documents/Katalon Project/Trunko/Reports/20190913_154004/Execute Trunko/20190913_154004/requests/main/2.har
+
+2019-09-13 15:40:27 - [MESSAGE][PASSED] - Send request successfully
+
+2019-09-13 15:40:27 - [MESSAGE][PASSED] - Send request
+
+2019-09-13 15:40:27 - [TEST_STEP][PASSED] - User Get Http response code : 501: User Get Http response code : 501
+
+2019-09-13 15:40:27 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-09-13 15:40:27 - [MESSAGE][PASSED] - User Get Http response code : 501
+
+2019-09-13 15:40:27 - [TEST_STEP][PASSED] - message : Product mapping not found: message : Product mapping not found
+
+2019-09-13 15:40:27 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:27 - [MESSAGE][PASSED] - message : Product mapping not found
+
+2019-09-13 15:40:27 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Product Mapping Not Found: SCENARIO Product Mapping Not Found
+
+2019-09-13 15:40:27 - [TEST_STEP][PASSED] - Product Mapping : 300000 Config Not Set: Product Mapping : 300000 Config Not Set
+
+2019-09-13 15:40:27 - [MESSAGE][PASSED] - Product Mapping : 300000 Config Not Set
+
+2019-09-13 15:40:27 - [TEST_STEP][PASSED] - User Input biller_label : trunko_test: User Input biller_label : trunko_test
+
+2019-09-13 15:40:27 - [MESSAGE][PASSED] - User Input biller_label : trunko_test
+
+2019-09-13 15:40:27 - [TEST_STEP][PASSED] - User Input product_id : 300000: User Input product_id : 300000
+
+2019-09-13 15:40:27 - [MESSAGE][PASSED] - User Input product_id : 300000
+
+2019-09-13 15:40:27 - [TEST_STEP][PASSED] - Send request: Send request
+
+2019-09-13 15:40:28 - [MESSAGE][INFO] - HAR: /Users/reinard/Documents/Katalon Project/Trunko/Reports/20190913_154004/Execute Trunko/20190913_154004/requests/main/3.har
+
+2019-09-13 15:40:28 - [MESSAGE][PASSED] - Send request successfully
+
+2019-09-13 15:40:28 - [MESSAGE][PASSED] - Send request
+
+2019-09-13 15:40:28 - [TEST_STEP][PASSED] - User Get Http response code : 501: User Get Http response code : 501
+
+2019-09-13 15:40:28 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-09-13 15:40:28 - [MESSAGE][PASSED] - User Get Http response code : 501
+
+2019-09-13 15:40:28 - [TEST_STEP][PASSED] - message : Product mapping not found: message : Product mapping not found
+
+2019-09-13 15:40:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:28 - [MESSAGE][PASSED] - message : Product mapping not found
+
+2019-09-13 15:40:28 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Command Type Config Not Found: SCENARIO Command Type Config Not Found
+
+2019-09-13 15:40:28 - [TEST_STEP][PASSED] - Command Type : test Config Set: Command Type : test Config Set
+
+2019-09-13 15:40:28 - [MESSAGE][PASSED] - Command Type : test Config Set
+
+2019-09-13 15:40:28 - [TEST_STEP][PASSED] - User Input biller_label : trunko_test: User Input biller_label : trunko_test
+
+2019-09-13 15:40:28 - [MESSAGE][PASSED] - User Input biller_label : trunko_test
+
+2019-09-13 15:40:28 - [TEST_STEP][PASSED] - User Input command_type : test: User Input command_type : test
+
+2019-09-13 15:40:28 - [MESSAGE][PASSED] - User Input command_type : test
+
+2019-09-13 15:40:28 - [TEST_STEP][PASSED] - Input product_id : 175: Input product_id : 175
+
+2019-09-13 15:40:28 - [MESSAGE][PASSED] - Input product_id : 175
+
+2019-09-13 15:40:28 - [TEST_STEP][PASSED] - Send request: Send request
+
+2019-09-13 15:40:29 - [MESSAGE][INFO] - HAR: /Users/reinard/Documents/Katalon Project/Trunko/Reports/20190913_154004/Execute Trunko/20190913_154004/requests/main/4.har
+
+2019-09-13 15:40:29 - [MESSAGE][PASSED] - Send request successfully
+
+2019-09-13 15:40:29 - [MESSAGE][PASSED] - Send request
+
+2019-09-13 15:40:29 - [TEST_STEP][PASSED] - User Get Http response code : 501: User Get Http response code : 501
+
+2019-09-13 15:40:29 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-09-13 15:40:29 - [MESSAGE][PASSED] - User Get Http response code : 501
+
+2019-09-13 15:40:29 - [TEST_STEP][PASSED] - message : Command type api config not Found: message : Command type api config not Found
+
+2019-09-13 15:40:29 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:29 - [MESSAGE][PASSED] - message : Command type api config not Found
+
+2019-09-13 15:40:29 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Command Type Config Not Found: SCENARIO Command Type Config Not Found
+
+2019-09-13 15:40:29 - [TEST_STEP][PASSED] - Command Type : purchase Config Set: Command Type : purchase Config Set
+
+2019-09-13 15:40:29 - [MESSAGE][PASSED] - Command Type : purchase Config Set
+
+2019-09-13 15:40:29 - [TEST_STEP][PASSED] - User Input biller_label : trunko_test: User Input biller_label : trunko_test
+
+2019-09-13 15:40:29 - [MESSAGE][PASSED] - User Input biller_label : trunko_test
+
+2019-09-13 15:40:29 - [TEST_STEP][PASSED] - User Input command_type : purchase: User Input command_type : purchase
+
+2019-09-13 15:40:29 - [MESSAGE][PASSED] - User Input command_type : purchase
+
+2019-09-13 15:40:29 - [TEST_STEP][PASSED] - Input product_id : 221: Input product_id : 221
+
+2019-09-13 15:40:29 - [MESSAGE][PASSED] - Input product_id : 221
+
+2019-09-13 15:40:29 - [TEST_STEP][PASSED] - Send request: Send request
+
+2019-09-13 15:40:29 - [MESSAGE][INFO] - HAR: /Users/reinard/Documents/Katalon Project/Trunko/Reports/20190913_154004/Execute Trunko/20190913_154004/requests/main/5.har
+
+2019-09-13 15:40:29 - [MESSAGE][PASSED] - Send request successfully
+
+2019-09-13 15:40:29 - [MESSAGE][PASSED] - Send request
+
+2019-09-13 15:40:29 - [TEST_STEP][PASSED] - User Get Http response code : 501: User Get Http response code : 501
+
+2019-09-13 15:40:29 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-09-13 15:40:29 - [MESSAGE][PASSED] - User Get Http response code : 501
+
+2019-09-13 15:40:29 - [TEST_STEP][PASSED] - message : Command type api config not Found: message : Command type api config not Found
+
+2019-09-13 15:40:29 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:29 - [MESSAGE][PASSED] - message : Command type api config not Found
+
+2019-09-13 15:40:29 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Product Type Config Not Found: SCENARIO Product Type Config Not Found
+
+2019-09-13 15:40:29 - [TEST_STEP][PASSED] - Product Type Not Set: Product Type Not Set
+
+2019-09-13 15:40:29 - [MESSAGE][PASSED] - Product Type Not Set
+
+2019-09-13 15:40:29 - [TEST_STEP][PASSED] - User Input biller_label : trunko_test: User Input biller_label : trunko_test
+
+2019-09-13 15:40:29 - [MESSAGE][PASSED] - User Input biller_label : trunko_test
+
+2019-09-13 15:40:29 - [TEST_STEP][PASSED] - User Input command_type : purchase: User Input command_type : purchase
+
+2019-09-13 15:40:29 - [MESSAGE][PASSED] - User Input command_type : purchase
+
+2019-09-13 15:40:29 - [TEST_STEP][PASSED] - Input product_id : 175: Input product_id : 175
+
+2019-09-13 15:40:29 - [MESSAGE][PASSED] - Input product_id : 175
+
+2019-09-13 15:40:29 - [TEST_STEP][PASSED] - Send request: Send request
+
+2019-09-13 15:40:30 - [MESSAGE][INFO] - HAR: /Users/reinard/Documents/Katalon Project/Trunko/Reports/20190913_154004/Execute Trunko/20190913_154004/requests/main/6.har
+
+2019-09-13 15:40:30 - [MESSAGE][PASSED] - Send request successfully
+
+2019-09-13 15:40:30 - [MESSAGE][PASSED] - Send request
+
+2019-09-13 15:40:30 - [TEST_STEP][PASSED] - User Get Http response code : 501: User Get Http response code : 501
+
+2019-09-13 15:40:30 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-09-13 15:40:30 - [MESSAGE][PASSED] - User Get Http response code : 501
+
+2019-09-13 15:40:30 - [TEST_STEP][PASSED] - message : Product type api config not Found: message : Product type api config not Found
+
+2019-09-13 15:40:30 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:30 - [MESSAGE][PASSED] - message : Product type api config not Found
+
+2019-09-13 15:40:30 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Execute Success: SCENARIO Execute Success
+
+2019-09-13 15:40:30 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2019-09-13 15:40:30 - [MESSAGE][PASSED] - Biller Config Set
+
+2019-09-13 15:40:30 - [TEST_STEP][PASSED] - User Input biller_label : trunko_test: User Input biller_label : trunko_test
+
+2019-09-13 15:40:30 - [MESSAGE][PASSED] - User Input biller_label : trunko_test
+
+2019-09-13 15:40:30 - [TEST_STEP][PASSED] - User Input command_type : advise: User Input command_type : advise
+
+2019-09-13 15:40:30 - [MESSAGE][PASSED] - User Input command_type : advise
+
+2019-09-13 15:40:30 - [TEST_STEP][PASSED] - Input product_id : 175: Input product_id : 175
+
+2019-09-13 15:40:30 - [MESSAGE][PASSED] - Input product_id : 175
+
+2019-09-13 15:40:30 - [TEST_STEP][PASSED] - Input transaction_id : 1: Input transaction_id : 1
+
+2019-09-13 15:40:30 - [MESSAGE][PASSED] - Input transaction_id : 1
+
+2019-09-13 15:40:30 - [TEST_STEP][PASSED] - Input transaction_biller_id : 1: Input transaction_biller_id : 1
+
+2019-09-13 15:40:30 - [MESSAGE][PASSED] - Input transaction_biller_id : 1
+
+2019-09-13 15:40:30 - [TEST_STEP][PASSED] - Input remote_product_id : x: Input remote_product_id : x
+
+2019-09-13 15:40:30 - [MESSAGE][PASSED] - Input remote_product_id : x
+
+2019-09-13 15:40:30 - [TEST_STEP][PASSED] - Input customer_id : 085363783001: Input customer_id : 085363783001
+
+2019-09-13 15:40:30 - [MESSAGE][PASSED] - Input customer_id : 085363783001
+
+2019-09-13 15:40:30 - [TEST_STEP][PASSED] - Input partner_id : 6: Input partner_id : 6
+
+2019-09-13 15:40:30 - [MESSAGE][PASSED] - Input partner_id : 6
+
+2019-09-13 15:40:30 - [TEST_STEP][PASSED] - Input rawdata : rawdata: Input rawdata : rawdata
+
+2019-09-13 15:40:30 - [MESSAGE][PASSED] - Input rawdata : rawdata
+
+2019-09-13 15:40:30 - [TEST_STEP][PASSED] - Send request: Send request
+
+2019-09-13 15:40:31 - [MESSAGE][INFO] - HAR: /Users/reinard/Documents/Katalon Project/Trunko/Reports/20190913_154004/Execute Trunko/20190913_154004/requests/main/7.har
+
+2019-09-13 15:40:31 - [MESSAGE][PASSED] - Send request successfully
+
+2019-09-13 15:40:31 - [MESSAGE][PASSED] - Send request
+
+2019-09-13 15:40:31 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2019-09-13 15:40:31 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-09-13 15:40:31 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2019-09-13 15:40:31 - [TEST_STEP][PASSED] - Get response_code : 00: Get response_code : 00
+
+2019-09-13 15:40:31 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:31 - [MESSAGE][PASSED] - Get response_code : 00
+
+2019-09-13 15:40:31 - [TEST_STEP][PASSED] - Get transaction_id : 1: Get transaction_id : 1
+
+2019-09-13 15:40:31 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:31 - [MESSAGE][PASSED] - Get transaction_id : 1
+
+2019-09-13 15:40:31 - [TEST_STEP][PASSED] - transaction_biller_id : 1: transaction_biller_id : 1
+
+2019-09-13 15:40:31 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:31 - [MESSAGE][PASSED] - transaction_biller_id : 1
+
+2019-09-13 15:40:31 - [TEST_STEP][PASSED] - remote_transaction_id : a: remote_transaction_id : a
+
+2019-09-13 15:40:31 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:31 - [MESSAGE][PASSED] - remote_transaction_id : a
+
+2019-09-13 15:40:31 - [TEST_STEP][PASSED] - remote_product_id : x: remote_product_id : x
+
+2019-09-13 15:40:31 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:31 - [MESSAGE][PASSED] - remote_product_id : x
+
+2019-09-13 15:40:31 - [TEST_STEP][PASSED] - customer_id : 085363783001: customer_id : 085363783001
+
+2019-09-13 15:40:31 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:31 - [MESSAGE][PASSED] - customer_id : 085363783001
+
+2019-09-13 15:40:31 - [TEST_STEP][PASSED] - serial_number : a: serial_number : a
+
+2019-09-13 15:40:31 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:31 - [MESSAGE][PASSED] - serial_number : a
+
+2019-09-13 15:40:31 - [TEST_STEP][PASSED] - biller_rescode : 0000: biller_rescode : 0000
+
+2019-09-13 15:40:31 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:31 - [MESSAGE][PASSED] - biller_rescode : 0000
+
+2019-09-13 15:40:31 - [TEST_STEP][PASSED] - message : advise message: message : advise message
+
+2019-09-13 15:40:31 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:31 - [MESSAGE][PASSED] - message : advise message
+
+2019-09-13 15:40:31 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Execute Success: SCENARIO Execute Success
+
+2019-09-13 15:40:31 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2019-09-13 15:40:31 - [MESSAGE][PASSED] - Biller Config Set
+
+2019-09-13 15:40:31 - [TEST_STEP][PASSED] - User Input biller_label : trunko_test: User Input biller_label : trunko_test
+
+2019-09-13 15:40:31 - [MESSAGE][PASSED] - User Input biller_label : trunko_test
+
+2019-09-13 15:40:31 - [TEST_STEP][PASSED] - User Input command_type : reversal: User Input command_type : reversal
+
+2019-09-13 15:40:31 - [MESSAGE][PASSED] - User Input command_type : reversal
+
+2019-09-13 15:40:31 - [TEST_STEP][PASSED] - Input product_id : 175: Input product_id : 175
+
+2019-09-13 15:40:31 - [MESSAGE][PASSED] - Input product_id : 175
+
+2019-09-13 15:40:31 - [TEST_STEP][PASSED] - Input transaction_id : 2: Input transaction_id : 2
+
+2019-09-13 15:40:31 - [MESSAGE][PASSED] - Input transaction_id : 2
+
+2019-09-13 15:40:31 - [TEST_STEP][PASSED] - Input transaction_biller_id : 2: Input transaction_biller_id : 2
+
+2019-09-13 15:40:31 - [MESSAGE][PASSED] - Input transaction_biller_id : 2
+
+2019-09-13 15:40:31 - [TEST_STEP][PASSED] - Input remote_product_id : y: Input remote_product_id : y
+
+2019-09-13 15:40:31 - [MESSAGE][PASSED] - Input remote_product_id : y
+
+2019-09-13 15:40:31 - [TEST_STEP][PASSED] - Input customer_id : 085363783002: Input customer_id : 085363783002
+
+2019-09-13 15:40:31 - [MESSAGE][PASSED] - Input customer_id : 085363783002
+
+2019-09-13 15:40:31 - [TEST_STEP][PASSED] - Input partner_id : 6: Input partner_id : 6
+
+2019-09-13 15:40:31 - [MESSAGE][PASSED] - Input partner_id : 6
+
+2019-09-13 15:40:31 - [TEST_STEP][PASSED] - Input rawdata : rawdata: Input rawdata : rawdata
+
+2019-09-13 15:40:31 - [MESSAGE][PASSED] - Input rawdata : rawdata
+
+2019-09-13 15:40:31 - [TEST_STEP][PASSED] - Send request: Send request
+
+2019-09-13 15:40:32 - [MESSAGE][INFO] - HAR: /Users/reinard/Documents/Katalon Project/Trunko/Reports/20190913_154004/Execute Trunko/20190913_154004/requests/main/8.har
+
+2019-09-13 15:40:32 - [MESSAGE][PASSED] - Send request successfully
+
+2019-09-13 15:40:32 - [MESSAGE][PASSED] - Send request
+
+2019-09-13 15:40:32 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2019-09-13 15:40:32 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-09-13 15:40:32 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2019-09-13 15:40:32 - [TEST_STEP][PASSED] - Get response_code : 20: Get response_code : 20
+
+2019-09-13 15:40:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:32 - [MESSAGE][PASSED] - Get response_code : 20
+
+2019-09-13 15:40:32 - [TEST_STEP][PASSED] - Get transaction_id : 2: Get transaction_id : 2
+
+2019-09-13 15:40:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:32 - [MESSAGE][PASSED] - Get transaction_id : 2
+
+2019-09-13 15:40:32 - [TEST_STEP][PASSED] - transaction_biller_id : 2: transaction_biller_id : 2
+
+2019-09-13 15:40:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:32 - [MESSAGE][PASSED] - transaction_biller_id : 2
+
+2019-09-13 15:40:32 - [TEST_STEP][PASSED] - remote_transaction_id : abc: remote_transaction_id : abc
+
+2019-09-13 15:40:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:32 - [MESSAGE][PASSED] - remote_transaction_id : abc
+
+2019-09-13 15:40:32 - [TEST_STEP][PASSED] - remote_product_id : y: remote_product_id : y
+
+2019-09-13 15:40:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:32 - [MESSAGE][PASSED] - remote_product_id : y
+
+2019-09-13 15:40:32 - [TEST_STEP][PASSED] - customer_id : 085363783002: customer_id : 085363783002
+
+2019-09-13 15:40:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:32 - [MESSAGE][PASSED] - customer_id : 085363783002
+
+2019-09-13 15:40:32 - [TEST_STEP][PASSED] - serial_number : serial: serial_number : serial
+
+2019-09-13 15:40:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:32 - [MESSAGE][PASSED] - serial_number : serial
+
+2019-09-13 15:40:32 - [TEST_STEP][PASSED] - biller_rescode : 9006: biller_rescode : 9006
+
+2019-09-13 15:40:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:32 - [MESSAGE][PASSED] - biller_rescode : 9006
+
+2019-09-13 15:40:32 - [TEST_STEP][PASSED] - message : reversal message: message : reversal message
+
+2019-09-13 15:40:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:32 - [MESSAGE][PASSED] - message : reversal message
+
+2019-09-13 15:40:32 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Execute Success: SCENARIO Execute Success
+
+2019-09-13 15:40:32 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2019-09-13 15:40:32 - [MESSAGE][PASSED] - Biller Config Set
+
+2019-09-13 15:40:32 - [TEST_STEP][PASSED] - User Input biller_label : trunko_test: User Input biller_label : trunko_test
+
+2019-09-13 15:40:32 - [MESSAGE][PASSED] - User Input biller_label : trunko_test
+
+2019-09-13 15:40:32 - [TEST_STEP][PASSED] - User Input command_type : inquiry: User Input command_type : inquiry
+
+2019-09-13 15:40:32 - [MESSAGE][PASSED] - User Input command_type : inquiry
+
+2019-09-13 15:40:32 - [TEST_STEP][PASSED] - Input product_id : 221: Input product_id : 221
+
+2019-09-13 15:40:32 - [MESSAGE][PASSED] - Input product_id : 221
+
+2019-09-13 15:40:32 - [TEST_STEP][PASSED] - Input transaction_id : 3: Input transaction_id : 3
+
+2019-09-13 15:40:32 - [MESSAGE][PASSED] - Input transaction_id : 3
+
+2019-09-13 15:40:32 - [TEST_STEP][PASSED] - Input transaction_biller_id : 3: Input transaction_biller_id : 3
+
+2019-09-13 15:40:32 - [MESSAGE][PASSED] - Input transaction_biller_id : 3
+
+2019-09-13 15:40:32 - [TEST_STEP][PASSED] - Input remote_product_id : z: Input remote_product_id : z
+
+2019-09-13 15:40:32 - [MESSAGE][PASSED] - Input remote_product_id : z
+
+2019-09-13 15:40:32 - [TEST_STEP][PASSED] - Input customer_id : 085363783003: Input customer_id : 085363783003
+
+2019-09-13 15:40:32 - [MESSAGE][PASSED] - Input customer_id : 085363783003
+
+2019-09-13 15:40:32 - [TEST_STEP][PASSED] - Input partner_id : 6: Input partner_id : 6
+
+2019-09-13 15:40:32 - [MESSAGE][PASSED] - Input partner_id : 6
+
+2019-09-13 15:40:32 - [TEST_STEP][PASSED] - Input rawdata : rawdata: Input rawdata : rawdata
+
+2019-09-13 15:40:32 - [MESSAGE][PASSED] - Input rawdata : rawdata
+
+2019-09-13 15:40:32 - [TEST_STEP][PASSED] - Send request: Send request
+
+2019-09-13 15:40:33 - [MESSAGE][INFO] - HAR: /Users/reinard/Documents/Katalon Project/Trunko/Reports/20190913_154004/Execute Trunko/20190913_154004/requests/main/9.har
+
+2019-09-13 15:40:33 - [MESSAGE][PASSED] - Send request successfully
+
+2019-09-13 15:40:33 - [MESSAGE][PASSED] - Send request
+
+2019-09-13 15:40:33 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2019-09-13 15:40:33 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-09-13 15:40:33 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2019-09-13 15:40:33 - [TEST_STEP][PASSED] - Get response_code : 22: Get response_code : 22
+
+2019-09-13 15:40:33 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:33 - [MESSAGE][PASSED] - Get response_code : 22
+
+2019-09-13 15:40:33 - [TEST_STEP][PASSED] - Get transaction_id : 3: Get transaction_id : 3
+
+2019-09-13 15:40:33 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:33 - [MESSAGE][PASSED] - Get transaction_id : 3
+
+2019-09-13 15:40:33 - [TEST_STEP][PASSED] - transaction_biller_id : 3: transaction_biller_id : 3
+
+2019-09-13 15:40:33 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:33 - [MESSAGE][PASSED] - transaction_biller_id : 3
+
+2019-09-13 15:40:33 - [TEST_STEP][PASSED] - remote_transaction_id : 110931978314: remote_transaction_id : 110931978314
+
+2019-09-13 15:40:33 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:33 - [MESSAGE][PASSED] - remote_transaction_id : 110931978314
+
+2019-09-13 15:40:33 - [TEST_STEP][PASSED] - remote_product_id : z: remote_product_id : z
+
+2019-09-13 15:40:33 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:33 - [MESSAGE][PASSED] - remote_product_id : z
+
+2019-09-13 15:40:33 - [TEST_STEP][PASSED] - customer_id : 085363783003: customer_id : 085363783003
+
+2019-09-13 15:40:33 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:33 - [MESSAGE][PASSED] - customer_id : 085363783003
+
+2019-09-13 15:40:33 - [TEST_STEP][PASSED] - serial_number : 0051003619319900: serial_number : 0051003619319900
+
+2019-09-13 15:40:33 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:33 - [MESSAGE][PASSED] - serial_number : 0051003619319900
+
+2019-09-13 15:40:33 - [TEST_STEP][PASSED] - biller_rescode : 9012: biller_rescode : 9012
+
+2019-09-13 15:40:33 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:33 - [MESSAGE][PASSED] - biller_rescode : 9012
+
+2019-09-13 15:40:33 - [TEST_STEP][PASSED] - message : inquiry message: message : inquiry message
+
+2019-09-13 15:40:33 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:33 - [MESSAGE][PASSED] - message : inquiry message
+
+2019-09-13 15:40:33 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Rules Mapping Success: SCENARIO Rules Mapping Success
+
+2019-09-13 15:40:33 - [TEST_STEP][PASSED] - Biller Config Set and Rules set as {"rules":[{"conditions":[{"data":"[status]","operator":"equal","value":"sukses","logic":"and"},{"data":"[data.serial_number]","operator":"equal","value":"a","logic":""}],"operations":[{"data":"next","function":"","value":"advice"}]},{"conditions":[{"data":"[status]","operator":"equal","value":"gagal","logic":"or"},{"data":"[data.serial_number]","operator":"equal","value":"0051003619319900","logic":""}],"operations":[{"data":"next","function":"","value":"reversal"}]}]}: Biller Config Set and Rules set as {"rules":[{"conditions":[{"data":"[status]","operator":"equal","value":"sukses","logic":"and"},{"data":"[data.serial_number]","operator":"equal","value":"a","logic":""}],"operations":[{"data":"next","function":"","value":"advice"}]},{"conditions":[{"data":"[status]","operator":"equal","value":"gagal","logic":"or"},{"data":"[data.serial_number]","operator":"equal","value":"0051003619319900","logic":""}],"operations":[{"data":"next","function":"","value":"reversal"}]}]}
+
+2019-09-13 15:40:33 - [MESSAGE][PASSED] - Biller Config Set and Rules set as {"rules":[{"conditions":[{"data":"[status]","operator":"equal","value":"sukses","logic":"and"},{"data":"[data.serial_number]","operator":"equal","value":"a","logic":""}],"operations":[{"data":"next","function":"","value":"advice"}]},{"conditions":[{"data":"[status]","operator":"equal","value":"gagal","logic":"or"},{"data":"[data.serial_number]","operator":"equal","value":"0051003619319900","logic":""}],"operations":[{"data":"next","function":"","value":"reversal"}]}]}
+
+2019-09-13 15:40:33 - [TEST_STEP][PASSED] - User Input command_type : advise: User Input command_type : advise
+
+2019-09-13 15:40:33 - [MESSAGE][PASSED] - User Input command_type : advise
+
+2019-09-13 15:40:33 - [TEST_STEP][PASSED] - Input product_id : 175: Input product_id : 175
+
+2019-09-13 15:40:33 - [MESSAGE][PASSED] - Input product_id : 175
+
+2019-09-13 15:40:33 - [TEST_STEP][PASSED] - Send request: Send request
+
+2019-09-13 15:40:34 - [MESSAGE][INFO] - HAR: /Users/reinard/Documents/Katalon Project/Trunko/Reports/20190913_154004/Execute Trunko/20190913_154004/requests/main/10.har
+
+2019-09-13 15:40:34 - [MESSAGE][PASSED] - Send request successfully
+
+2019-09-13 15:40:34 - [MESSAGE][PASSED] - Send request
+
+2019-09-13 15:40:34 - [TEST_STEP][PASSED] - User Get FBS response status : sukses: User Get FBS response status : sukses
+
+2019-09-13 15:40:34 - [MESSAGE][PASSED] - User Get FBS response status : sukses
+
+2019-09-13 15:40:34 - [TEST_STEP][PASSED] - User Get FBS response data.serial_number : a: User Get FBS response data.serial_number : a
+
+2019-09-13 15:40:34 - [MESSAGE][PASSED] - User Get FBS response data.serial_number : a
+
+2019-09-13 15:40:34 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2019-09-13 15:40:34 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-09-13 15:40:34 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2019-09-13 15:40:34 - [TEST_STEP][PASSED] - User get next command : advice: User get next command : advice
+
+2019-09-13 15:40:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:34 - [MESSAGE][PASSED] - User get next command : advice
+
+2019-09-13 15:40:34 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Rules Mapping Success: SCENARIO Rules Mapping Success
+
+2019-09-13 15:40:34 - [TEST_STEP][PASSED] - Biller Config Set and Rules set as {"rules":[{"conditions":[{"data":"[status]","operator":"equal","value":"sukses","logic":"and"},{"data":"[data.serial_number]","operator":"equal","value":"a","logic":""}],"operations":[{"data":"next","function":"","value":"advice"}]},{"conditions":[{"data":"[status]","operator":"equal","value":"gagal","logic":"or"},{"data":"[data.serial_number]","operator":"equal","value":"0051003619319900","logic":""}],"operations":[{"data":"next","function":"","value":"reversal"}]}]}: Biller Config Set and Rules set as {"rules":[{"conditions":[{"data":"[status]","operator":"equal","value":"sukses","logic":"and"},{"data":"[data.serial_number]","operator":"equal","value":"a","logic":""}],"operations":[{"data":"next","function":"","value":"advice"}]},{"conditions":[{"data":"[status]","operator":"equal","value":"gagal","logic":"or"},{"data":"[data.serial_number]","operator":"equal","value":"0051003619319900","logic":""}],"operations":[{"data":"next","function":"","value":"reversal"}]}]}
+
+2019-09-13 15:40:34 - [MESSAGE][PASSED] - Biller Config Set and Rules set as {"rules":[{"conditions":[{"data":"[status]","operator":"equal","value":"sukses","logic":"and"},{"data":"[data.serial_number]","operator":"equal","value":"a","logic":""}],"operations":[{"data":"next","function":"","value":"advice"}]},{"conditions":[{"data":"[status]","operator":"equal","value":"gagal","logic":"or"},{"data":"[data.serial_number]","operator":"equal","value":"0051003619319900","logic":""}],"operations":[{"data":"next","function":"","value":"reversal"}]}]}
+
+2019-09-13 15:40:34 - [TEST_STEP][PASSED] - User Input command_type : purchase: User Input command_type : purchase
+
+2019-09-13 15:40:34 - [MESSAGE][PASSED] - User Input command_type : purchase
+
+2019-09-13 15:40:34 - [TEST_STEP][PASSED] - Input product_id : 26: Input product_id : 26
+
+2019-09-13 15:40:34 - [MESSAGE][PASSED] - Input product_id : 26
+
+2019-09-13 15:40:34 - [TEST_STEP][PASSED] - Send request: Send request
+
+2019-09-13 15:40:35 - [MESSAGE][INFO] - HAR: /Users/reinard/Documents/Katalon Project/Trunko/Reports/20190913_154004/Execute Trunko/20190913_154004/requests/main/11.har
+
+2019-09-13 15:40:35 - [MESSAGE][PASSED] - Send request successfully
+
+2019-09-13 15:40:35 - [MESSAGE][PASSED] - Send request
+
+2019-09-13 15:40:35 - [TEST_STEP][PASSED] - User Get FBS response status : gagal: User Get FBS response status : gagal
+
+2019-09-13 15:40:35 - [MESSAGE][PASSED] - User Get FBS response status : gagal
+
+2019-09-13 15:40:35 - [TEST_STEP][PASSED] - User Get FBS response data.serial_number : 110931978314: User Get FBS response data.serial_number : 110931978314
+
+2019-09-13 15:40:35 - [MESSAGE][PASSED] - User Get FBS response data.serial_number : 110931978314
+
+2019-09-13 15:40:35 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2019-09-13 15:40:35 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-09-13 15:40:35 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2019-09-13 15:40:35 - [TEST_STEP][PASSED] - User get next command : reversal: User get next command : reversal
+
+2019-09-13 15:40:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:35 - [MESSAGE][PASSED] - User get next command : reversal
+
+2019-09-13 15:40:35 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Rules Mapping Success: SCENARIO Rules Mapping Success
+
+2019-09-13 15:40:35 - [TEST_STEP][PASSED] - Biller Config Set and Rules set as {"rules":[{"conditions":[{"data":"[status]","operator":"equal","value":"sukses","logic":"and"},{"data":"[data.serial_number]","operator":"equal","value":"a","logic":""}],"operations":[{"data":"next","function":"","value":"advice"}]},{"conditions":[{"data":"[status]","operator":"equal","value":"gagal","logic":"or"},{"data":"[data.serial_number]","operator":"equal","value":"0051003619319900","logic":""}],"operations":[{"data":"next","function":"","value":"reversal"}]}]}: Biller Config Set and Rules set as {"rules":[{"conditions":[{"data":"[status]","operator":"equal","value":"sukses","logic":"and"},{"data":"[data.serial_number]","operator":"equal","value":"a","logic":""}],"operations":[{"data":"next","function":"","value":"advice"}]},{"conditions":[{"data":"[status]","operator":"equal","value":"gagal","logic":"or"},{"data":"[data.serial_number]","operator":"equal","value":"0051003619319900","logic":""}],"operations":[{"data":"next","function":"","value":"reversal"}]}]}
+
+2019-09-13 15:40:35 - [MESSAGE][PASSED] - Biller Config Set and Rules set as {"rules":[{"conditions":[{"data":"[status]","operator":"equal","value":"sukses","logic":"and"},{"data":"[data.serial_number]","operator":"equal","value":"a","logic":""}],"operations":[{"data":"next","function":"","value":"advice"}]},{"conditions":[{"data":"[status]","operator":"equal","value":"gagal","logic":"or"},{"data":"[data.serial_number]","operator":"equal","value":"0051003619319900","logic":""}],"operations":[{"data":"next","function":"","value":"reversal"}]}]}
+
+2019-09-13 15:40:35 - [TEST_STEP][PASSED] - User Input command_type : inquiry: User Input command_type : inquiry
+
+2019-09-13 15:40:35 - [MESSAGE][PASSED] - User Input command_type : inquiry
+
+2019-09-13 15:40:35 - [TEST_STEP][PASSED] - Input product_id : 221: Input product_id : 221
+
+2019-09-13 15:40:35 - [MESSAGE][PASSED] - Input product_id : 221
+
+2019-09-13 15:40:35 - [TEST_STEP][PASSED] - Send request: Send request
+
+2019-09-13 15:40:35 - [MESSAGE][INFO] - HAR: /Users/reinard/Documents/Katalon Project/Trunko/Reports/20190913_154004/Execute Trunko/20190913_154004/requests/main/12.har
+
+2019-09-13 15:40:35 - [MESSAGE][PASSED] - Send request successfully
+
+2019-09-13 15:40:35 - [MESSAGE][PASSED] - Send request
+
+2019-09-13 15:40:35 - [TEST_STEP][PASSED] - User Get FBS response status : sukses: User Get FBS response status : sukses
+
+2019-09-13 15:40:35 - [MESSAGE][PASSED] - User Get FBS response status : sukses
+
+2019-09-13 15:40:35 - [TEST_STEP][PASSED] - User Get FBS response data.serial_number : 0051003619319900: User Get FBS response data.serial_number : 0051003619319900
+
+2019-09-13 15:40:35 - [MESSAGE][PASSED] - User Get FBS response data.serial_number : 0051003619319900
+
+2019-09-13 15:40:35 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2019-09-13 15:40:35 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-09-13 15:40:35 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2019-09-13 15:40:35 - [TEST_STEP][PASSED] - User get next command : reversal: User get next command : reversal
+
+2019-09-13 15:40:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:35 - [MESSAGE][PASSED] - User get next command : reversal
+
+2019-09-13 15:40:35 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Rules Mapping Success: SCENARIO Rules Mapping Success
+
+2019-09-13 15:40:35 - [TEST_STEP][PASSED] - Biller Config Set and Rules set as {"rules":[{"conditions":[{"data":"[status]","operator":"equal","value":"sukses","logic":"and"},{"data":"[data.serial_number]","operator":"equal","value":"a","logic":""}],"operations":[{"data":"next","function":"","value":"advice"}]},{"conditions":[{"data":"[status]","operator":"equal","value":"gagal","logic":"or"},{"data":"[data.serial_number]","operator":"equal","value":"0051003619319900","logic":""}],"operations":[{"data":"next","function":"","value":"reversal"}]}]}: Biller Config Set and Rules set as {"rules":[{"conditions":[{"data":"[status]","operator":"equal","value":"sukses","logic":"and"},{"data":"[data.serial_number]","operator":"equal","value":"a","logic":""}],"operations":[{"data":"next","function":"","value":"advice"}]},{"conditions":[{"data":"[status]","operator":"equal","value":"gagal","logic":"or"},{"data":"[data.serial_number]","operator":"equal","value":"0051003619319900","logic":""}],"operations":[{"data":"next","function":"","value":"reversal"}]}]}
+
+2019-09-13 15:40:35 - [MESSAGE][PASSED] - Biller Config Set and Rules set as {"rules":[{"conditions":[{"data":"[status]","operator":"equal","value":"sukses","logic":"and"},{"data":"[data.serial_number]","operator":"equal","value":"a","logic":""}],"operations":[{"data":"next","function":"","value":"advice"}]},{"conditions":[{"data":"[status]","operator":"equal","value":"gagal","logic":"or"},{"data":"[data.serial_number]","operator":"equal","value":"0051003619319900","logic":""}],"operations":[{"data":"next","function":"","value":"reversal"}]}]}
+
+2019-09-13 15:40:35 - [TEST_STEP][PASSED] - User Input command_type : reversal: User Input command_type : reversal
+
+2019-09-13 15:40:35 - [MESSAGE][PASSED] - User Input command_type : reversal
+
+2019-09-13 15:40:35 - [TEST_STEP][PASSED] - Input product_id : 175: Input product_id : 175
+
+2019-09-13 15:40:35 - [MESSAGE][PASSED] - Input product_id : 175
+
+2019-09-13 15:40:35 - [TEST_STEP][PASSED] - Send request: Send request
+
+2019-09-13 15:40:36 - [MESSAGE][INFO] - HAR: /Users/reinard/Documents/Katalon Project/Trunko/Reports/20190913_154004/Execute Trunko/20190913_154004/requests/main/13.har
+
+2019-09-13 15:40:36 - [MESSAGE][PASSED] - Send request successfully
+
+2019-09-13 15:40:36 - [MESSAGE][PASSED] - Send request
+
+2019-09-13 15:40:36 - [TEST_STEP][PASSED] - User Get FBS response status : sukses: User Get FBS response status : sukses
+
+2019-09-13 15:40:36 - [MESSAGE][PASSED] - User Get FBS response status : sukses
+
+2019-09-13 15:40:36 - [TEST_STEP][PASSED] - User Get FBS response data.serial_number : serial: User Get FBS response data.serial_number : serial
+
+2019-09-13 15:40:36 - [MESSAGE][PASSED] - User Get FBS response data.serial_number : serial
+
+2019-09-13 15:40:36 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2019-09-13 15:40:36 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-09-13 15:40:36 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2019-09-13 15:40:36 - [TEST_STEP][PASSED] - User get next command : null: User get next command : null
+
+2019-09-13 15:40:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:36 - [MESSAGE][PASSED] - User get next command : null
+
+2019-09-13 15:40:36 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Rules Mapping Success: SCENARIO Rules Mapping Success
+
+2019-09-13 15:40:36 - [TEST_STEP][PASSED] - Biller Config Set and Rules set as {"rules":[{"conditions":[{"data":"[status]","operator":"equal","value":"sukses","logic":"and"},{"data":"[data.serial_number]","operator":"equal","value":"a","logic":""}],"operations":[{"data":"next","function":"","value":"advice"}]},{"conditions":[{"data":"[status]","operator":"equal","value":"gagal","logic":"or"},{"data":"[data.serial_number]","operator":"equal","value":"0051003619319900","logic":""}],"operations":[{"data":"next","function":"","value":"reversal"}]}]}: Biller Config Set and Rules set as {"rules":[{"conditions":[{"data":"[status]","operator":"equal","value":"sukses","logic":"and"},{"data":"[data.serial_number]","operator":"equal","value":"a","logic":""}],"operations":[{"data":"next","function":"","value":"advice"}]},{"conditions":[{"data":"[status]","operator":"equal","value":"gagal","logic":"or"},{"data":"[data.serial_number]","operator":"equal","value":"0051003619319900","logic":""}],"operations":[{"data":"next","function":"","value":"reversal"}]}]}
+
+2019-09-13 15:40:36 - [MESSAGE][PASSED] - Biller Config Set and Rules set as {"rules":[{"conditions":[{"data":"[status]","operator":"equal","value":"sukses","logic":"and"},{"data":"[data.serial_number]","operator":"equal","value":"a","logic":""}],"operations":[{"data":"next","function":"","value":"advice"}]},{"conditions":[{"data":"[status]","operator":"equal","value":"gagal","logic":"or"},{"data":"[data.serial_number]","operator":"equal","value":"0051003619319900","logic":""}],"operations":[{"data":"next","function":"","value":"reversal"}]}]}
+
+2019-09-13 15:40:36 - [TEST_STEP][PASSED] - User Input command_type : reversal: User Input command_type : reversal
+
+2019-09-13 15:40:36 - [MESSAGE][PASSED] - User Input command_type : reversal
+
+2019-09-13 15:40:36 - [TEST_STEP][PASSED] - Input product_id : 26: Input product_id : 26
+
+2019-09-13 15:40:36 - [MESSAGE][PASSED] - Input product_id : 26
+
+2019-09-13 15:40:36 - [TEST_STEP][PASSED] - Send request: Send request
+
+2019-09-13 15:40:37 - [MESSAGE][INFO] - HAR: /Users/reinard/Documents/Katalon Project/Trunko/Reports/20190913_154004/Execute Trunko/20190913_154004/requests/main/14.har
+
+2019-09-13 15:40:37 - [MESSAGE][PASSED] - Send request successfully
+
+2019-09-13 15:40:37 - [MESSAGE][PASSED] - Send request
+
+2019-09-13 15:40:37 - [TEST_STEP][PASSED] - User Get FBS response status : gagal: User Get FBS response status : gagal
+
+2019-09-13 15:40:37 - [MESSAGE][PASSED] - User Get FBS response status : gagal
+
+2019-09-13 15:40:37 - [TEST_STEP][PASSED] - User Get FBS response data.serial_number : a: User Get FBS response data.serial_number : a
+
+2019-09-13 15:40:37 - [MESSAGE][PASSED] - User Get FBS response data.serial_number : a
+
+2019-09-13 15:40:37 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2019-09-13 15:40:37 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-09-13 15:40:37 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2019-09-13 15:40:37 - [TEST_STEP][PASSED] - User get next command : reversal: User get next command : reversal
+
+2019-09-13 15:40:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-09-13 15:40:37 - [MESSAGE][PASSED] - User get next command : reversal
+
+2019-09-13 15:40:38 - [MESSAGE][PASSED] - Feature file: 'Include/features/Kraken - BM Adapter/Execute Trunko.feature' was passed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-09-13 15:40:18 - [TEST_SUITE][INCOMPLETE] - Execute Trunko: null</system-out>
+        <system-err>2019-09-13 15:40:18 - [TEST_SUITE][INCOMPLETE] - Execute Trunko: null</system-err>
+    </testsuite>
+</testsuites>

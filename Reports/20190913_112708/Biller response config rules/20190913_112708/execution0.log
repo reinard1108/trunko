@@ -1,0 +1,1872 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-09-13T11:27:20</date>
+  <millis>1568348840161</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Biller response config rules</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Biller response config rules</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Biller response config rules</property>
+</record>
+<record>
+  <date>2019-09-13T11:27:20</date>
+  <millis>1568348840193</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = reinard - adsl-172-10-101-120.dsl.hstntx.sbcglobal.net</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">reinard - adsl-172-10-101-120.dsl.hstntx.sbcglobal.net</property>
+</record>
+<record>
+  <date>2019-09-13T11:27:20</date>
+  <millis>1568348840199</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Mac OS X 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2019-09-13T11:27:20</date>
+  <millis>1568348840223</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 172.10.101.120</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">172.10.101.120</property>
+</record>
+<record>
+  <date>2019-09-13T11:27:20</date>
+  <millis>1568348840231</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.3.3.11</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.3.3.11</property>
+</record>
+<record>
+  <date>2019-09-13T11:27:20</date>
+  <millis>1568348840761</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Biller response config rules/Rules Mapping Success</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Biller response config rules/Rules Mapping Success</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Biller response config rules/Rules Mapping Success</property>
+  <property name="source">\\Users\\reinard\\Documents\\Katalon Project\\Trunko\\Test Cases\\Biller response config rules\\Rules Mapping Success.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-09-13T11:27:21</date>
+  <millis>1568348841368</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : runFeatureFile(\&amp;quot;Include/features/Kraken - BM Adapter/Rules Mapping Success.feature\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-13T11:27:21</date>
+  <millis>1568348841463</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting run keyword runFeatureFile: &amp;apos;Include/features/Kraken - BM Adapter/Rules Mapping Success.feature&amp;apos; and extract report to folder: &amp;apos;/Users/reinard/Documents/Katalon Project/Trunko/Reports/20190913_112708/Biller response config rules/20190913_112708/cucumber_report/1568348841450&amp;apos;...</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:22</date>
+  <millis>1568348842614</millis>
+  <sequence>9</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : SCENARIO Rules Mapping Success</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:22</date>
+  <millis>1568348842620</millis>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Biller Config Set and Rules set as {\&amp;quot;rules\&amp;quot;:[{\&amp;quot;conditions\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;[status]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;sukses\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;and\&amp;quot;},{\&amp;quot;data\&amp;quot;:\&amp;quot;[data.serial_number]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;a\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;\&amp;quot;}],\&amp;quot;operations\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;next\&amp;quot;,\&amp;quot;function\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;advice\&amp;quot;}]},{\&amp;quot;conditions\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;[status]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;gagal\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;or\&amp;quot;},{\&amp;quot;data\&amp;quot;:\&amp;quot;[data.serial_number]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;0051003619319900\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;\&amp;quot;}],\&amp;quot;operations\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;next\&amp;quot;,\&amp;quot;function\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;reversal\&amp;quot;}]}]}</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:22</date>
+  <millis>1568348842672</millis>
+  <sequence>11</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Biller Config Set and Rules set as {\&amp;quot;rules\&amp;quot;:[{\&amp;quot;conditions\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;[status]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;sukses\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;and\&amp;quot;},{\&amp;quot;data\&amp;quot;:\&amp;quot;[data.serial_number]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;a\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;\&amp;quot;}],\&amp;quot;operations\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;next\&amp;quot;,\&amp;quot;function\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;advice\&amp;quot;}]},{\&amp;quot;conditions\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;[status]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;gagal\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;or\&amp;quot;},{\&amp;quot;data\&amp;quot;:\&amp;quot;[data.serial_number]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;0051003619319900\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;\&amp;quot;}],\&amp;quot;operations\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;next\&amp;quot;,\&amp;quot;function\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;reversal\&amp;quot;}]}]}</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:22</date>
+  <millis>1568348842674</millis>
+  <sequence>12</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Biller Config Set and Rules set as {\&amp;quot;rules\&amp;quot;:[{\&amp;quot;conditions\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;[status]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;sukses\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;and\&amp;quot;},{\&amp;quot;data\&amp;quot;:\&amp;quot;[data.serial_number]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;a\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;\&amp;quot;}],\&amp;quot;operations\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;next\&amp;quot;,\&amp;quot;function\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;advice\&amp;quot;}]},{\&amp;quot;conditions\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;[status]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;gagal\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;or\&amp;quot;},{\&amp;quot;data\&amp;quot;:\&amp;quot;[data.serial_number]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;0051003619319900\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;\&amp;quot;}],\&amp;quot;operations\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;next\&amp;quot;,\&amp;quot;function\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;reversal\&amp;quot;}]}]}</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:22</date>
+  <millis>1568348842687</millis>
+  <sequence>13</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User Input command_type : advise</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:23</date>
+  <millis>1568348843660</millis>
+  <sequence>14</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User Input command_type : advise</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:23</date>
+  <millis>1568348843663</millis>
+  <sequence>15</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User Input command_type : advise</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:23</date>
+  <millis>1568348843671</millis>
+  <sequence>16</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Input product_id : 175</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:23</date>
+  <millis>1568348843678</millis>
+  <sequence>17</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Input product_id : 175</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:23</date>
+  <millis>1568348843678</millis>
+  <sequence>18</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Input product_id : 175</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:23</date>
+  <millis>1568348843679</millis>
+  <sequence>19</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Send request</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:26</date>
+  <millis>1568348846393</millis>
+  <sequence>22</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/reinard/Documents/Katalon Project/Trunko/Reports/20190913_112708/Biller response config rules/20190913_112708/requests/main/0.har</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="harId">d3985fda-fd4c-41b6-90cc-9a95cadf9814</property>
+</record>
+<record>
+  <date>2019-09-13T11:27:26</date>
+  <millis>1568348846582</millis>
+  <sequence>23</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:26</date>
+  <millis>1568348846591</millis>
+  <sequence>24</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:26</date>
+  <millis>1568348846597</millis>
+  <sequence>25</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Send request</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:26</date>
+  <millis>1568348846599</millis>
+  <sequence>26</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User Get FBS response status : sukses</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:26</date>
+  <millis>1568348846602</millis>
+  <sequence>27</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User Get FBS response status : sukses</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:26</date>
+  <millis>1568348846602</millis>
+  <sequence>28</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User Get FBS response status : sukses</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:26</date>
+  <millis>1568348846603</millis>
+  <sequence>29</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User Get FBS response data.serial_number : a</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:26</date>
+  <millis>1568348846613</millis>
+  <sequence>30</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User Get FBS response data.serial_number : a</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:26</date>
+  <millis>1568348846614</millis>
+  <sequence>31</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User Get FBS response data.serial_number : a</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:26</date>
+  <millis>1568348846620</millis>
+  <sequence>32</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User Get Http response code : 200</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:26</date>
+  <millis>1568348846651</millis>
+  <sequence>34</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:26</date>
+  <millis>1568348846662</millis>
+  <sequence>35</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User Get Http response code : 200</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:26</date>
+  <millis>1568348846662</millis>
+  <sequence>36</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User Get Http response code : 200</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:26</date>
+  <millis>1568348846665</millis>
+  <sequence>37</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User get next command : advice</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:26</date>
+  <millis>1568348846879</millis>
+  <sequence>39</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:26</date>
+  <millis>1568348846880</millis>
+  <sequence>40</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User get next command : advice</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:26</date>
+  <millis>1568348846881</millis>
+  <sequence>41</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User get next command : advice</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:26</date>
+  <millis>1568348846885</millis>
+  <sequence>42</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SCENARIO Rules Mapping Success</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:26</date>
+  <millis>1568348846886</millis>
+  <sequence>43</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : SCENARIO Rules Mapping Success</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:26</date>
+  <millis>1568348846896</millis>
+  <sequence>44</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : SCENARIO Rules Mapping Success</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:26</date>
+  <millis>1568348846898</millis>
+  <sequence>45</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Biller Config Set and Rules set as {\&amp;quot;rules\&amp;quot;:[{\&amp;quot;conditions\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;[status]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;sukses\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;and\&amp;quot;},{\&amp;quot;data\&amp;quot;:\&amp;quot;[data.serial_number]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;a\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;\&amp;quot;}],\&amp;quot;operations\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;next\&amp;quot;,\&amp;quot;function\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;advice\&amp;quot;}]},{\&amp;quot;conditions\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;[status]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;gagal\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;or\&amp;quot;},{\&amp;quot;data\&amp;quot;:\&amp;quot;[data.serial_number]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;0051003619319900\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;\&amp;quot;}],\&amp;quot;operations\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;next\&amp;quot;,\&amp;quot;function\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;reversal\&amp;quot;}]}]}</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:26</date>
+  <millis>1568348846908</millis>
+  <sequence>46</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Biller Config Set and Rules set as {\&amp;quot;rules\&amp;quot;:[{\&amp;quot;conditions\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;[status]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;sukses\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;and\&amp;quot;},{\&amp;quot;data\&amp;quot;:\&amp;quot;[data.serial_number]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;a\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;\&amp;quot;}],\&amp;quot;operations\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;next\&amp;quot;,\&amp;quot;function\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;advice\&amp;quot;}]},{\&amp;quot;conditions\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;[status]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;gagal\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;or\&amp;quot;},{\&amp;quot;data\&amp;quot;:\&amp;quot;[data.serial_number]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;0051003619319900\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;\&amp;quot;}],\&amp;quot;operations\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;next\&amp;quot;,\&amp;quot;function\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;reversal\&amp;quot;}]}]}</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:26</date>
+  <millis>1568348846912</millis>
+  <sequence>47</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Biller Config Set and Rules set as {\&amp;quot;rules\&amp;quot;:[{\&amp;quot;conditions\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;[status]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;sukses\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;and\&amp;quot;},{\&amp;quot;data\&amp;quot;:\&amp;quot;[data.serial_number]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;a\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;\&amp;quot;}],\&amp;quot;operations\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;next\&amp;quot;,\&amp;quot;function\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;advice\&amp;quot;}]},{\&amp;quot;conditions\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;[status]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;gagal\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;or\&amp;quot;},{\&amp;quot;data\&amp;quot;:\&amp;quot;[data.serial_number]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;0051003619319900\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;\&amp;quot;}],\&amp;quot;operations\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;next\&amp;quot;,\&amp;quot;function\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;reversal\&amp;quot;}]}]}</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:26</date>
+  <millis>1568348846917</millis>
+  <sequence>48</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User Input command_type : purchase</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:26</date>
+  <millis>1568348846920</millis>
+  <sequence>49</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User Input command_type : purchase</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:26</date>
+  <millis>1568348846920</millis>
+  <sequence>50</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User Input command_type : purchase</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:26</date>
+  <millis>1568348846921</millis>
+  <sequence>51</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Input product_id : 26</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:26</date>
+  <millis>1568348846923</millis>
+  <sequence>52</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Input product_id : 26</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:26</date>
+  <millis>1568348846926</millis>
+  <sequence>53</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Input product_id : 26</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:26</date>
+  <millis>1568348846928</millis>
+  <sequence>54</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Send request</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:27</date>
+  <millis>1568348847814</millis>
+  <sequence>57</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/reinard/Documents/Katalon Project/Trunko/Reports/20190913_112708/Biller response config rules/20190913_112708/requests/main/1.har</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="harId">48fc4abb-48ea-4bad-aa07-c92b29b531c2</property>
+</record>
+<record>
+  <date>2019-09-13T11:27:27</date>
+  <millis>1568348847820</millis>
+  <sequence>58</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:27</date>
+  <millis>1568348847822</millis>
+  <sequence>59</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:27</date>
+  <millis>1568348847822</millis>
+  <sequence>60</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Send request</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:27</date>
+  <millis>1568348847824</millis>
+  <sequence>61</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User Get FBS response status : gagal</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:27</date>
+  <millis>1568348847826</millis>
+  <sequence>62</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User Get FBS response status : gagal</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:27</date>
+  <millis>1568348847827</millis>
+  <sequence>63</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User Get FBS response status : gagal</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:27</date>
+  <millis>1568348847828</millis>
+  <sequence>64</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User Get FBS response data.serial_number : 110931978314</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:27</date>
+  <millis>1568348847835</millis>
+  <sequence>65</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User Get FBS response data.serial_number : 110931978314</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:27</date>
+  <millis>1568348847836</millis>
+  <sequence>66</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User Get FBS response data.serial_number : 110931978314</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:27</date>
+  <millis>1568348847837</millis>
+  <sequence>67</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User Get Http response code : 200</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:27</date>
+  <millis>1568348847839</millis>
+  <sequence>69</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:27</date>
+  <millis>1568348847841</millis>
+  <sequence>70</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User Get Http response code : 200</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:27</date>
+  <millis>1568348847841</millis>
+  <sequence>71</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User Get Http response code : 200</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:27</date>
+  <millis>1568348847844</millis>
+  <sequence>72</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User get next command : reversal</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:27</date>
+  <millis>1568348847877</millis>
+  <sequence>74</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:27</date>
+  <millis>1568348847879</millis>
+  <sequence>75</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User get next command : reversal</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:27</date>
+  <millis>1568348847879</millis>
+  <sequence>76</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User get next command : reversal</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:27</date>
+  <millis>1568348847880</millis>
+  <sequence>77</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SCENARIO Rules Mapping Success</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:27</date>
+  <millis>1568348847881</millis>
+  <sequence>78</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : SCENARIO Rules Mapping Success</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:27</date>
+  <millis>1568348847884</millis>
+  <sequence>79</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : SCENARIO Rules Mapping Success</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:27</date>
+  <millis>1568348847886</millis>
+  <sequence>80</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Biller Config Set and Rules set as {\&amp;quot;rules\&amp;quot;:[{\&amp;quot;conditions\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;[status]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;sukses\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;and\&amp;quot;},{\&amp;quot;data\&amp;quot;:\&amp;quot;[data.serial_number]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;a\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;\&amp;quot;}],\&amp;quot;operations\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;next\&amp;quot;,\&amp;quot;function\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;advice\&amp;quot;}]},{\&amp;quot;conditions\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;[status]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;gagal\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;or\&amp;quot;},{\&amp;quot;data\&amp;quot;:\&amp;quot;[data.serial_number]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;0051003619319900\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;\&amp;quot;}],\&amp;quot;operations\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;next\&amp;quot;,\&amp;quot;function\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;reversal\&amp;quot;}]}]}</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:27</date>
+  <millis>1568348847887</millis>
+  <sequence>81</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Biller Config Set and Rules set as {\&amp;quot;rules\&amp;quot;:[{\&amp;quot;conditions\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;[status]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;sukses\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;and\&amp;quot;},{\&amp;quot;data\&amp;quot;:\&amp;quot;[data.serial_number]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;a\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;\&amp;quot;}],\&amp;quot;operations\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;next\&amp;quot;,\&amp;quot;function\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;advice\&amp;quot;}]},{\&amp;quot;conditions\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;[status]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;gagal\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;or\&amp;quot;},{\&amp;quot;data\&amp;quot;:\&amp;quot;[data.serial_number]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;0051003619319900\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;\&amp;quot;}],\&amp;quot;operations\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;next\&amp;quot;,\&amp;quot;function\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;reversal\&amp;quot;}]}]}</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:27</date>
+  <millis>1568348847888</millis>
+  <sequence>82</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Biller Config Set and Rules set as {\&amp;quot;rules\&amp;quot;:[{\&amp;quot;conditions\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;[status]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;sukses\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;and\&amp;quot;},{\&amp;quot;data\&amp;quot;:\&amp;quot;[data.serial_number]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;a\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;\&amp;quot;}],\&amp;quot;operations\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;next\&amp;quot;,\&amp;quot;function\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;advice\&amp;quot;}]},{\&amp;quot;conditions\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;[status]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;gagal\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;or\&amp;quot;},{\&amp;quot;data\&amp;quot;:\&amp;quot;[data.serial_number]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;0051003619319900\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;\&amp;quot;}],\&amp;quot;operations\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;next\&amp;quot;,\&amp;quot;function\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;reversal\&amp;quot;}]}]}</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:27</date>
+  <millis>1568348847889</millis>
+  <sequence>83</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User Input command_type : inquiry</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:27</date>
+  <millis>1568348847893</millis>
+  <sequence>84</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User Input command_type : inquiry</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:27</date>
+  <millis>1568348847893</millis>
+  <sequence>85</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User Input command_type : inquiry</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:27</date>
+  <millis>1568348847894</millis>
+  <sequence>86</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Input product_id : 221</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:27</date>
+  <millis>1568348847895</millis>
+  <sequence>87</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Input product_id : 221</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:27</date>
+  <millis>1568348847895</millis>
+  <sequence>88</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Input product_id : 221</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:27</date>
+  <millis>1568348847896</millis>
+  <sequence>89</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Send request</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:28</date>
+  <millis>1568348848904</millis>
+  <sequence>92</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/reinard/Documents/Katalon Project/Trunko/Reports/20190913_112708/Biller response config rules/20190913_112708/requests/main/2.har</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="harId">50c893b2-7c5e-45ba-a6ba-bc62b8765773</property>
+</record>
+<record>
+  <date>2019-09-13T11:27:28</date>
+  <millis>1568348848911</millis>
+  <sequence>93</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:28</date>
+  <millis>1568348848914</millis>
+  <sequence>94</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:28</date>
+  <millis>1568348848914</millis>
+  <sequence>95</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Send request</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:28</date>
+  <millis>1568348848915</millis>
+  <sequence>96</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User Get FBS response status : sukses</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:28</date>
+  <millis>1568348848916</millis>
+  <sequence>97</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User Get FBS response status : sukses</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:28</date>
+  <millis>1568348848917</millis>
+  <sequence>98</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User Get FBS response status : sukses</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:28</date>
+  <millis>1568348848918</millis>
+  <sequence>99</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User Get FBS response data.serial_number : 0051003619319900</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:28</date>
+  <millis>1568348848919</millis>
+  <sequence>100</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User Get FBS response data.serial_number : 0051003619319900</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:28</date>
+  <millis>1568348848919</millis>
+  <sequence>101</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User Get FBS response data.serial_number : 0051003619319900</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:28</date>
+  <millis>1568348848920</millis>
+  <sequence>102</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User Get Http response code : 200</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:28</date>
+  <millis>1568348848923</millis>
+  <sequence>104</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:28</date>
+  <millis>1568348848924</millis>
+  <sequence>105</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User Get Http response code : 200</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:28</date>
+  <millis>1568348848924</millis>
+  <sequence>106</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User Get Http response code : 200</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:28</date>
+  <millis>1568348848930</millis>
+  <sequence>107</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User get next command : reversal</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:28</date>
+  <millis>1568348848951</millis>
+  <sequence>109</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:28</date>
+  <millis>1568348848953</millis>
+  <sequence>110</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User get next command : reversal</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:28</date>
+  <millis>1568348848955</millis>
+  <sequence>111</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User get next command : reversal</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:28</date>
+  <millis>1568348848958</millis>
+  <sequence>112</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SCENARIO Rules Mapping Success</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:28</date>
+  <millis>1568348848960</millis>
+  <sequence>113</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : SCENARIO Rules Mapping Success</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:28</date>
+  <millis>1568348848962</millis>
+  <sequence>114</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : SCENARIO Rules Mapping Success</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:28</date>
+  <millis>1568348848964</millis>
+  <sequence>115</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Biller Config Set and Rules set as {\&amp;quot;rules\&amp;quot;:[{\&amp;quot;conditions\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;[status]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;sukses\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;and\&amp;quot;},{\&amp;quot;data\&amp;quot;:\&amp;quot;[data.serial_number]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;a\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;\&amp;quot;}],\&amp;quot;operations\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;next\&amp;quot;,\&amp;quot;function\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;advice\&amp;quot;}]},{\&amp;quot;conditions\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;[status]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;gagal\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;or\&amp;quot;},{\&amp;quot;data\&amp;quot;:\&amp;quot;[data.serial_number]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;0051003619319900\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;\&amp;quot;}],\&amp;quot;operations\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;next\&amp;quot;,\&amp;quot;function\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;reversal\&amp;quot;}]}]}</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:28</date>
+  <millis>1568348848965</millis>
+  <sequence>116</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Biller Config Set and Rules set as {\&amp;quot;rules\&amp;quot;:[{\&amp;quot;conditions\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;[status]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;sukses\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;and\&amp;quot;},{\&amp;quot;data\&amp;quot;:\&amp;quot;[data.serial_number]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;a\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;\&amp;quot;}],\&amp;quot;operations\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;next\&amp;quot;,\&amp;quot;function\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;advice\&amp;quot;}]},{\&amp;quot;conditions\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;[status]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;gagal\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;or\&amp;quot;},{\&amp;quot;data\&amp;quot;:\&amp;quot;[data.serial_number]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;0051003619319900\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;\&amp;quot;}],\&amp;quot;operations\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;next\&amp;quot;,\&amp;quot;function\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;reversal\&amp;quot;}]}]}</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:28</date>
+  <millis>1568348848966</millis>
+  <sequence>117</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Biller Config Set and Rules set as {\&amp;quot;rules\&amp;quot;:[{\&amp;quot;conditions\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;[status]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;sukses\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;and\&amp;quot;},{\&amp;quot;data\&amp;quot;:\&amp;quot;[data.serial_number]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;a\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;\&amp;quot;}],\&amp;quot;operations\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;next\&amp;quot;,\&amp;quot;function\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;advice\&amp;quot;}]},{\&amp;quot;conditions\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;[status]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;gagal\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;or\&amp;quot;},{\&amp;quot;data\&amp;quot;:\&amp;quot;[data.serial_number]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;0051003619319900\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;\&amp;quot;}],\&amp;quot;operations\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;next\&amp;quot;,\&amp;quot;function\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;reversal\&amp;quot;}]}]}</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:28</date>
+  <millis>1568348848967</millis>
+  <sequence>118</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User Input command_type : reversal</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:28</date>
+  <millis>1568348848969</millis>
+  <sequence>119</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User Input command_type : reversal</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:28</date>
+  <millis>1568348848970</millis>
+  <sequence>120</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User Input command_type : reversal</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:28</date>
+  <millis>1568348848971</millis>
+  <sequence>121</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Input product_id : 175</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:28</date>
+  <millis>1568348848975</millis>
+  <sequence>122</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Input product_id : 175</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:28</date>
+  <millis>1568348848976</millis>
+  <sequence>123</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Input product_id : 175</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:28</date>
+  <millis>1568348848977</millis>
+  <sequence>124</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Send request</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:29</date>
+  <millis>1568348849611</millis>
+  <sequence>127</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/reinard/Documents/Katalon Project/Trunko/Reports/20190913_112708/Biller response config rules/20190913_112708/requests/main/3.har</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="harId">82d3d5f7-9db1-4f3f-bbfa-a0a0169b6f02</property>
+</record>
+<record>
+  <date>2019-09-13T11:27:29</date>
+  <millis>1568348849616</millis>
+  <sequence>128</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:29</date>
+  <millis>1568348849617</millis>
+  <sequence>129</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:29</date>
+  <millis>1568348849617</millis>
+  <sequence>130</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Send request</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:29</date>
+  <millis>1568348849619</millis>
+  <sequence>131</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User Get FBS response status : sukses</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:29</date>
+  <millis>1568348849620</millis>
+  <sequence>132</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User Get FBS response status : sukses</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:29</date>
+  <millis>1568348849620</millis>
+  <sequence>133</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User Get FBS response status : sukses</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:29</date>
+  <millis>1568348849622</millis>
+  <sequence>134</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User Get FBS response data.serial_number : serial</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:29</date>
+  <millis>1568348849624</millis>
+  <sequence>135</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User Get FBS response data.serial_number : serial</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:29</date>
+  <millis>1568348849624</millis>
+  <sequence>136</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User Get FBS response data.serial_number : serial</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:29</date>
+  <millis>1568348849627</millis>
+  <sequence>137</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User Get Http response code : 200</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:29</date>
+  <millis>1568348849628</millis>
+  <sequence>139</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:29</date>
+  <millis>1568348849629</millis>
+  <sequence>140</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User Get Http response code : 200</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:29</date>
+  <millis>1568348849629</millis>
+  <sequence>141</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User Get Http response code : 200</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:29</date>
+  <millis>1568348849630</millis>
+  <sequence>142</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User get next command : null</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:29</date>
+  <millis>1568348849649</millis>
+  <sequence>144</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:29</date>
+  <millis>1568348849650</millis>
+  <sequence>145</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User get next command : null</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:29</date>
+  <millis>1568348849650</millis>
+  <sequence>146</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User get next command : null</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:29</date>
+  <millis>1568348849651</millis>
+  <sequence>147</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SCENARIO Rules Mapping Success</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:29</date>
+  <millis>1568348849652</millis>
+  <sequence>148</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : SCENARIO Rules Mapping Success</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:29</date>
+  <millis>1568348849655</millis>
+  <sequence>149</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : SCENARIO Rules Mapping Success</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:29</date>
+  <millis>1568348849656</millis>
+  <sequence>150</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Biller Config Set and Rules set as {\&amp;quot;rules\&amp;quot;:[{\&amp;quot;conditions\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;[status]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;sukses\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;and\&amp;quot;},{\&amp;quot;data\&amp;quot;:\&amp;quot;[data.serial_number]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;a\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;\&amp;quot;}],\&amp;quot;operations\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;next\&amp;quot;,\&amp;quot;function\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;advice\&amp;quot;}]},{\&amp;quot;conditions\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;[status]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;gagal\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;or\&amp;quot;},{\&amp;quot;data\&amp;quot;:\&amp;quot;[data.serial_number]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;0051003619319900\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;\&amp;quot;}],\&amp;quot;operations\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;next\&amp;quot;,\&amp;quot;function\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;reversal\&amp;quot;}]}]}</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:29</date>
+  <millis>1568348849657</millis>
+  <sequence>151</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Biller Config Set and Rules set as {\&amp;quot;rules\&amp;quot;:[{\&amp;quot;conditions\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;[status]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;sukses\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;and\&amp;quot;},{\&amp;quot;data\&amp;quot;:\&amp;quot;[data.serial_number]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;a\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;\&amp;quot;}],\&amp;quot;operations\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;next\&amp;quot;,\&amp;quot;function\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;advice\&amp;quot;}]},{\&amp;quot;conditions\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;[status]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;gagal\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;or\&amp;quot;},{\&amp;quot;data\&amp;quot;:\&amp;quot;[data.serial_number]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;0051003619319900\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;\&amp;quot;}],\&amp;quot;operations\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;next\&amp;quot;,\&amp;quot;function\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;reversal\&amp;quot;}]}]}</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:29</date>
+  <millis>1568348849658</millis>
+  <sequence>152</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Biller Config Set and Rules set as {\&amp;quot;rules\&amp;quot;:[{\&amp;quot;conditions\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;[status]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;sukses\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;and\&amp;quot;},{\&amp;quot;data\&amp;quot;:\&amp;quot;[data.serial_number]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;a\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;\&amp;quot;}],\&amp;quot;operations\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;next\&amp;quot;,\&amp;quot;function\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;advice\&amp;quot;}]},{\&amp;quot;conditions\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;[status]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;gagal\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;or\&amp;quot;},{\&amp;quot;data\&amp;quot;:\&amp;quot;[data.serial_number]\&amp;quot;,\&amp;quot;operator\&amp;quot;:\&amp;quot;equal\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;0051003619319900\&amp;quot;,\&amp;quot;logic\&amp;quot;:\&amp;quot;\&amp;quot;}],\&amp;quot;operations\&amp;quot;:[{\&amp;quot;data\&amp;quot;:\&amp;quot;next\&amp;quot;,\&amp;quot;function\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;value\&amp;quot;:\&amp;quot;reversal\&amp;quot;}]}]}</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:29</date>
+  <millis>1568348849659</millis>
+  <sequence>153</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User Input command_type : reversal</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:29</date>
+  <millis>1568348849662</millis>
+  <sequence>154</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User Input command_type : reversal</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:29</date>
+  <millis>1568348849662</millis>
+  <sequence>155</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User Input command_type : reversal</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:29</date>
+  <millis>1568348849663</millis>
+  <sequence>156</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Input product_id : 26</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:29</date>
+  <millis>1568348849664</millis>
+  <sequence>157</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Input product_id : 26</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:29</date>
+  <millis>1568348849664</millis>
+  <sequence>158</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Input product_id : 26</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:29</date>
+  <millis>1568348849665</millis>
+  <sequence>159</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Send request</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:30</date>
+  <millis>1568348850489</millis>
+  <sequence>162</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/reinard/Documents/Katalon Project/Trunko/Reports/20190913_112708/Biller response config rules/20190913_112708/requests/main/4.har</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="harId">156b4526-1306-4197-80dd-100d0b9536cb</property>
+</record>
+<record>
+  <date>2019-09-13T11:27:30</date>
+  <millis>1568348850492</millis>
+  <sequence>163</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:30</date>
+  <millis>1568348850493</millis>
+  <sequence>164</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:30</date>
+  <millis>1568348850494</millis>
+  <sequence>165</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Send request</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:30</date>
+  <millis>1568348850495</millis>
+  <sequence>166</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User Get FBS response status : gagal</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:30</date>
+  <millis>1568348850496</millis>
+  <sequence>167</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User Get FBS response status : gagal</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:30</date>
+  <millis>1568348850497</millis>
+  <sequence>168</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User Get FBS response status : gagal</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:30</date>
+  <millis>1568348850498</millis>
+  <sequence>169</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User Get FBS response data.serial_number : a</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:30</date>
+  <millis>1568348850499</millis>
+  <sequence>170</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User Get FBS response data.serial_number : a</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:30</date>
+  <millis>1568348850499</millis>
+  <sequence>171</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User Get FBS response data.serial_number : a</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:30</date>
+  <millis>1568348850501</millis>
+  <sequence>172</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User Get Http response code : 200</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:30</date>
+  <millis>1568348850504</millis>
+  <sequence>174</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:30</date>
+  <millis>1568348850505</millis>
+  <sequence>175</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User Get Http response code : 200</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:30</date>
+  <millis>1568348850505</millis>
+  <sequence>176</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User Get Http response code : 200</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:30</date>
+  <millis>1568348850507</millis>
+  <sequence>177</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : User get next command : reversal</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:30</date>
+  <millis>1568348850534</millis>
+  <sequence>179</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:30</date>
+  <millis>1568348850536</millis>
+  <sequence>180</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User get next command : reversal</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:30</date>
+  <millis>1568348850536</millis>
+  <sequence>181</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : User get next command : reversal</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:30</date>
+  <millis>1568348850537</millis>
+  <sequence>182</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SCENARIO Rules Mapping Success</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:30</date>
+  <millis>1568348850538</millis>
+  <sequence>183</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : SCENARIO Rules Mapping Success</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:30</date>
+  <millis>1568348850711</millis>
+  <sequence>184</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Feature file: &amp;apos;Include/features/Kraken - BM Adapter/Rules Mapping Success.feature&amp;apos; was passed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:30</date>
+  <millis>1568348850711</millis>
+  <sequence>185</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : runFeatureFile(\&amp;quot;Include/features/Kraken - BM Adapter/Rules Mapping Success.feature\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:30</date>
+  <millis>1568348850711</millis>
+  <sequence>186</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Biller response config rules/Rules Mapping Success</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:30</date>
+  <millis>1568348850713</millis>
+  <sequence>187</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Biller response config rules/Rules Mapping Success</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-09-13T11:27:30</date>
+  <millis>1568348850855</millis>
+  <sequence>188</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Biller response config rules</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

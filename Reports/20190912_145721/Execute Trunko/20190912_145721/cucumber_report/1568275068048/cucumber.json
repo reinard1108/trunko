@@ -1,0 +1,1996 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 32,
+        "name": "Biller Config Not Found",
+        "description": "",
+        "id": "trunko;biller-config-not-found;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 67422378,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Biller Config : tidak ada Not Set",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tidak ada Not Set",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.billerLabel(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 755149671,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User Input biller_label : tidak ada",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tidak ada",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2431025130,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45185891,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User Get Http response code : 501",
+            "match": {
+              "arguments": [
+                {
+                  "val": "501",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 142727994,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "message : Biller config not found",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Biller config not found",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.message(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "Biller Config Not Found",
+        "description": "",
+        "id": "trunko;biller-config-not-found;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1627765,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Biller Config : TestBiller Not Set",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestBiller Not Set",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.billerLabel(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2562269,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User Input biller_label : TestBiller",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestBiller",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 908906468,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7760093,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User Get Http response code : 501",
+            "match": {
+              "arguments": [
+                {
+                  "val": "501",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32436638,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "message : Biller config not found",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Biller config not found",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.message(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 45,
+        "name": "Product Mapping Not Found",
+        "description": "",
+        "id": "trunko;product-mapping-not-found;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1323353,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Product Mapping : 2 Config Not Set",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2 Config Not Set",
+                  "offset": 18
+                }
+              ],
+              "location": "Steps.productMapping(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1782035,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User Input biller_label : trunko_test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_test",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2270900,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User Input product_id : 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userInputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1329586683,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4283217,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User Get Http response code : 501",
+            "match": {
+              "arguments": [
+                {
+                  "val": "501",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26233553,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "message : Product mapping not found",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Product mapping not found",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.message(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 46,
+        "name": "Product Mapping Not Found",
+        "description": "",
+        "id": "trunko;product-mapping-not-found;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1097962,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Product Mapping : 300000 Config Not Set",
+            "match": {
+              "arguments": [
+                {
+                  "val": "300000 Config Not Set",
+                  "offset": 18
+                }
+              ],
+              "location": "Steps.productMapping(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1059563,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User Input biller_label : trunko_test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_test",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76310921,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User Input product_id : 300000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "300000",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userInputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1342576435,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10278080,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User Get Http response code : 501",
+            "match": {
+              "arguments": [
+                {
+                  "val": "501",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22798118,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "message : Product mapping not found",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Product mapping not found",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.message(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 59,
+        "name": "Command Type Config Not Found",
+        "description": "",
+        "id": "trunko;command-type-config-not-found;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1869439,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Command Type : test Config Set",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test Config Set",
+                  "offset": 15
+                }
+              ],
+              "location": "Steps.commandType(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3445379,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User Input biller_label : trunko_test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_test",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1152992,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User Input command_type : test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 879132,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Input product_id : 175",
+            "match": {
+              "arguments": [
+                {
+                  "val": "175",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 784946875,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3126011,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "User Get Http response code : 501",
+            "match": {
+              "arguments": [
+                {
+                  "val": "501",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19624473,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "message : Command type api config not Found",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Command type api config not Found",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.message(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 60,
+        "name": "Command Type Config Not Found",
+        "description": "",
+        "id": "trunko;command-type-config-not-found;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1356575,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Command Type : purchase Config Set",
+            "match": {
+              "arguments": [
+                {
+                  "val": "purchase Config Set",
+                  "offset": 15
+                }
+              ],
+              "location": "Steps.commandType(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1548455,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User Input biller_label : trunko_test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_test",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3882705,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User Input command_type : purchase",
+            "match": {
+              "arguments": [
+                {
+                  "val": "purchase",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1493999,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Input product_id : 221",
+            "match": {
+              "arguments": [
+                {
+                  "val": "221",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 619152004,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8050908,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "User Get Http response code : 501",
+            "match": {
+              "arguments": [
+                {
+                  "val": "501",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28524636,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "message : Command type api config not Found",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Command type api config not Found",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.message(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 73,
+        "name": "Product Type Config Not Found",
+        "description": "",
+        "id": "trunko;product-type-config-not-found;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10933408,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "Product Type Not Set",
+            "match": {
+              "location": "Steps.productTypeNotSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2404389,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "User Input biller_label : trunko_test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_test",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5593557,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "User Input command_type : purchase",
+            "match": {
+              "arguments": [
+                {
+                  "val": "purchase",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1267306,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "Input product_id : 175",
+            "match": {
+              "arguments": [
+                {
+                  "val": "175",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 537251780,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7756724,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "User Get Http response code : 501",
+            "match": {
+              "arguments": [
+                {
+                  "val": "501",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21448075,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "message : Product type api config not Found",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Product type api config not Found",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.message(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 102,
+        "name": "Execute Success",
+        "description": "To Test Configurable Command Type and Data mapping",
+        "id": "trunko;execute-success;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5499669,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3353672,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "User Input biller_label : trunko_test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_test",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2428261,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "User Input command_type : advise",
+            "match": {
+              "arguments": [
+                {
+                  "val": "advise",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 837452,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "Input product_id : 175",
+            "match": {
+              "arguments": [
+                {
+                  "val": "175",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1910719,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "Input transaction_id : 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 23
+                }
+              ],
+              "location": "Steps.inputTransactionId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 878211,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "Input transaction_biller_id : 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.inputTransactionBillerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 880186,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "Input remote_product_id : x",
+            "match": {
+              "arguments": [
+                {
+                  "val": "x",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputRemoteProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 732350,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "Input customer_id : 085363783001",
+            "match": {
+              "arguments": [
+                {
+                  "val": "085363783001",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.inputCustomerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 812628,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "Input partner_id : 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputPartnerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 899647,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "Input rawdata : rawdata",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rawdata",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.inputRawdata(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1722984129,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3589908,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23511495,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "Get response_code : 00",
+            "match": {
+              "arguments": [
+                {
+                  "val": "00",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.getResponseCode(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26708565,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "Get transaction_id : 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.getTransactionId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29127396,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "transaction_biller_id : 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.transactionBillerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24617570,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "remote_transaction_id : a",
+            "match": {
+              "arguments": [
+                {
+                  "val": "a",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.remoteTransactionId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38548733,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "remote_product_id : x",
+            "match": {
+              "arguments": [
+                {
+                  "val": "x",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.remoteProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44642699,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "customer_id : 085363783001",
+            "match": {
+              "arguments": [
+                {
+                  "val": "085363783001",
+                  "offset": 14
+                }
+              ],
+              "location": "Steps.customerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49977467,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "serial_number : a",
+            "match": {
+              "arguments": [
+                {
+                  "val": "a",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.serialNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 129607163,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "biller_rescode : 0000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0000",
+                  "offset": 17
+                }
+              ],
+              "location": "Steps.billerRescode(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26844548,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "message : advise message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "advise message",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.message(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 103,
+        "name": "Execute Success",
+        "description": "To Test Configurable Command Type and Data mapping",
+        "id": "trunko;execute-success;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1018074,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 867723,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "User Input biller_label : trunko_test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_test",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 910607,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "User Input command_type : reversal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "reversal",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1022890,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "Input product_id : 175",
+            "match": {
+              "arguments": [
+                {
+                  "val": "175",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 860722,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "Input transaction_id : 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 23
+                }
+              ],
+              "location": "Steps.inputTransactionId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 915205,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "Input transaction_biller_id : 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.inputTransactionBillerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2528550,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "Input remote_product_id : y",
+            "match": {
+              "arguments": [
+                {
+                  "val": "y",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputRemoteProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 792755,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "Input customer_id : 085363783002",
+            "match": {
+              "arguments": [
+                {
+                  "val": "085363783002",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.inputCustomerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1016957,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "Input partner_id : 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputPartnerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1033847,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "Input rawdata : rawdata",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rawdata",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.inputRawdata(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1664118189,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3906775,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14301588,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "Get response_code : 20",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.getResponseCode(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17540075,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "Get transaction_id : 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.getTransactionId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20336375,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "transaction_biller_id : 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.transactionBillerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19492169,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "remote_transaction_id : abc",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.remoteTransactionId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12952872,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "remote_product_id : y",
+            "match": {
+              "arguments": [
+                {
+                  "val": "y",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.remoteProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14659481,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "customer_id : 085363783002",
+            "match": {
+              "arguments": [
+                {
+                  "val": "085363783002",
+                  "offset": 14
+                }
+              ],
+              "location": "Steps.customerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19594925,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "serial_number : serial",
+            "match": {
+              "arguments": [
+                {
+                  "val": "serial",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.serialNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25505608,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "biller_rescode : 9006",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9006",
+                  "offset": 17
+                }
+              ],
+              "location": "Steps.billerRescode(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32147222,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "message : reversal message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "reversal message",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.message(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 104,
+        "name": "Execute Success",
+        "description": "To Test Configurable Command Type and Data mapping",
+        "id": "trunko;execute-success;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21796341,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3815683,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "User Input biller_label : trunko_test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_test",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 845526,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "User Input command_type : inquiry",
+            "match": {
+              "arguments": [
+                {
+                  "val": "inquiry",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4367497,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "Input product_id : 221",
+            "match": {
+              "arguments": [
+                {
+                  "val": "221",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 967300,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "Input transaction_id : 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 23
+                }
+              ],
+              "location": "Steps.inputTransactionId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1160710,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "Input transaction_biller_id : 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.inputTransactionBillerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 913786,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "Input remote_product_id : z",
+            "match": {
+              "arguments": [
+                {
+                  "val": "z",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputRemoteProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1249560,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "Input customer_id : 085363783003",
+            "match": {
+              "arguments": [
+                {
+                  "val": "085363783003",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.inputCustomerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6653071,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "Input partner_id : 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputPartnerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 724030,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "Input rawdata : rawdata",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rawdata",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.inputRawdata(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1076630496,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2315252,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18349993,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "Get response_code : 22",
+            "match": {
+              "arguments": [
+                {
+                  "val": "22",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.getResponseCode(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42350041,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "Get transaction_id : 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.getTransactionId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21110035,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "transaction_biller_id : 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.transactionBillerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18956376,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "remote_transaction_id : 110931978314",
+            "match": {
+              "arguments": [
+                {
+                  "val": "110931978314",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.remoteTransactionId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21336430,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "remote_product_id : z",
+            "match": {
+              "arguments": [
+                {
+                  "val": "z",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.remoteProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18221355,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "customer_id : 085363783003",
+            "match": {
+              "arguments": [
+                {
+                  "val": "085363783003",
+                  "offset": 14
+                }
+              ],
+              "location": "Steps.customerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16511626,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "serial_number : 0051003619319900",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0051003619319900",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.serialNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17233969,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "biller_rescode : 9012",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9012",
+                  "offset": 17
+                }
+              ],
+              "location": "Steps.billerRescode(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22331238,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "message : inquiry message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "inquiry message",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.message(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Trunko",
+    "description": "A set of scenarios to test Trunko",
+    "id": "trunko",
+    "keyword": "Feature",
+    "uri": "/Users/reinard/Documents/Katalon Project/Trunko/Include/features/Kraken - BM Adapter/Execute Trunko.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,326 @@
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("/Users/reinard/Documents/Katalon Project/Trunko/Include/features/Kraken - BM Adapter/Product Mapping Failed.feature");
+formatter.feature({
+  "name": "Product Mapping Failed",
+  "description": "",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@tag"
+    }
+  ]
+});
+formatter.scenarioOutline({
+  "name": "Product Mapping Failed",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@tag1"
+    }
+  ]
+});
+formatter.step({
+  "name": "Command Type : \u003ccommand_type\u003e Config Set",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "Product Mapping : \u003cproduct_id\u003e Config Not Set",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "User Input command_type : \u003ccommand_type\u003e",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "Input product_id : \u003cproduct_id\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "Send request",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "Get response_code : \u003cresponse_code\u003e",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "message : \u003cmessage\u003e",
+  "keyword": "And "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "command_type",
+        "product_id",
+        "response_code",
+        "message"
+      ]
+    },
+    {
+      "cells": [
+        "purchase",
+        "2",
+        "99",
+        "Product mapping not found"
+      ]
+    },
+    {
+      "cells": [
+        "reversal",
+        "3",
+        "99",
+        "Product mapping not found"
+      ]
+    },
+    {
+      "cells": [
+        "advise",
+        "4",
+        "99",
+        "Product mapping not found"
+      ]
+    }
+  ]
+});
+formatter.scenario({
+  "name": "Product Mapping Failed",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@tag"
+    },
+    {
+      "name": "@tag1"
+    }
+  ]
+});
+formatter.step({
+  "name": "Command Type : purchase Config Set",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "Steps.commandType(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Product Mapping : 2 Config Not Set",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.productMapping(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User Input command_type : purchase",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Steps.inputCommandType(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Input product_id : 2",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.inputProductId(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Send request",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.sendRequest()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Get response_code : 99",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Steps.getResponseCode(String)"
+});
+formatter.result({
+  "error_message": "com.kms.katalon.core.exception.StepFailedException: Expected element property value \u002799\u0027 is not equal with actual property value \u002710\u0027\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\n\tat com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)\n\tat com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)\n\tat com.ea.steps.Steps.getResponseCode(Steps.groovy:197)\n\tat ✽.Get response_code : 99(/Users/reinard/Documents/Katalon Project/Trunko/Include/features/Kraken - BM Adapter/Product Mapping Failed.feature:29)\n",
+  "status": "failed"
+});
+formatter.step({
+  "name": "message : Product mapping not found",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.message(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.scenario({
+  "name": "Product Mapping Failed",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@tag"
+    },
+    {
+      "name": "@tag1"
+    }
+  ]
+});
+formatter.step({
+  "name": "Command Type : reversal Config Set",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "Steps.commandType(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Product Mapping : 3 Config Not Set",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.productMapping(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User Input command_type : reversal",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Steps.inputCommandType(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Input product_id : 3",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.inputProductId(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Send request",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.sendRequest()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Get response_code : 99",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Steps.getResponseCode(String)"
+});
+formatter.result({
+  "error_message": "com.kms.katalon.core.exception.StepFailedException: Expected element property value \u002799\u0027 is not equal with actual property value \u002710\u0027\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\n\tat com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)\n\tat com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)\n\tat com.ea.steps.Steps.getResponseCode(Steps.groovy:197)\n\tat ✽.Get response_code : 99(/Users/reinard/Documents/Katalon Project/Trunko/Include/features/Kraken - BM Adapter/Product Mapping Failed.feature:29)\n",
+  "status": "failed"
+});
+formatter.step({
+  "name": "message : Product mapping not found",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.message(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.scenario({
+  "name": "Product Mapping Failed",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@tag"
+    },
+    {
+      "name": "@tag1"
+    }
+  ]
+});
+formatter.step({
+  "name": "Command Type : advise Config Set",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "Steps.commandType(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Product Mapping : 4 Config Not Set",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.productMapping(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User Input command_type : advise",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Steps.inputCommandType(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Input product_id : 4",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.inputProductId(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Send request",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.sendRequest()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Get response_code : 99",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Steps.getResponseCode(String)"
+});

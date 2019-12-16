@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="7.974376">
+<testcase classname="Rules Mapping Success" name="Rules Mapping Success" time="4.345099">
+<system-out><![CDATA[Given Biller Config Set and Rules set as {"rules":[{"conditions":[{"data":"[status]","operator":"equal","value":"sukses","logic":"and"},{"data":"[data.serial_number]","operator":"equal","value":"a","logic":""}],"operations":[{"data":"next","function":"","value":"advice"}]},{"conditions":[{"data":"[status]","operator":"equal","value":"gagal","logic":"or"},{"data":"[data.serial_number]","operator":"equal","value":"0051003619319900","logic":""}],"operations":[{"data":"next","function":"","value":"reversal"}]}]}.passed
+When User Input command_type : advise.......................................passed
+And Input product_id : 175..................................................passed
+And Send request............................................................passed
+And User Get FBS response status : sukses...................................passed
+And User Get FBS response data.serial_number : a............................passed
+Then User Get Http response code : 200......................................passed
+And User get next command : advice..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Rules Mapping Success" name="Rules Mapping Success 2" time="0.984351">
+<system-out><![CDATA[Given Biller Config Set and Rules set as {"rules":[{"conditions":[{"data":"[status]","operator":"equal","value":"sukses","logic":"and"},{"data":"[data.serial_number]","operator":"equal","value":"a","logic":""}],"operations":[{"data":"next","function":"","value":"advice"}]},{"conditions":[{"data":"[status]","operator":"equal","value":"gagal","logic":"or"},{"data":"[data.serial_number]","operator":"equal","value":"0051003619319900","logic":""}],"operations":[{"data":"next","function":"","value":"reversal"}]}]}.passed
+When User Input command_type : purchase.....................................passed
+And Input product_id : 26...................................................passed
+And Send request............................................................passed
+And User Get FBS response status : gagal....................................passed
+And User Get FBS response data.serial_number : 110931978314.................passed
+Then User Get Http response code : 200......................................passed
+And User get next command : reversal........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Rules Mapping Success" name="Rules Mapping Success 3" time="1.072605">
+<system-out><![CDATA[Given Biller Config Set and Rules set as {"rules":[{"conditions":[{"data":"[status]","operator":"equal","value":"sukses","logic":"and"},{"data":"[data.serial_number]","operator":"equal","value":"a","logic":""}],"operations":[{"data":"next","function":"","value":"advice"}]},{"conditions":[{"data":"[status]","operator":"equal","value":"gagal","logic":"or"},{"data":"[data.serial_number]","operator":"equal","value":"0051003619319900","logic":""}],"operations":[{"data":"next","function":"","value":"reversal"}]}]}.passed
+When User Input command_type : inquiry......................................passed
+And Input product_id : 221..................................................passed
+And Send request............................................................passed
+And User Get FBS response status : sukses...................................passed
+And User Get FBS response data.serial_number : 0051003619319900.............passed
+Then User Get Http response code : 200......................................passed
+And User get next command : reversal........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Rules Mapping Success" name="Rules Mapping Success 4" time="0.689181">
+<system-out><![CDATA[Given Biller Config Set and Rules set as {"rules":[{"conditions":[{"data":"[status]","operator":"equal","value":"sukses","logic":"and"},{"data":"[data.serial_number]","operator":"equal","value":"a","logic":""}],"operations":[{"data":"next","function":"","value":"advice"}]},{"conditions":[{"data":"[status]","operator":"equal","value":"gagal","logic":"or"},{"data":"[data.serial_number]","operator":"equal","value":"0051003619319900","logic":""}],"operations":[{"data":"next","function":"","value":"reversal"}]}]}.passed
+When User Input command_type : reversal.....................................passed
+And Input product_id : 175..................................................passed
+And Send request............................................................passed
+And User Get FBS response status : sukses...................................passed
+And User Get FBS response data.serial_number : serial.......................passed
+Then User Get Http response code : 200......................................passed
+And User get next command : null............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Rules Mapping Success" name="Rules Mapping Success 5" time="0.88314">
+<system-out><![CDATA[Given Biller Config Set and Rules set as {"rules":[{"conditions":[{"data":"[status]","operator":"equal","value":"sukses","logic":"and"},{"data":"[data.serial_number]","operator":"equal","value":"a","logic":""}],"operations":[{"data":"next","function":"","value":"advice"}]},{"conditions":[{"data":"[status]","operator":"equal","value":"gagal","logic":"or"},{"data":"[data.serial_number]","operator":"equal","value":"0051003619319900","logic":""}],"operations":[{"data":"next","function":"","value":"reversal"}]}]}.passed
+When User Input command_type : reversal.....................................passed
+And Input product_id : 26...................................................passed
+And Send request............................................................passed
+And User Get FBS response status : gagal....................................passed
+And User Get FBS response data.serial_number : a............................passed
+Then User Get Http response code : 200......................................passed
+And User get next command : reversal........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -21,13 +21,14 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
 
 import internal.GlobalVariable
-
+import keywordpackage.keywords
 import MobileBuiltInKeywords as Mobile
 import WSBuiltInKeywords as WS
 import WebUiBuiltInKeywords as WebUI
 
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.WebDriver
+import org.json.JSONObject
 import org.openqa.selenium.By
 
 import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
@@ -47,6 +48,7 @@ import cucumber.api.java.en.And
 import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
+import groovy.json.JsonSlurper
 
 
 class Steps {
@@ -55,8 +57,22 @@ class Steps {
 	 */
 
 	ResponseObject response
+	JsonSlurper slurper = new JsonSlurper()
+	Map parsedResponse
 
 	/* Given Section */
+	@Given("Biller response with XML Content-Type")
+	def billerResponseWithXMLContentType(){
+	}
+
+	@Given("Biller response with wrong format XML Content-Type")
+	def billerResponseWithWrongFormatXMLContentType(){
+	}
+
+	@Given("Biller Config Set and Rules set as (.*)")
+	def BillerConfigSetAndRulesSet(String rules){
+	}
+
 	@Given("Command Type : (.*)")
 	def commandType(String command_type){
 	}
@@ -91,10 +107,92 @@ class Steps {
 		GlobalVariable.METHOD = Method
 	}
 
+	@And("Content-Type : (.*)")
+	def contentType(String contentType){
+		GlobalVariable.CONTENT_TYPE = contentType
+	}
 
 	/* End Given Section */
 
 	/* When Section */
+	@When("User hit trunko callback with invalid biller")
+	def userHitTrunkoCallbackWithInvalidBiller(){
+		GlobalVariable.BILLER_LABEL = 'no Biller'
+		if(GlobalVariable.METHOD =='POST'){
+			GlobalVariable.PAYLOAD= '{\"data\":\"asd\"}'
+		}
+		else{
+			GlobalVariable.PAYLOAD= 'data[xxx]=1'
+		}
+	}
+
+	@When("User hit trunko callback from ip that is not registered")
+	def userHitTrunkoCallbackFromIpNotRegistered(){
+		GlobalVariable.BILLER_LABEL = 'siganteng'
+		if(GlobalVariable.METHOD =='POST'){
+			GlobalVariable.PAYLOAD= '{\"data\":\"asd\"}'
+		}
+		else{
+			GlobalVariable.PAYLOAD= 'data[xxx]=1'
+		}
+	}
+
+	@When("User hit trunko callback with valid biller")
+	def userHitTrunkoCallbackWithValidBiller(){
+		GlobalVariable.BILLER_LABEL = 'Biller FBS UAT'
+		if(GlobalVariable.CONTENT_TYPE.toString().contains('json') || GlobalVariable.CONTENT_TYPE.toString().contains('xml') || GlobalVariable.CONTENT_TYPE.toString().contains('anything')){
+			GlobalVariable.BILLER_LABEL = 'trunko_callback_2'
+		}
+		else{
+			GlobalVariable.BILLER_LABEL = 'trunko_callback'
+		}
+	}
+
+	@And("User input invalid payload")
+	def userInputInvalidPayload(){
+		if(GlobalVariable.METHOD =='POST'){
+			GlobalVariable.PAYLOAD= '{asdasd:asd}'
+		}
+		else{
+			GlobalVariable.PAYLOAD= 'asdasd'
+		}
+	}
+
+	@And("User input valid payload and send callback")
+	def userInputValidPayload(){
+		if(GlobalVariable.METHOD =='POST'){
+			if(GlobalVariable.CONTENT_TYPE.toString().contains('json')){
+				response = WS.sendRequest(findTestObject('Kraken - BM Adapter/Trunko Callback Payload POST'))
+			}
+			else if(GlobalVariable.CONTENT_TYPE.toString().contains('xml')){
+				response = WS.sendRequest(findTestObject('Kraken - BM Adapter/Trunko Callback Payload POST - xml'))
+			}
+			else if(GlobalVariable.CONTENT_TYPE.toString().contains('urlencoded')){
+				response = WS.sendRequest(findTestObject('Kraken - BM Adapter/Trunko Callback Payload POST - urlencoded'))
+			}
+			else if(GlobalVariable.CONTENT_TYPE.toString().contains('form-data')){
+				response = WS.sendRequest(findTestObject('Kraken - BM Adapter/Trunko Callback Payload POST - form-data'))
+			}
+		}
+		else{
+			response = WS.sendRequest(findTestObject('Kraken - BM Adapter/Trunko Callback Payload GET'))
+		}
+	}
+
+	@And("User input without payload")
+	def userInputWithoutPayload(){
+	}
+
+	@And("User send callback")
+	def userSendCallback(){
+		if(GlobalVariable.METHOD =='POST'){
+			response = WS.sendRequest(findTestObject('Kraken - BM Adapter/Trunko Callback POST'))
+		}
+		else{
+			response = WS.sendRequest(findTestObject('Kraken - BM Adapter/Trunko Callback GET'))
+		}
+	}
+
 	@When("User Input command_type : (.*)")
 	def inputCommandType(String command_type){
 		GlobalVariable.COMMAND_TYPE = command_type
@@ -188,6 +286,8 @@ class Steps {
 			response = WS.sendRequest(findTestObject('API Biller CRUD/Get Biller Config'))
 		else if(GlobalVariable.URL=="https://trunko.sumpahpalapa.com/biller/id/config" && GlobalVariable.METHOD == "POST")
 			response = WS.sendRequest(findTestObject('API Biller CRUD/Update Biller Config'))
+
+		parsedResponse = slurper.parseText(response.getResponseBodyContent())
 	}
 	/* End When Section */
 
@@ -257,6 +357,27 @@ class Steps {
 		WS.verifyElementPropertyValue(response, 'data.message', message)
 	}
 
+	@And("detail : (.*)")
+	def detail(String detail){
+
+		if(detail!="null"){
+			String expectedDetail = detail.replace('\n', '')
+			expectedDetail = expectedDetail.replace(' ', '')
+			//WS.verifyElementPropertyValue(response, 'data.detail', detail)
+
+
+
+			def jsonSlurper = new JsonSlurper()
+			def object = jsonSlurper.parseText(response.getResponseBodyContent())
+			String actualDetail = object.get('data').get('detail')
+			actualDetail = actualDetail.replace(' ', '')
+			WS.verifyMatch(actualDetail, expectedDetail, false)
+		}
+		else{
+			WS.verifyElementPropertyValue(response, 'data.detail', null)
+		}
+	}
+
 	@And("rawdata : (.*)")
 	def rawdata(String rawdata){
 		rawdata = rawdata + '\n'
@@ -279,6 +400,46 @@ class Steps {
 	def billerConfigUpdated(){
 		response = WS.sendRequest(findTestObject('API Biller CRUD/Get Biller Config'))
 		WS.verifyMatch(response.getResponseBodyContent(), GlobalVariable.BODY + "\n", false)
+	}
+
+	@And("User Get FBS response status : (.*)")
+	def userGetFBSResponseStatus(String status){
+	}
+
+	@And("User Get FBS response data.serial_number : (.*)")
+	def userGetFbsResponseSerialNumber(String serial_number){
+	}
+
+	@And("User get next command : (.*)")
+	def userGetNextCommand(String next){
+
+		if(next=='null'){
+			WS.verifyElementPropertyValue(response, 'next', '')
+		}
+		else{
+			WS.verifyElementPropertyValue(response, 'next', next)
+		}
+	}
+
+	@And("User get rawdata in json format")
+	def userGetRawdataInJsonFormat(){
+		def jsonSlurper = new JsonSlurper()
+		def object = jsonSlurper.parseText(response.getResponseBodyContent())
+
+		assert object instanceof Map
+
+		def json = jsonSlurper.parseText(object.get('data').get('rawdata'))
+
+		assert json instanceof Map
+	}
+
+	@And("User get response : (.*)")
+	def userGetResponse(String responseMessage){
+		WS.containsString(response, responseMessage, false)
+	}
+
+	@And ("User verify response map accordingly")
+	def userVerifyResponseMapAccordingly(){
 	}
 	/* End Then Section */
 }

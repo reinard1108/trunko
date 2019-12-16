@@ -1,0 +1,94 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 31,
+        "name": "Biller Label Success",
+        "description": "",
+        "id": "biller-label-success;biller-label-success;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "Biller Label : trunko_test Set",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "User Input biller_label : trunko_test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_test",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "Get response_code : 00",
+            "match": {
+              "arguments": [
+                {
+                  "val": "00",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.getResponseCode(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Biller Label Success",
+    "description": "",
+    "id": "biller-label-success",
+    "keyword": "Feature",
+    "uri": "/Users/reinard/Documents/Katalon Project/Trunko/Include/features/Kraken - BM Adapter/Biller Label Success.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
