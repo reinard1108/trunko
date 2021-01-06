@@ -57,6 +57,13 @@ class Biller {
 	def jsonSlurper = new JsonSlurper()
 	def object
 
+	@Given("user get token")
+	def userGetToken(){
+		response = WS.sendRequest(findTestObject("Object Repository/Login Kraken"))
+		object = jsonSlurper.parseText(response.getResponseBodyContent())
+		GlobalVariable.TOKEN = object.token
+	}
+	
 	@Given("feature : (.*)")
 	def feature(String feature){
 		GlobalVariable.FEATURE = feature
@@ -75,6 +82,7 @@ class Biller {
 	@Given("api name : (.*)")
 	def apiName(String api_name){
 		GlobalVariable.API_NAME = api_name
+		print GlobalVariable.FEATURE
 	}
 
 	@When("user input content type : (.*)")
@@ -128,4 +136,5 @@ class Biller {
 	def userGetErrorMessage(String message){
 		WS.containsString(response, message, false)
 	}
+	
 }

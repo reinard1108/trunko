@@ -91,3 +91,10 @@ Feature: Title of your feature
       | post   | application/xml                   |                200 | success  |
       | post   | application/x-www-form-urlencoded |                200 | success  |
       | post   | multipart/form-data               |                200 | success  |
+
+	@TestCaseKey=BPA-T1747
+  Scenario: change default success message to "OK"
+    Given biller : Biller FBS UAT
+    And biller config set
+    When User hit trunko callback with valid request
+    Then User default success response "OK"

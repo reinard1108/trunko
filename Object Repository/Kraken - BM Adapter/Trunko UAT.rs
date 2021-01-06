@@ -9,7 +9,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n\t\&quot;command_type\&quot;: \&quot;${COMMAND_TYPE}\&quot;, \n    \&quot;transaction_id\&quot;: ${TRANSACTION_ID},\n\t\&quot;transaction_biller_id\&quot;: ${TRANSACTION_BILLER_ID},\n\t\&quot;remote_transaction_id\&quot;: \&quot;\&quot;, \n\t\&quot;remote_product_id\&quot;: \&quot;${REMOTE_PRODUCT_ID}\&quot;, \n\t\&quot;customer_id\&quot;: \&quot;${CUSTOMER_ID}\&quot;,\n\t\&quot;partner_id\&quot;: ${PARTNER_ID},\n    \&quot;product_id\&quot;: ${PRODUCT_ID},\n    \&quot;biller_id\&quot;: ${BILLER_ID},\n\t\&quot;biller_label\&quot;: \&quot;${BILLER_LABEL}\&quot;,\n\t\&quot;counter\&quot;: 20,\n\t\&quot;rawdata\&quot;: \&quot;${RAWDATA}\&quot; \n}&quot;,
+  &quot;text&quot;: &quot;{\n\t\&quot;command_type\&quot;: \&quot;${COMMAND_TYPE}\&quot;, \n    \&quot;transaction_id\&quot;: ${TRANSACTION_ID},\n\t\&quot;transaction_biller_id\&quot;: ${TRANSACTION_BILLER_ID},\n\t\&quot;remote_transaction_id\&quot;: \&quot;${REMOTE_TRANSACTION_ID}\&quot;, \n\t\&quot;remote_product_id\&quot;: \&quot;${REMOTE_PRODUCT_ID}\&quot;, \n\t\&quot;customer_id\&quot;: \&quot;${CUSTOMER_ID}\&quot;,\n\t\&quot;partner_id\&quot;: ${PARTNER_ID},\n    \&quot;product_id\&quot;: ${PRODUCT_ID},\n    \&quot;biller_id\&quot;: ${BILLER_ID},\n\t\&quot;biller_label\&quot;: \&quot;${BILLER_LABEL}\&quot;,\n\t\&quot;counter\&quot;: 20,\n\t\&quot;rawdata\&quot;: \&quot;${RAWDATA}\&quot; ,\n\t\&quot;parameters\&quot;:\&quot;${PARAMETERS}\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -105,6 +105,20 @@
       <id>2ea091b7-d542-4b9a-84b4-e9389a5f8cb2</id>
       <masked>false</masked>
       <name>RAWDATA</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.PARAMETERS</defaultValue>
+      <description></description>
+      <id>0aef6cc6-23b5-45f3-b8e0-b054670609ef</id>
+      <masked>false</masked>
+      <name>PARAMETERS</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.REMOTE_TRANSACTION_ID</defaultValue>
+      <description></description>
+      <id>bd53acfb-c676-4c1a-b233-04e2d1322e8f</id>
+      <masked>false</masked>
+      <name>REMOTE_TRANSACTION_ID</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

@@ -1,0 +1,6947 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Biller Config Not Found",
+        "description": "",
+        "id": "trunko;biller-config-not-found;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18392737,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Biller Config : tidak ada Not Set",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tidak ada Not Set",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.billerLabel(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1143507781,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Input biller_label : tidak ada",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tidak ada",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2661205333,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16722718,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Get Http response code : 501",
+            "match": {
+              "arguments": [
+                {
+                  "val": "501",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 36677181,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "message : Biller config not found",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Biller config not found",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.message(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Biller Config Not Found",
+        "description": "",
+        "id": "trunko;biller-config-not-found;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1506453,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Biller Config : TestBiller Not Set",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestBiller Not Set",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.billerLabel(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3646792,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Input biller_label : TestBiller",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestBiller",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 374650958,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5921903,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Get Http response code : 501",
+            "match": {
+              "arguments": [
+                {
+                  "val": "501",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26707948,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "message : Biller config not found",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Biller config not found",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.message(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Product Mapping Not Found",
+        "description": "",
+        "id": "trunko;product-mapping-not-found;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1377971,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Product Mapping : 2 Config Not Set",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2 Config Not Set",
+                  "offset": 18
+                }
+              ],
+              "location": "Steps.productMapping(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1576538,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User Input biller_label : trunko_test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_test",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1235178,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User Input product_id : 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userInputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 502901797,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3744078,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User Get Http response code : 501",
+            "match": {
+              "arguments": [
+                {
+                  "val": "501",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20118407,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "message : Product mapping not found",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Product mapping not found",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.message(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Product Mapping Not Found",
+        "description": "",
+        "id": "trunko;product-mapping-not-found;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1566548,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Product Mapping : 300000 Config Not Set",
+            "match": {
+              "arguments": [
+                {
+                  "val": "300000 Config Not Set",
+                  "offset": 18
+                }
+              ],
+              "location": "Steps.productMapping(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1355087,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User Input biller_label : trunko_test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_test",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1578461,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User Input product_id : 300000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "300000",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userInputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 486695009,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6745303,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User Get Http response code : 501",
+            "match": {
+              "arguments": [
+                {
+                  "val": "501",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 61750022,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "message : Product mapping not found",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Product mapping not found",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.message(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 42,
+        "name": "Command Type Config Not Found",
+        "description": "",
+        "id": "trunko;command-type-config-not-found;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1328261,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Command Type : test Config Set",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test Config Set",
+                  "offset": 15
+                }
+              ],
+              "location": "Steps.commandType(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 979911,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User Input biller_label : trunko_test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_test",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1323395,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User Input command_type : test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1094450,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Input product_id : 175",
+            "match": {
+              "arguments": [
+                {
+                  "val": "175",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 505224303,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3294080,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User Get Http response code : 501",
+            "match": {
+              "arguments": [
+                {
+                  "val": "501",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18647390,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "message : Command type config not found",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Command type config not found",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.message(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 55,
+        "name": "Product Type Config Not Found",
+        "description": "",
+        "id": "trunko;product-type-config-not-found;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1260459,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Product Type Not Set",
+            "match": {
+              "location": "Steps.productTypeNotSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1002424,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User Input biller_label : trunko_test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_test",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1163823,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User Input command_type : purchase",
+            "match": {
+              "arguments": [
+                {
+                  "val": "purchase",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1351174,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Input product_id : 175",
+            "match": {
+              "arguments": [
+                {
+                  "val": "175",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 405277484,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2819901,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User Get Http response code : 501",
+            "match": {
+              "arguments": [
+                {
+                  "val": "501",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17424372,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "message : Product type config not found",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Product type config not found",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.message(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 56,
+        "name": "Product Type Config Not Found",
+        "description": "",
+        "id": "trunko;product-type-config-not-found;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 912295,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Product Type Not Set",
+            "match": {
+              "location": "Steps.productTypeNotSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 843041,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User Input biller_label : trunko_test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_test",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2040851,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User Input command_type : purchase",
+            "match": {
+              "arguments": [
+                {
+                  "val": "purchase",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 982149,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Input product_id : 221",
+            "match": {
+              "arguments": [
+                {
+                  "val": "221",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 400273763,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5779845,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User Get Http response code : 501",
+            "match": {
+              "arguments": [
+                {
+                  "val": "501",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22275950,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "message : Product type config not found",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Product type config not found",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.message(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 69,
+        "name": "new error 501: Pending, waiting Biller\u0027s callback",
+        "description": "",
+        "id": "trunko;new-error-501:-pending--waiting-biller-s-callback;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1093552,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "Product Type Not Set",
+            "match": {
+              "location": "Steps.productTypeNotSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1321369,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "User Input biller_label : trunko_171227693",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_171227693",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1868446,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "User Input command_type : advice",
+            "match": {
+              "arguments": [
+                {
+                  "val": "advice",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1570848,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "Input product_id : 175",
+            "match": {
+              "arguments": [
+                {
+                  "val": "175",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 394010885,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2380687,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "User Get Http response code : 501",
+            "match": {
+              "arguments": [
+                {
+                  "val": "501",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18530096,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "message : Pending, waiting Biller\u0027s callback",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pending, waiting Biller\u0027s callback",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.message(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 97,
+        "name": "Execute Success",
+        "description": "",
+        "id": "trunko;execute-success;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 666850,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 918638,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "User Input biller_label : trunko_test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_test",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 891148,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "User Input command_type : advise",
+            "match": {
+              "arguments": [
+                {
+                  "val": "advise",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 992866,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "Input product_id : 175",
+            "match": {
+              "arguments": [
+                {
+                  "val": "175",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 555109,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "Input transaction_id : 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 23
+                }
+              ],
+              "location": "Steps.inputTransactionId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 806119,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "Input transaction_biller_id : 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.inputTransactionBillerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 858513,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "Input remote_product_id : PKREG60WS",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PKREG60WS",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputRemoteProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 863880,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "Input customer_id : 085363783001",
+            "match": {
+              "arguments": [
+                {
+                  "val": "085363783001",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.inputCustomerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 709635,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "Input partner_id : 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputPartnerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 795467,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "Input rawdata : rawdata",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rawdata",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.inputRawdata(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 533545386,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1963093,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15686907,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "Get response_code : 00",
+            "match": {
+              "arguments": [
+                {
+                  "val": "00",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.getResponseCode(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17620189,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "Get transaction_id : 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.getTransactionId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16852544,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "transaction_biller_id : 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.transactionBillerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18123877,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "remote_transaction_id : a",
+            "match": {
+              "arguments": [
+                {
+                  "val": "a",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.remoteTransactionId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16345811,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "remote_product_id : PKREG60WS",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PKREG60WS",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.remoteProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16006882,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "customer_id : 085363783001",
+            "match": {
+              "arguments": [
+                {
+                  "val": "085363783001",
+                  "offset": 14
+                }
+              ],
+              "location": "Steps.customerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19408271,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "serial_number : a",
+            "match": {
+              "arguments": [
+                {
+                  "val": "a",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.serialNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19849644,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "biller_rescode : 0000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0000",
+                  "offset": 17
+                }
+              ],
+              "location": "Steps.billerRescode(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13442214,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "message : advise message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "advise message",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.message(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14744418,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "detail : null",
+            "match": {
+              "arguments": [
+                {
+                  "val": "null",
+                  "offset": 9
+                }
+              ],
+              "location": "Steps.detail(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 98,
+        "name": "Execute Success",
+        "description": "",
+        "id": "trunko;execute-success;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 886067,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 747600,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "User Input biller_label : trunko_test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_test",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 866784,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "User Input command_type : reversal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "reversal",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 843201,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "Input product_id : 175",
+            "match": {
+              "arguments": [
+                {
+                  "val": "175",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 771320,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "Input transaction_id : 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 23
+                }
+              ],
+              "location": "Steps.inputTransactionId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 814370,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "Input transaction_biller_id : 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.inputTransactionBillerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 794522,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "Input remote_product_id : PKREG60WS",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PKREG60WS",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputRemoteProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 757507,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "Input customer_id : 085363783002",
+            "match": {
+              "arguments": [
+                {
+                  "val": "085363783002",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.inputCustomerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 569832,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "Input partner_id : 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputPartnerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 809817,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "Input rawdata : rawdata",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rawdata",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.inputRawdata(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 500523196,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2666236,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18082722,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "Get response_code : 20",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.getResponseCode(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14747218,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "Get transaction_id : 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.getTransactionId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19720861,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "transaction_biller_id : 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.transactionBillerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20211852,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "remote_transaction_id : abc",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.remoteTransactionId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30115940,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "remote_product_id : PKREG60WS",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PKREG60WS",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.remoteProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20351305,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "customer_id : 085363783002",
+            "match": {
+              "arguments": [
+                {
+                  "val": "085363783002",
+                  "offset": 14
+                }
+              ],
+              "location": "Steps.customerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29489655,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "serial_number : serial",
+            "match": {
+              "arguments": [
+                {
+                  "val": "serial",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.serialNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17943040,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "biller_rescode : 9006",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9006",
+                  "offset": 17
+                }
+              ],
+              "location": "Steps.billerRescode(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18703920,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "message : reversal message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "reversal message",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.message(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18775183,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "detail : null",
+            "match": {
+              "arguments": [
+                {
+                  "val": "null",
+                  "offset": 9
+                }
+              ],
+              "location": "Steps.detail(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 99,
+        "name": "Execute Success",
+        "description": "",
+        "id": "trunko;execute-success;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3344248,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 901121,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "User Input biller_label : trunko_test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_test",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 882012,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "User Input command_type : inquiry",
+            "match": {
+              "arguments": [
+                {
+                  "val": "inquiry",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 898860,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "Input product_id : 221",
+            "match": {
+              "arguments": [
+                {
+                  "val": "221",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 792303,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "Input transaction_id : 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 23
+                }
+              ],
+              "location": "Steps.inputTransactionId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 809076,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "Input transaction_biller_id : 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.inputTransactionBillerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 893688,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "Input remote_product_id : testPdam",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testPdam",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputRemoteProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 788998,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "Input customer_id : 085363783003",
+            "match": {
+              "arguments": [
+                {
+                  "val": "085363783003",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.inputCustomerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 774499,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "Input partner_id : 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputPartnerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6303659,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "Input rawdata : rawdata",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rawdata",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.inputRawdata(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 491454579,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2437632,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20736786,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "Get response_code : 22",
+            "match": {
+              "arguments": [
+                {
+                  "val": "22",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.getResponseCode(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60183922,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "Get transaction_id : 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.getTransactionId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14977011,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "transaction_biller_id : 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.transactionBillerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14326756,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "remote_transaction_id : 110931978314",
+            "match": {
+              "arguments": [
+                {
+                  "val": "110931978314",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.remoteTransactionId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11523553,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "remote_product_id : testPdam",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testPdam",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.remoteProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14180478,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "customer_id : 085363783003",
+            "match": {
+              "arguments": [
+                {
+                  "val": "085363783003",
+                  "offset": 14
+                }
+              ],
+              "location": "Steps.customerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14832203,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "serial_number : 0051003619319900",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0051003619319900",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.serialNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15973572,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "biller_rescode : 9012",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9012",
+                  "offset": 17
+                }
+              ],
+              "location": "Steps.billerRescode(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12203647,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "message : inquiry message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "inquiry message",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.message(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke method replace() on null object\n\tat org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91)\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:48)\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\n\tat org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:35)\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)\n\tat com.ea.steps.Steps.detail(Steps.groovy:378)\n\tat ✽.detail : {acquiring_institution_id\u003d008,admin_charge\u003d0,amount\u003d184000,bill_count\u003d2,bill_repeat_count\u003d2,bills\u003d[{bill_amount\u003d[74000],bill_date\u003d[201709],kubikasi\u003d[527-541],penalty\u003d[0]},{bill_amount\u003d[100000],bill_date\u003d[201708],kubikasi\u003d[527-541],penalty\u003d[10000]}],blth\u003d201708201709,idpel\u003d1998800007,local_trx_date\u003d20171020,local_trx_time\u003d062418,merchant_code\u003d6012,mti\u003d0210,name\u003dSEPULSA2,pan\u003d074003,processing_code\u003d380000,rc\u003d00,retrieval_ref_no\u003d000135739333,rp_tag\u003d184000,settlement_date\u003d20171021,stan\u003d000135739333,transmission_datetime\u003d1020062418}(/Users/alterra/Documents/Katalon Project/Trunko/Include/features/Kraken - BM Adapter/Execute Trunko.feature:93)\n",
+              "duration": 10796475,
+              "status": "failed"
+            },
+            "line": 93,
+            "name": "detail : {acquiring_institution_id\u003d008,admin_charge\u003d0,amount\u003d184000,bill_count\u003d2,bill_repeat_count\u003d2,bills\u003d[{bill_amount\u003d[74000],bill_date\u003d[201709],kubikasi\u003d[527-541],penalty\u003d[0]},{bill_amount\u003d[100000],bill_date\u003d[201708],kubikasi\u003d[527-541],penalty\u003d[10000]}],blth\u003d201708201709,idpel\u003d1998800007,local_trx_date\u003d20171020,local_trx_time\u003d062418,merchant_code\u003d6012,mti\u003d0210,name\u003dSEPULSA2,pan\u003d074003,processing_code\u003d380000,rc\u003d00,retrieval_ref_no\u003d000135739333,rp_tag\u003d184000,settlement_date\u003d20171021,stan\u003d000135739333,transmission_datetime\u003d1020062418}",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{acquiring_institution_id\u003d008,admin_charge\u003d0,amount\u003d184000,bill_count\u003d2,bill_repeat_count\u003d2,bills\u003d[{bill_amount\u003d[74000],bill_date\u003d[201709],kubikasi\u003d[527-541],penalty\u003d[0]},{bill_amount\u003d[100000],bill_date\u003d[201708],kubikasi\u003d[527-541],penalty\u003d[10000]}],blth\u003d201708201709,idpel\u003d1998800007,local_trx_date\u003d20171020,local_trx_time\u003d062418,merchant_code\u003d6012,mti\u003d0210,name\u003dSEPULSA2,pan\u003d074003,processing_code\u003d380000,rc\u003d00,retrieval_ref_no\u003d000135739333,rp_tag\u003d184000,settlement_date\u003d20171021,stan\u003d000135739333,transmission_datetime\u003d1020062418}",
+                  "offset": 9
+                }
+              ],
+              "location": "Steps.detail(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 114,
+        "name": "Response Rules Success",
+        "description": "",
+        "id": "trunko;response-rules-success;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 792029,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 904226,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "User Input biller_label : trunko_test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_test",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 797903,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "User Input command_type : advise",
+            "match": {
+              "arguments": [
+                {
+                  "val": "advise",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 786375,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "Input product_id : 175",
+            "match": {
+              "arguments": [
+                {
+                  "val": "175",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 550271466,
+              "status": "passed"
+            },
+            "line": 106,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 867111,
+              "status": "passed"
+            },
+            "line": 107,
+            "name": "User Get FBS response status : sukses",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sukses",
+                  "offset": 31
+                }
+              ],
+              "location": "Steps.userGetFBSResponseStatus(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 903964,
+              "status": "passed"
+            },
+            "line": 108,
+            "name": "User Get FBS response data.serial_number : a",
+            "match": {
+              "arguments": [
+                {
+                  "val": "a",
+                  "offset": 43
+                }
+              ],
+              "location": "Steps.userGetFbsResponseSerialNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2046214,
+              "status": "passed"
+            },
+            "line": 109,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13443483,
+              "status": "passed"
+            },
+            "line": 110,
+            "name": "User get next command : advice",
+            "match": {
+              "arguments": [
+                {
+                  "val": "advice",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userGetNextCommand(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 115,
+        "name": "Response Rules Success",
+        "description": "",
+        "id": "trunko;response-rules-success;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 747685,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 808807,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "User Input biller_label : trunko_test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_test",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 965643,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "User Input command_type : purchase",
+            "match": {
+              "arguments": [
+                {
+                  "val": "purchase",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 939891,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "Input product_id : 26",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 453306836,
+              "status": "passed"
+            },
+            "line": 106,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 992053,
+              "status": "passed"
+            },
+            "line": 107,
+            "name": "User Get FBS response status : gagal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gagal",
+                  "offset": 31
+                }
+              ],
+              "location": "Steps.userGetFBSResponseStatus(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 752897,
+              "status": "passed"
+            },
+            "line": 108,
+            "name": "User Get FBS response data.serial_number : 110931978314",
+            "match": {
+              "arguments": [
+                {
+                  "val": "110931978314",
+                  "offset": 43
+                }
+              ],
+              "location": "Steps.userGetFbsResponseSerialNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3022082,
+              "status": "passed"
+            },
+            "line": 109,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15839815,
+              "status": "passed"
+            },
+            "line": 110,
+            "name": "User get next command : reversal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "reversal",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userGetNextCommand(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 116,
+        "name": "Response Rules Success",
+        "description": "",
+        "id": "trunko;response-rules-success;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 807435,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 750981,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "User Input biller_label : trunko_test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_test",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 666696,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "User Input command_type : inquiry",
+            "match": {
+              "arguments": [
+                {
+                  "val": "inquiry",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 469064,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "Input product_id : 221",
+            "match": {
+              "arguments": [
+                {
+                  "val": "221",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 489902159,
+              "status": "passed"
+            },
+            "line": 106,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 527076,
+              "status": "passed"
+            },
+            "line": 107,
+            "name": "User Get FBS response status : sukses",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sukses",
+                  "offset": 31
+                }
+              ],
+              "location": "Steps.userGetFBSResponseStatus(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 513962,
+              "status": "passed"
+            },
+            "line": 108,
+            "name": "User Get FBS response data.serial_number : 0051003619319900",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0051003619319900",
+                  "offset": 43
+                }
+              ],
+              "location": "Steps.userGetFbsResponseSerialNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2279276,
+              "status": "passed"
+            },
+            "line": 109,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16771234,
+              "status": "passed"
+            },
+            "line": 110,
+            "name": "User get next command : reversal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "reversal",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userGetNextCommand(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 117,
+        "name": "Response Rules Success",
+        "description": "",
+        "id": "trunko;response-rules-success;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 792319,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 714681,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "User Input biller_label : trunko_test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_test",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 852848,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "User Input command_type : reversal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "reversal",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 764562,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "Input product_id : 175",
+            "match": {
+              "arguments": [
+                {
+                  "val": "175",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 446625114,
+              "status": "passed"
+            },
+            "line": 106,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 530208,
+              "status": "passed"
+            },
+            "line": 107,
+            "name": "User Get FBS response status : sukses",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sukses",
+                  "offset": 31
+                }
+              ],
+              "location": "Steps.userGetFBSResponseStatus(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 479481,
+              "status": "passed"
+            },
+            "line": 108,
+            "name": "User Get FBS response data.serial_number : serial",
+            "match": {
+              "arguments": [
+                {
+                  "val": "serial",
+                  "offset": 43
+                }
+              ],
+              "location": "Steps.userGetFbsResponseSerialNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1674412,
+              "status": "passed"
+            },
+            "line": 109,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12814962,
+              "status": "passed"
+            },
+            "line": 110,
+            "name": "User get next command : null",
+            "match": {
+              "arguments": [
+                {
+                  "val": "null",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userGetNextCommand(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 118,
+        "name": "Response Rules Success",
+        "description": "",
+        "id": "trunko;response-rules-success;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1034107,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1125421,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "User Input biller_label : trunko_test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_test",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 744824,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "User Input command_type : reversal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "reversal",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 457877,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "Input product_id : 26",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 464283277,
+              "status": "passed"
+            },
+            "line": 106,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 644376,
+              "status": "passed"
+            },
+            "line": 107,
+            "name": "User Get FBS response status : gagal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gagal",
+                  "offset": 31
+                }
+              ],
+              "location": "Steps.userGetFBSResponseStatus(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 573073,
+              "status": "passed"
+            },
+            "line": 108,
+            "name": "User Get FBS response data.serial_number : a",
+            "match": {
+              "arguments": [
+                {
+                  "val": "a",
+                  "offset": 43
+                }
+              ],
+              "location": "Steps.userGetFbsResponseSerialNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6584382,
+              "status": "passed"
+            },
+            "line": 109,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15513797,
+              "status": "passed"
+            },
+            "line": 110,
+            "name": "User get next command : reversal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "reversal",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userGetNextCommand(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 131,
+        "name": "Response Rules Failed",
+        "description": "",
+        "id": "trunko;response-rules-failed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 703509,
+              "status": "passed"
+            },
+            "line": 121,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 738602,
+              "status": "passed"
+            },
+            "line": 122,
+            "name": "User Input biller_label : Reinard",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Reinard",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 951362,
+              "status": "passed"
+            },
+            "line": 123,
+            "name": "User Input command_type : advise",
+            "match": {
+              "arguments": [
+                {
+                  "val": "advise",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 768101,
+              "status": "passed"
+            },
+            "line": 124,
+            "name": "Input product_id : 26",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 516191014,
+              "status": "passed"
+            },
+            "line": 125,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1837524,
+              "status": "passed"
+            },
+            "line": 126,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10916480,
+              "status": "passed"
+            },
+            "line": 127,
+            "name": "message : Invalid response mapping",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid response mapping",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.message(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 143,
+        "name": "Convert Biller Response XML to Json Success",
+        "description": "",
+        "id": "trunko;convert-biller-response-xml-to-json-success;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 767095,
+              "status": "passed"
+            },
+            "line": 134,
+            "name": "Biller response with XML Content-Type",
+            "match": {
+              "location": "Steps.billerResponseWithXMLContentType()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 649120,
+              "status": "passed"
+            },
+            "line": 135,
+            "name": "User Input biller_label : Reinard",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Reinard",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 853913,
+              "status": "passed"
+            },
+            "line": 136,
+            "name": "User Input command_type : stock",
+            "match": {
+              "arguments": [
+                {
+                  "val": "stock",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 466556681,
+              "status": "passed"
+            },
+            "line": 137,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1795406,
+              "status": "passed"
+            },
+            "line": 138,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1866594,
+              "status": "passed"
+            },
+            "line": 139,
+            "name": "User get rawdata in json format",
+            "match": {
+              "location": "Steps.userGetRawdataInJsonFormat()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 155,
+        "name": "Convert Biller Response XML to Json Failed",
+        "description": "",
+        "id": "trunko;convert-biller-response-xml-to-json-failed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 539252,
+              "status": "passed"
+            },
+            "line": 146,
+            "name": "Biller response with wrong format XML Content-Type",
+            "match": {
+              "location": "Steps.billerResponseWithWrongFormatXMLContentType()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 521082,
+              "status": "passed"
+            },
+            "line": 147,
+            "name": "User Input biller_label : trunko_test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_test",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 524271,
+              "status": "passed"
+            },
+            "line": 148,
+            "name": "User Input command_type : stock",
+            "match": {
+              "arguments": [
+                {
+                  "val": "stock",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 503275126,
+              "status": "passed"
+            },
+            "line": 149,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1873490,
+              "status": "passed"
+            },
+            "line": 150,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7908078,
+              "status": "passed"
+            },
+            "line": 151,
+            "name": "User get response : Invalid Parse XML Response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid Parse XML Response",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.userGetResponse(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 172,
+        "name": "Function for operation Success",
+        "description": "",
+        "id": "trunko;function-for-operation-success;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 425973,
+              "status": "passed"
+            },
+            "line": 158,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 473401,
+              "status": "passed"
+            },
+            "line": 159,
+            "name": "User Input biller_label : Reinard",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Reinard",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 856392,
+              "status": "passed"
+            },
+            "line": 160,
+            "name": "User Input command_type : purchase",
+            "match": {
+              "arguments": [
+                {
+                  "val": "purchase",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 636125,
+              "status": "passed"
+            },
+            "line": 161,
+            "name": "User Input product_id : 221",
+            "match": {
+              "arguments": [
+                {
+                  "val": "221",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userInputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 461092799,
+              "status": "passed"
+            },
+            "line": 162,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2528942,
+              "status": "passed"
+            },
+            "line": 163,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17361085,
+              "status": "passed"
+            },
+            "line": 164,
+            "name": "remote_transaction_id : lower",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lower",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.remoteTransactionId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16064383,
+              "status": "passed"
+            },
+            "line": 165,
+            "name": "customer_id : replbce",
+            "match": {
+              "arguments": [
+                {
+                  "val": "replbce",
+                  "offset": 14
+                }
+              ],
+              "location": "Steps.customerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18843920,
+              "status": "passed"
+            },
+            "line": 166,
+            "name": "price : 10",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 8
+                }
+              ],
+              "location": "Steps.price(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15069524,
+              "status": "passed"
+            },
+            "line": 167,
+            "name": "amount : 12000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12000",
+                  "offset": 9
+                }
+              ],
+              "location": "Steps.amount(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18079584,
+              "status": "passed"
+            },
+            "line": 168,
+            "name": "User get next command : UPPER",
+            "match": {
+              "arguments": [
+                {
+                  "val": "UPPER",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userGetNextCommand(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 173,
+        "name": "Function for operation Success",
+        "description": "",
+        "id": "trunko;function-for-operation-success;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 742480,
+              "status": "passed"
+            },
+            "line": 158,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 726603,
+              "status": "passed"
+            },
+            "line": 159,
+            "name": "User Input biller_label : Reinard",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Reinard",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 756270,
+              "status": "passed"
+            },
+            "line": 160,
+            "name": "User Input command_type : purchase",
+            "match": {
+              "arguments": [
+                {
+                  "val": "purchase",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1025103,
+              "status": "passed"
+            },
+            "line": 161,
+            "name": "User Input product_id : 175",
+            "match": {
+              "arguments": [
+                {
+                  "val": "175",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userInputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 545807457,
+              "status": "passed"
+            },
+            "line": 162,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2812354,
+              "status": "passed"
+            },
+            "line": 163,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 52516009,
+              "status": "passed"
+            },
+            "line": 164,
+            "name": "remote_transaction_id : apel",
+            "match": {
+              "arguments": [
+                {
+                  "val": "apel",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.remoteTransactionId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21100211,
+              "status": "passed"
+            },
+            "line": 165,
+            "name": "customer_id : concat value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "concat value",
+                  "offset": 14
+                }
+              ],
+              "location": "Steps.customerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18420223,
+              "status": "passed"
+            },
+            "line": 166,
+            "name": "price : 51",
+            "match": {
+              "arguments": [
+                {
+                  "val": "51",
+                  "offset": 8
+                }
+              ],
+              "location": "Steps.price(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17443970,
+              "status": "passed"
+            },
+            "line": 167,
+            "name": "amount : 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 9
+                }
+              ],
+              "location": "Steps.amount(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14111500,
+              "status": "passed"
+            },
+            "line": 168,
+            "name": "User get next command : sukses gag",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sukses gag",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userGetNextCommand(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 187,
+        "name": "Request Rules Success",
+        "description": "",
+        "id": "trunko;request-rules-success;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 805530,
+              "status": "passed"
+            },
+            "line": 176,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 576960,
+              "status": "passed"
+            },
+            "line": 177,
+            "name": "User Input biller_label : Reinard",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Reinard",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 658832,
+              "status": "passed"
+            },
+            "line": 178,
+            "name": "User Input command_type : reversal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "reversal",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 658056,
+              "status": "passed"
+            },
+            "line": 179,
+            "name": "User Input product_id : 26",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userInputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 600408,
+              "status": "passed"
+            },
+            "line": 180,
+            "name": "Input transaction_id : 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 23
+                }
+              ],
+              "location": "Steps.inputTransactionId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 684905638,
+              "status": "passed"
+            },
+            "line": 181,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2332266,
+              "status": "passed"
+            },
+            "line": 182,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15555811,
+              "status": "passed"
+            },
+            "line": 183,
+            "name": "User get next command : success request rules",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success request rules",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userGetNextCommand(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 188,
+        "name": "Request Rules Success",
+        "description": "",
+        "id": "trunko;request-rules-success;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 618389,
+              "status": "passed"
+            },
+            "line": 176,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 607146,
+              "status": "passed"
+            },
+            "line": 177,
+            "name": "User Input biller_label : Reinard",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Reinard",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 723484,
+              "status": "passed"
+            },
+            "line": 178,
+            "name": "User Input command_type : reversal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "reversal",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 642886,
+              "status": "passed"
+            },
+            "line": 179,
+            "name": "User Input product_id : 26",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userInputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 559566,
+              "status": "passed"
+            },
+            "line": 180,
+            "name": "Input transaction_id : 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 23
+                }
+              ],
+              "location": "Steps.inputTransactionId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 533480526,
+              "status": "passed"
+            },
+            "line": 181,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2451639,
+              "status": "passed"
+            },
+            "line": 182,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15856680,
+              "status": "passed"
+            },
+            "line": 183,
+            "name": "User get next command : failed request rules",
+            "match": {
+              "arguments": [
+                {
+                  "val": "failed request rules",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userGetNextCommand(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 189,
+        "name": "Request Rules Success",
+        "description": "",
+        "id": "trunko;request-rules-success;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 485423,
+              "status": "passed"
+            },
+            "line": 176,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 554108,
+              "status": "passed"
+            },
+            "line": 177,
+            "name": "User Input biller_label : stock_test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "stock_test",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 579281,
+              "status": "passed"
+            },
+            "line": 178,
+            "name": "User Input command_type : stock",
+            "match": {
+              "arguments": [
+                {
+                  "val": "stock",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 549838,
+              "status": "passed"
+            },
+            "line": 179,
+            "name": "User Input product_id : 26",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userInputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 618825,
+              "status": "passed"
+            },
+            "line": 180,
+            "name": "Input transaction_id : 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 23
+                }
+              ],
+              "location": "Steps.inputTransactionId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 669878316,
+              "status": "passed"
+            },
+            "line": 181,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1648272,
+              "status": "passed"
+            },
+            "line": 182,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12329848,
+              "status": "passed"
+            },
+            "line": 183,
+            "name": "User get next command : success request rules",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success request rules",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userGetNextCommand(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 190,
+        "name": "Request Rules Success",
+        "description": "",
+        "id": "trunko;request-rules-success;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 462572,
+              "status": "passed"
+            },
+            "line": 176,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 385821,
+              "status": "passed"
+            },
+            "line": 177,
+            "name": "User Input biller_label : stock_test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "stock_test",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 658748,
+              "status": "passed"
+            },
+            "line": 178,
+            "name": "User Input command_type : stock",
+            "match": {
+              "arguments": [
+                {
+                  "val": "stock",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 630748,
+              "status": "passed"
+            },
+            "line": 179,
+            "name": "User Input product_id : 26",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userInputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 437008,
+              "status": "passed"
+            },
+            "line": 180,
+            "name": "Input transaction_id : 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 23
+                }
+              ],
+              "location": "Steps.inputTransactionId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1787038641,
+              "status": "passed"
+            },
+            "line": 181,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2503206,
+              "status": "passed"
+            },
+            "line": 182,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12665813,
+              "status": "passed"
+            },
+            "line": 183,
+            "name": "User get next command : failed request rules",
+            "match": {
+              "arguments": [
+                {
+                  "val": "failed request rules",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userGetNextCommand(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 203,
+        "name": "Request Rules Success",
+        "description": "",
+        "id": "trunko;request-rules-success;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 904911,
+              "status": "passed"
+            },
+            "line": 193,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 494235,
+              "status": "passed"
+            },
+            "line": 194,
+            "name": "User Input biller_label : trunko_171460577",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_171460577",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 505043,
+              "status": "passed"
+            },
+            "line": 195,
+            "name": "User Input command_type : reversal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "reversal",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 476559,
+              "status": "passed"
+            },
+            "line": 196,
+            "name": "Input customer_id : 6281282563",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6281282563",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.inputCustomerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1210340877,
+              "status": "passed"
+            },
+            "line": 197,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2865253,
+              "status": "passed"
+            },
+            "line": 198,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11611079,
+              "status": "passed"
+            },
+            "line": 199,
+            "name": "User get next command : success start_with",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success start_with",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userGetNextCommand(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 204,
+        "name": "Request Rules Success",
+        "description": "",
+        "id": "trunko;request-rules-success;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 435450,
+              "status": "passed"
+            },
+            "line": 193,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 402566,
+              "status": "passed"
+            },
+            "line": 194,
+            "name": "User Input biller_label : trunko_171460577",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_171460577",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 447765,
+              "status": "passed"
+            },
+            "line": 195,
+            "name": "User Input command_type : reversal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "reversal",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 422840,
+              "status": "passed"
+            },
+            "line": 196,
+            "name": "Input customer_id : 1282563755",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1282563755",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.inputCustomerId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 596665718,
+              "status": "passed"
+            },
+            "line": 197,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1676146,
+              "status": "passed"
+            },
+            "line": 198,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14988329,
+              "status": "passed"
+            },
+            "line": 199,
+            "name": "User get next command : success end_with",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success end_with",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userGetNextCommand(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 217,
+        "name": "Request Rules Failed",
+        "description": "",
+        "id": "trunko;request-rules-failed;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1238791,
+              "status": "passed"
+            },
+            "line": 207,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 731294,
+              "status": "passed"
+            },
+            "line": 208,
+            "name": "User Input biller_label : Reinard",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Reinard",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 703055,
+              "status": "passed"
+            },
+            "line": 209,
+            "name": "User Input command_type : advise",
+            "match": {
+              "arguments": [
+                {
+                  "val": "advise",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 755429,
+              "status": "passed"
+            },
+            "line": 210,
+            "name": "User Input product_id : 175",
+            "match": {
+              "arguments": [
+                {
+                  "val": "175",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userInputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 544255842,
+              "status": "passed"
+            },
+            "line": 211,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2245670,
+              "status": "passed"
+            },
+            "line": 212,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14280454,
+              "status": "passed"
+            },
+            "line": 213,
+            "name": "message : Invalid request mapping",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid request mapping",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.message(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 229,
+        "name": "Request using content-type application/x-www-form-urlencoded",
+        "description": "",
+        "id": "trunko;request-using-content-type-application/x-www-form-urlencoded;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 926168,
+              "status": "passed"
+            },
+            "line": 220,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 702181,
+              "status": "passed"
+            },
+            "line": 221,
+            "name": "User Input biller_label : trunko_urlencoded",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_urlencoded",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 720366,
+              "status": "passed"
+            },
+            "line": 222,
+            "name": "User Input command_type : advise",
+            "match": {
+              "arguments": [
+                {
+                  "val": "advise",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 428890,
+              "status": "passed"
+            },
+            "line": 223,
+            "name": "User Input product_id : 26",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userInputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 866279453,
+              "status": "passed"
+            },
+            "line": 224,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1865222,
+              "status": "passed"
+            },
+            "line": 225,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 230,
+        "name": "Request using content-type application/x-www-form-urlencoded",
+        "description": "",
+        "id": "trunko;request-using-content-type-application/x-www-form-urlencoded;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 492446,
+              "status": "passed"
+            },
+            "line": 220,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 368544,
+              "status": "passed"
+            },
+            "line": 221,
+            "name": "User Input biller_label : trunko_urlencoded",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_urlencoded",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 331430,
+              "status": "passed"
+            },
+            "line": 222,
+            "name": "User Input command_type : advise",
+            "match": {
+              "arguments": [
+                {
+                  "val": "advise",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 349090,
+              "status": "passed"
+            },
+            "line": 223,
+            "name": "User Input product_id : 175",
+            "match": {
+              "arguments": [
+                {
+                  "val": "175",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userInputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 300009930,
+              "status": "passed"
+            },
+            "line": 224,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1995067,
+              "status": "passed"
+            },
+            "line": 225,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 243,
+        "name": "Mapping Config not found",
+        "description": "",
+        "id": "trunko;mapping-config-not-found;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 704333,
+              "status": "passed"
+            },
+            "line": 233,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 633073,
+              "status": "passed"
+            },
+            "line": 234,
+            "name": "User Input biller_label : trunko_mapping_config",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_mapping_config",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 705114,
+              "status": "passed"
+            },
+            "line": 235,
+            "name": "User Input command_type : inquiry",
+            "match": {
+              "arguments": [
+                {
+                  "val": "inquiry",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 661307,
+              "status": "passed"
+            },
+            "line": 236,
+            "name": "User Input product_id : 221",
+            "match": {
+              "arguments": [
+                {
+                  "val": "221",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userInputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 603964555,
+              "status": "passed"
+            },
+            "line": 237,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1527303,
+              "status": "passed"
+            },
+            "line": 238,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12291795,
+              "status": "passed"
+            },
+            "line": 239,
+            "name": "message : Mapping config not found",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mapping config not found",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.message(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 244,
+        "name": "Mapping Config not found",
+        "description": "",
+        "id": "trunko;mapping-config-not-found;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3387695,
+              "status": "passed"
+            },
+            "line": 233,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 626445,
+              "status": "passed"
+            },
+            "line": 234,
+            "name": "User Input biller_label : trunko_mapping_config",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_mapping_config",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 578803,
+              "status": "passed"
+            },
+            "line": 235,
+            "name": "User Input command_type : advise",
+            "match": {
+              "arguments": [
+                {
+                  "val": "advise",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 567896,
+              "status": "passed"
+            },
+            "line": 236,
+            "name": "User Input product_id : 26",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userInputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 738864271,
+              "status": "passed"
+            },
+            "line": 237,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1517334,
+              "status": "passed"
+            },
+            "line": 238,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14198710,
+              "status": "passed"
+            },
+            "line": 239,
+            "name": "message : Mapping config not found",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mapping config not found",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.message(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 245,
+        "name": "Mapping Config not found",
+        "description": "",
+        "id": "trunko;mapping-config-not-found;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 505894,
+              "status": "passed"
+            },
+            "line": 233,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 479356,
+              "status": "passed"
+            },
+            "line": 234,
+            "name": "User Input biller_label : trunko_mapping_config",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_mapping_config",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 691213,
+              "status": "passed"
+            },
+            "line": 235,
+            "name": "User Input command_type : advise",
+            "match": {
+              "arguments": [
+                {
+                  "val": "advise",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 830380,
+              "status": "passed"
+            },
+            "line": 236,
+            "name": "User Input product_id : 175",
+            "match": {
+              "arguments": [
+                {
+                  "val": "175",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userInputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 402531288,
+              "status": "passed"
+            },
+            "line": 237,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2057763,
+              "status": "passed"
+            },
+            "line": 238,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12389900,
+              "status": "passed"
+            },
+            "line": 239,
+            "name": "message : Mapping config not found",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mapping config not found",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.message(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 259,
+        "name": "Run all rules condition",
+        "description": "",
+        "id": "trunko;run-all-rules-condition;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 551890,
+              "status": "passed"
+            },
+            "line": 248,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 457703,
+              "status": "passed"
+            },
+            "line": 249,
+            "name": "User Input biller_label : Reinard",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Reinard",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 422885,
+              "status": "passed"
+            },
+            "line": 250,
+            "name": "User Input command_type : purchase",
+            "match": {
+              "arguments": [
+                {
+                  "val": "purchase",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 456090,
+              "status": "passed"
+            },
+            "line": 251,
+            "name": "User Input product_id : 26",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userInputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 463007,
+              "status": "passed"
+            },
+            "line": 252,
+            "name": "Input transaction_id : 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 23
+                }
+              ],
+              "location": "Steps.inputTransactionId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 554811964,
+              "status": "passed"
+            },
+            "line": 253,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4395999,
+              "status": "passed"
+            },
+            "line": 254,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19164336,
+              "status": "passed"
+            },
+            "line": 255,
+            "name": "User get next command : success bosku",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success bosku",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userGetNextCommand(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 273,
+        "name": "Request rules applied for new key \"parameters\"",
+        "description": "",
+        "id": "trunko;request-rules-applied-for-new-key-\"parameters\";;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 897164,
+              "status": "passed"
+            },
+            "line": 262,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 854994,
+              "status": "passed"
+            },
+            "line": 263,
+            "name": "User Input biller_label : trunko_170842794",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_170842794",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 789083,
+              "status": "passed"
+            },
+            "line": 264,
+            "name": "User Input command_type : inquiry",
+            "match": {
+              "arguments": [
+                {
+                  "val": "inquiry",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1047396,
+              "status": "passed"
+            },
+            "line": 265,
+            "name": "User Input product_id : 26",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userInputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 866639,
+              "status": "passed"
+            },
+            "line": 266,
+            "name": "Input parameters : 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputParameters(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 512870622,
+              "status": "passed"
+            },
+            "line": 267,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2765481,
+              "status": "passed"
+            },
+            "line": 268,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19502079,
+              "status": "passed"
+            },
+            "line": 269,
+            "name": "User get next command : success request rules",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success request rules",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userGetNextCommand(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 274,
+        "name": "Request rules applied for new key \"parameters\"",
+        "description": "",
+        "id": "trunko;request-rules-applied-for-new-key-\"parameters\";;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 534685,
+              "status": "passed"
+            },
+            "line": 262,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 465496,
+              "status": "passed"
+            },
+            "line": 263,
+            "name": "User Input biller_label : trunko_170842794",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_170842794",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 468770,
+              "status": "passed"
+            },
+            "line": 264,
+            "name": "User Input command_type : inquiry",
+            "match": {
+              "arguments": [
+                {
+                  "val": "inquiry",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 486681,
+              "status": "passed"
+            },
+            "line": 265,
+            "name": "User Input product_id : 26",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userInputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 407626,
+              "status": "passed"
+            },
+            "line": 266,
+            "name": "Input parameters : 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputParameters(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 582942924,
+              "status": "passed"
+            },
+            "line": 267,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2108513,
+              "status": "passed"
+            },
+            "line": 268,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12756250,
+              "status": "passed"
+            },
+            "line": 269,
+            "name": "User get next command : failed request rules",
+            "match": {
+              "arguments": [
+                {
+                  "val": "failed request rules",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userGetNextCommand(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 275,
+        "name": "Request rules applied for new key \"parameters\"",
+        "description": "",
+        "id": "trunko;request-rules-applied-for-new-key-\"parameters\";;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 780963,
+              "status": "passed"
+            },
+            "line": 262,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 884831,
+              "status": "passed"
+            },
+            "line": 263,
+            "name": "User Input biller_label : trunko_170842794",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_170842794",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 761078,
+              "status": "passed"
+            },
+            "line": 264,
+            "name": "User Input command_type : purchase",
+            "match": {
+              "arguments": [
+                {
+                  "val": "purchase",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2319548,
+              "status": "passed"
+            },
+            "line": 265,
+            "name": "User Input product_id : 26",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userInputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1127194,
+              "status": "passed"
+            },
+            "line": 266,
+            "name": "Input parameters : 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputParameters(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 516837946,
+              "status": "passed"
+            },
+            "line": 267,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2369537,
+              "status": "passed"
+            },
+            "line": 268,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18243234,
+              "status": "passed"
+            },
+            "line": 269,
+            "name": "User get next command : success request rules",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success request rules",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userGetNextCommand(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 276,
+        "name": "Request rules applied for new key \"parameters\"",
+        "description": "",
+        "id": "trunko;request-rules-applied-for-new-key-\"parameters\";;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 566755,
+              "status": "passed"
+            },
+            "line": 262,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 831702,
+              "status": "passed"
+            },
+            "line": 263,
+            "name": "User Input biller_label : trunko_170842794",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_170842794",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 760224,
+              "status": "passed"
+            },
+            "line": 264,
+            "name": "User Input command_type : purchase",
+            "match": {
+              "arguments": [
+                {
+                  "val": "purchase",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 610452,
+              "status": "passed"
+            },
+            "line": 265,
+            "name": "User Input product_id : 26",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userInputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 799999,
+              "status": "passed"
+            },
+            "line": 266,
+            "name": "Input parameters : 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputParameters(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 501165844,
+              "status": "passed"
+            },
+            "line": 267,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1641885,
+              "status": "passed"
+            },
+            "line": 268,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16468875,
+              "status": "passed"
+            },
+            "line": 269,
+            "name": "User get next command : failed request rules",
+            "match": {
+              "arguments": [
+                {
+                  "val": "failed request rules",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userGetNextCommand(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 277,
+        "name": "Request rules applied for new key \"parameters\"",
+        "description": "",
+        "id": "trunko;request-rules-applied-for-new-key-\"parameters\";;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 702472,
+              "status": "passed"
+            },
+            "line": 262,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 704957,
+              "status": "passed"
+            },
+            "line": 263,
+            "name": "User Input biller_label : trunko_170842794",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_170842794",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 619737,
+              "status": "passed"
+            },
+            "line": 264,
+            "name": "User Input command_type : advice",
+            "match": {
+              "arguments": [
+                {
+                  "val": "advice",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 621366,
+              "status": "passed"
+            },
+            "line": 265,
+            "name": "User Input product_id : 26",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userInputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 602913,
+              "status": "passed"
+            },
+            "line": 266,
+            "name": "Input parameters : 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputParameters(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 448559407,
+              "status": "passed"
+            },
+            "line": 267,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1505226,
+              "status": "passed"
+            },
+            "line": 268,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14576196,
+              "status": "passed"
+            },
+            "line": 269,
+            "name": "User get next command : success request rules",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success request rules",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userGetNextCommand(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 278,
+        "name": "Request rules applied for new key \"parameters\"",
+        "description": "",
+        "id": "trunko;request-rules-applied-for-new-key-\"parameters\";;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 392712,
+              "status": "passed"
+            },
+            "line": 262,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 380127,
+              "status": "passed"
+            },
+            "line": 263,
+            "name": "User Input biller_label : trunko_170842794",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_170842794",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 372946,
+              "status": "passed"
+            },
+            "line": 264,
+            "name": "User Input command_type : advice",
+            "match": {
+              "arguments": [
+                {
+                  "val": "advice",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 476946,
+              "status": "passed"
+            },
+            "line": 265,
+            "name": "User Input product_id : 26",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userInputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 621375,
+              "status": "passed"
+            },
+            "line": 266,
+            "name": "Input parameters : 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputParameters(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 442464980,
+              "status": "passed"
+            },
+            "line": 267,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2082850,
+              "status": "passed"
+            },
+            "line": 268,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12780240,
+              "status": "passed"
+            },
+            "line": 269,
+            "name": "User get next command : failed request rules",
+            "match": {
+              "arguments": [
+                {
+                  "val": "failed request rules",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userGetNextCommand(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 279,
+        "name": "Request rules applied for new key \"parameters\"",
+        "description": "",
+        "id": "trunko;request-rules-applied-for-new-key-\"parameters\";;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 478396,
+              "status": "passed"
+            },
+            "line": 262,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 553730,
+              "status": "passed"
+            },
+            "line": 263,
+            "name": "User Input biller_label : trunko_170842794",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_170842794",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 720167,
+              "status": "passed"
+            },
+            "line": 264,
+            "name": "User Input command_type : reversal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "reversal",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 625831,
+              "status": "passed"
+            },
+            "line": 265,
+            "name": "User Input product_id : 26",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userInputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 429490,
+              "status": "passed"
+            },
+            "line": 266,
+            "name": "Input parameters : 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputParameters(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 555558444,
+              "status": "passed"
+            },
+            "line": 267,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2367939,
+              "status": "passed"
+            },
+            "line": 268,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14892808,
+              "status": "passed"
+            },
+            "line": 269,
+            "name": "User get next command : success request rules",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success request rules",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userGetNextCommand(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 280,
+        "name": "Request rules applied for new key \"parameters\"",
+        "description": "",
+        "id": "trunko;request-rules-applied-for-new-key-\"parameters\";;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 807914,
+              "status": "passed"
+            },
+            "line": 262,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 698797,
+              "status": "passed"
+            },
+            "line": 263,
+            "name": "User Input biller_label : trunko_170842794",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_170842794",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 719895,
+              "status": "passed"
+            },
+            "line": 264,
+            "name": "User Input command_type : reversal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "reversal",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 793438,
+              "status": "passed"
+            },
+            "line": 265,
+            "name": "User Input product_id : 26",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userInputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 607902,
+              "status": "passed"
+            },
+            "line": 266,
+            "name": "Input parameters : 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputParameters(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 471355976,
+              "status": "passed"
+            },
+            "line": 267,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1526234,
+              "status": "passed"
+            },
+            "line": 268,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12583297,
+              "status": "passed"
+            },
+            "line": 269,
+            "name": "User get next command : failed request rules",
+            "match": {
+              "arguments": [
+                {
+                  "val": "failed request rules",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userGetNextCommand(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 281,
+        "name": "Request rules applied for new key \"parameters\"",
+        "description": "",
+        "id": "trunko;request-rules-applied-for-new-key-\"parameters\";;10",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 755568,
+              "status": "passed"
+            },
+            "line": 262,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 611336,
+              "status": "passed"
+            },
+            "line": 263,
+            "name": "User Input biller_label : trunko_170842794",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_170842794",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 577720,
+              "status": "passed"
+            },
+            "line": 264,
+            "name": "User Input command_type : stock",
+            "match": {
+              "arguments": [
+                {
+                  "val": "stock",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 489992,
+              "status": "passed"
+            },
+            "line": 265,
+            "name": "User Input product_id : 26",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userInputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 884819,
+              "status": "passed"
+            },
+            "line": 266,
+            "name": "Input parameters : 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputParameters(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 540625486,
+              "status": "passed"
+            },
+            "line": 267,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1637373,
+              "status": "passed"
+            },
+            "line": 268,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10673033,
+              "status": "passed"
+            },
+            "line": 269,
+            "name": "User get next command : success request rules",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success request rules",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userGetNextCommand(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 282,
+        "name": "Request rules applied for new key \"parameters\"",
+        "description": "",
+        "id": "trunko;request-rules-applied-for-new-key-\"parameters\";;11",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 606408,
+              "status": "passed"
+            },
+            "line": 262,
+            "name": "Biller Config Set",
+            "match": {
+              "location": "Steps.BillerConfigSet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 761023,
+              "status": "passed"
+            },
+            "line": 263,
+            "name": "User Input biller_label : trunko_170842794",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trunko_170842794",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.userInputBillerLabel(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 675193,
+              "status": "passed"
+            },
+            "line": 264,
+            "name": "User Input command_type : stock",
+            "match": {
+              "arguments": [
+                {
+                  "val": "stock",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.inputCommandType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 683731,
+              "status": "passed"
+            },
+            "line": 265,
+            "name": "User Input product_id : 26",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userInputProductId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 633570,
+              "status": "passed"
+            },
+            "line": 266,
+            "name": "Input parameters : 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.inputParameters(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 592264003,
+              "status": "passed"
+            },
+            "line": 267,
+            "name": "Send request",
+            "match": {
+              "location": "Steps.sendRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1692395,
+              "status": "passed"
+            },
+            "line": 268,
+            "name": "User Get Http response code : 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "Steps.getHttpResponseCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11865169,
+              "status": "passed"
+            },
+            "line": 269,
+            "name": "User get next command : failed request rules",
+            "match": {
+              "arguments": [
+                {
+                  "val": "failed request rules",
+                  "offset": 24
+                }
+              ],
+              "location": "Steps.userGetNextCommand(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Trunko",
+    "description": "  A set of scenarios to test Trunko",
+    "id": "trunko",
+    "keyword": "Feature",
+    "uri": "/Users/alterra/Documents/Katalon Project/Trunko/Include/features/Kraken - BM Adapter/Execute Trunko.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

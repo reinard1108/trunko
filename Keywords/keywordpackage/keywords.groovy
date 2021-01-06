@@ -78,31 +78,30 @@ class keywords {
 		}
 		return sb.toString();
 	}
-	
+
 	@Keyword
 	def static setManualRestAPIRequests(String endpoint,String requestMethod,String authHeader,String body){
-		
+
 		TestObjectProperty header1 = new TestObjectProperty("Authorization", ConditionType.EQUALS, authHeader)
 		TestObjectProperty header2 = new TestObjectProperty("Content-Type", ConditionType.EQUALS, "application/json")
 		TestObjectProperty header3 = new TestObjectProperty("Accept", ConditionType.EQUALS, "application/json")
 		ArrayList defaultHeaders = Arrays.asList(header1, header2, header3)
-		
+
 		/**
-		* POST requests
-		* @return
-		*/
-		
+		 * POST requests
+		 * @return
+		 */
+
 		RequestObject ro = new RequestObject("objectId")
 		ro.setRestUrl(endpoint)
 		ro.setHttpHeaderProperties(defaultHeaders)
 		ro.setRestRequestMethod(requestMethod)
-		
+
 		if(requestMethod=="POST"){
 			ro.setBodyContent(new HttpTextBodyContent(body))
 		}
-		
+
 		return ro
-		
 	}
 
 	/**

@@ -134,4 +134,14 @@
       <initValue>''</initValue>
       <name>FEATURE</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>PARAMETERS</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>API</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

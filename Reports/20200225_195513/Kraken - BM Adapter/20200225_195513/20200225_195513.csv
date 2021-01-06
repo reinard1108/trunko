@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Kraken - BM Adapter,,,,2020-02-25 19:55:23,2020-02-25 19:55:27,3.801s,FAILED
+,,,,,,,
+Test Cases/Kraken - BM Adapter/Biller Label Failed,,,,2020-02-25 19:55:24,2020-02-25 19:55:25,1.030s,FAILED
+"runFeatureFile(""Include/features/Kraken - BM Adapter/Biller Label Failed.feature"")",,,,2020-02-25 19:55:24,2020-02-25 19:55:25,0.650s,FAILED
+,,,,,,,
+Test Cases/Kraken - BM Adapter/Biller Label Success,,,,2020-02-25 19:55:25,2020-02-25 19:55:25,0.388s,FAILED
+"runFeatureFile(""Include/features/Kraken - BM Adapter/Biller Label Success.feature"")",,,,2020-02-25 19:55:25,2020-02-25 19:55:25,0.157s,FAILED
+,,,,,,,
+Test Cases/Kraken - BM Adapter/Command Type Failed,,,,2020-02-25 19:55:25,2020-02-25 19:55:25,0.427s,FAILED
+"runFeatureFile(""Include/features/Kraken - BM Adapter/Command Type Failed.feature"")",,,,2020-02-25 19:55:25,2020-02-25 19:55:25,0.089s,FAILED
+,,,,,,,
+Test Cases/Kraken - BM Adapter/Command Type Success,,,,2020-02-25 19:55:25,2020-02-25 19:55:26,0.373s,FAILED
+"runFeatureFile(""Include/features/Kraken - BM Adapter/Command Type Success.feature"")",,,,2020-02-25 19:55:26,2020-02-25 19:55:26,0.162s,FAILED
+,,,,,,,
+Test Cases/Kraken - BM Adapter/Product Mapping Failed,,,,2020-02-25 19:55:26,2020-02-25 19:55:26,0.347s,FAILED
+"runFeatureFile(""Include/features/Kraken - BM Adapter/Product Mapping Failed.feature"")",,,,2020-02-25 19:55:26,2020-02-25 19:55:26,0.147s,FAILED
+,,,,,,,
+Test Cases/Kraken - BM Adapter/Product Mapping Success,,,,2020-02-25 19:55:26,2020-02-25 19:55:27,0.376s,FAILED
+"runFeatureFile(""Include/features/Kraken - BM Adapter/Product Mapping Success.feature"")",,,,2020-02-25 19:55:27,2020-02-25 19:55:27,0.098s,FAILED
+,,,,,,,
+Test Cases/Kraken - BM Adapter/Request - Response Mapping Success,,,,2020-02-25 19:55:27,2020-02-25 19:55:27,0.361s,FAILED
+"runFeatureFile(""Include/features/Kraken - BM Adapter/Request - Response Mapping Success.feature"")",,,,2020-02-25 19:55:27,2020-02-25 19:55:27,0.123s,FAILED

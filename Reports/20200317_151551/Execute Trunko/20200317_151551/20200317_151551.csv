@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Execute Trunko,,,,2020-03-17 15:16:03,2020-03-17 15:16:35,32.481s,FAILED
+,,,,,,,
+Test Cases/Kraken - BM Adapter/Execute Trunko,,,,2020-03-17 15:16:03,2020-03-17 15:16:35,32.114s,FAILED
+"runFeatureFile(""Include/features/Kraken - BM Adapter/Execute Trunko.feature"")",,,,2020-03-17 15:16:04,2020-03-17 15:16:35,31.685s,FAILED

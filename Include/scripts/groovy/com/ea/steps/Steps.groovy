@@ -28,6 +28,7 @@ import WebUiBuiltInKeywords as WebUI
 
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.WebDriver
+import org.bouncycastle.pqc.crypto.sphincs.Tree.leafaddr
 import org.json.JSONObject
 import org.openqa.selenium.By
 
@@ -63,6 +64,11 @@ class Steps {
 	/* Given Section */
 	@Given("Biller response with XML Content-Type")
 	def billerResponseWithXMLContentType(){
+	}
+
+	@Given("API : (.*)")
+	def api(String api){
+		GlobalVariable.API = api
 	}
 
 	@Given("Biller response with wrong format XML Content-Type")
@@ -228,6 +234,11 @@ class Steps {
 		GlobalVariable.TRANSACTION_ID = transaction_id
 	}
 
+	@And("Input parameters : (.*)")
+	def inputParameters(String parameters){
+		GlobalVariable.PARAMETERS = parameters
+	}
+
 	@And("Input transaction_biller_id : (.*)")
 	def inputTransactionBillerId(String transaction_biller_id){
 		GlobalVariable.TRANSACTION_BILLER_ID = transaction_biller_id
@@ -261,6 +272,7 @@ class Steps {
 	@And("Input rawdata : (.*)")
 	def inputRawdata(String rawdata){
 		GlobalVariable.RAWDATA = rawdata
+		print rawdata
 	}
 
 	@And("Input remote_product_id : (.*)")
@@ -288,6 +300,26 @@ class Steps {
 			response = WS.sendRequest(findTestObject('API Biller CRUD/Update Biller Config'))
 
 		parsedResponse = slurper.parseText(response.getResponseBodyContent())
+	}
+
+	@And("Send request for this scenario only")
+	def sendRequestForThisScenarioOnly(){
+		if(GlobalVariable.COMMAND_TYPE == "advise")
+			response = WS.sendRequest(findTestObject('Kraken - BM Adapter/Trunko UAT - Copy'))
+		else if(GlobalVariable.COMMAND_TYPE == "purchase")
+			response = WS.sendRequest(findTestObject('Kraken - BM Adapter/Trunko UAT - Copy (1)'))
+		else if(GlobalVariable.COMMAND_TYPE == "reversal")
+			response = WS.sendRequest(findTestObject('Kraken - BM Adapter/Trunko UAT - Copy (2)'))
+	}
+
+	@When("User send request with wrong auth")
+	def userSendRequestWithWrongAuth(){
+		response = WS.sendRequest(findTestObject('Kraken - BM Adapter/Trunko - BPA698'))
+	}
+
+	@And("Send request for BPA279")
+	def sendRequestfotBPA279(){
+		response = WS.sendRequest(findTestObject('Kraken - BM Adapter/Trunko - BPA279'))
 	}
 	/* End When Section */
 
@@ -360,7 +392,10 @@ class Steps {
 	@And("detail : (.*)")
 	def detail(String detail){
 
-		if(detail!="null"){
+		if(detail=="genfm"){
+			WS.verifyElementPropertyValue(response, 'data.detail', detail)
+		}
+		else if(detail!="null"){
 			String expectedDetail = detail.replace('\n', '')
 			expectedDetail = expectedDetail.replace(' ', '')
 			//WS.verifyElementPropertyValue(response, 'data.detail', detail)
@@ -440,6 +475,30 @@ class Steps {
 
 	@And ("User verify response map accordingly")
 	def userVerifyResponseMapAccordingly(){
+	}
+
+	@And("User get message in 16 digit random number")
+	def userGetMessageInRandomNumber(){
+		def jsonSlurper = new JsonSlurper()
+		def object = jsonSlurper.parseText(response.getResponseBodyContent())
+		String message = object.get('data').get('message')
+
+		Integer len = message.length()
+
+		WS.verifyEqual(len, 16)
+	}
+
+	@And("User Get stock info")
+	def userGetStockInfo(){
+		def jsonSlurper = new JsonSlurper()
+		def object = jsonSlurper.parseText(response.getResponseBodyContent())
+		String info = object.get('stock').get('info')
+		String saldo1 = object.get('stock').get('saldo1')
+		String saldo2 = object.get('stock').get('saldo2')
+
+		WS.verifyMatch(info,"stock sudah menipis",false)
+		WS.verifyMatch(saldo1,"1000.00",false)
+		WS.verifyMatch(saldo2,"2000.00",false)
 	}
 	/* End Then Section */
 }

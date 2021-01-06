@@ -1,0 +1,2544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Execute Trunko" time="49.772" tests="1" failures="0" errors="0">
+   <testsuite name="Execute Trunko" tests="1" failures="0" errors="0" time="49.772" timestamp="2020-03-19 00:29:38" hostname="alterra - adsl-172-10-101-196.dsl.hstntx.sbcglobal.net" id="Test Suites/Execute Trunko">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926"/>
+         <property name="logFiles" value="/Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="alterra - adsl-172-10-101-196.dsl.hstntx.sbcglobal.net"/>
+         <property name="hostAddress" value="172.10.101.196"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Kraken - BM Adapter/Execute Trunko" time="37.933" classname="Test Cases/Kraken - BM Adapter/Execute Trunko" status="PASSED">
+         <system-out><![CDATA[2020-03-19 00:29:39 - [TEST_CASE][PASSED] - Test Cases/Kraken - BM Adapter/Execute Trunko: Test Cases/Kraken - BM Adapter/Execute Trunko
+
+2020-03-19 00:29:40 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Kraken - BM Adapter/Execute Trunko.feature"): Feature file: 'Include/features/Kraken - BM Adapter/Execute Trunko.feature' was passed
+
+2020-03-19 00:29:40 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Kraken - BM Adapter/Execute Trunko.feature' and extract report to folder: '/Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/cucumber_report/1584552580176'...
+
+2020-03-19 00:29:41 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Biller Config Not Found: SCENARIO Biller Config Not Found
+
+2020-03-19 00:29:41 - [TEST_STEP][PASSED] - Biller Config : tidak ada Not Set: Biller Config : tidak ada Not Set
+
+2020-03-19 00:29:41 - [MESSAGE][PASSED] - Biller Config : tidak ada Not Set
+
+2020-03-19 00:29:41 - [TEST_STEP][PASSED] - User Input biller_label : tidak ada: User Input biller_label : tidak ada
+
+2020-03-19 00:29:43 - [MESSAGE][PASSED] - User Input biller_label : tidak ada
+
+2020-03-19 00:29:43 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:29:45 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/0.har
+
+2020-03-19 00:29:46 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:29:46 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:29:46 - [TEST_STEP][PASSED] - User Get Http response code : 501: User Get Http response code : 501
+
+2020-03-19 00:29:46 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:29:46 - [MESSAGE][PASSED] - User Get Http response code : 501
+
+2020-03-19 00:29:46 - [TEST_STEP][PASSED] - message : Biller config not found: message : Biller config not found
+
+2020-03-19 00:29:46 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:46 - [MESSAGE][PASSED] - message : Biller config not found
+
+2020-03-19 00:29:46 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Biller Config Not Found: SCENARIO Biller Config Not Found
+
+2020-03-19 00:29:46 - [TEST_STEP][PASSED] - Biller Config : TestBiller Not Set: Biller Config : TestBiller Not Set
+
+2020-03-19 00:29:46 - [MESSAGE][PASSED] - Biller Config : TestBiller Not Set
+
+2020-03-19 00:29:46 - [TEST_STEP][PASSED] - User Input biller_label : TestBiller: User Input biller_label : TestBiller
+
+2020-03-19 00:29:46 - [MESSAGE][PASSED] - User Input biller_label : TestBiller
+
+2020-03-19 00:29:46 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:29:46 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/1.har
+
+2020-03-19 00:29:46 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:29:46 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:29:46 - [TEST_STEP][PASSED] - User Get Http response code : 501: User Get Http response code : 501
+
+2020-03-19 00:29:46 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:29:46 - [MESSAGE][PASSED] - User Get Http response code : 501
+
+2020-03-19 00:29:46 - [TEST_STEP][PASSED] - message : Biller config not found: message : Biller config not found
+
+2020-03-19 00:29:46 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:46 - [MESSAGE][PASSED] - message : Biller config not found
+
+2020-03-19 00:29:46 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Product Mapping Not Found: SCENARIO Product Mapping Not Found
+
+2020-03-19 00:29:46 - [TEST_STEP][PASSED] - Product Mapping : 2 Config Not Set: Product Mapping : 2 Config Not Set
+
+2020-03-19 00:29:46 - [MESSAGE][PASSED] - Product Mapping : 2 Config Not Set
+
+2020-03-19 00:29:46 - [TEST_STEP][PASSED] - User Input biller_label : trunko_test: User Input biller_label : trunko_test
+
+2020-03-19 00:29:46 - [MESSAGE][PASSED] - User Input biller_label : trunko_test
+
+2020-03-19 00:29:46 - [TEST_STEP][PASSED] - User Input product_id : 2: User Input product_id : 2
+
+2020-03-19 00:29:46 - [MESSAGE][PASSED] - User Input product_id : 2
+
+2020-03-19 00:29:46 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:29:47 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/2.har
+
+2020-03-19 00:29:47 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:29:47 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:29:47 - [TEST_STEP][PASSED] - User Get Http response code : 501: User Get Http response code : 501
+
+2020-03-19 00:29:47 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:29:47 - [MESSAGE][PASSED] - User Get Http response code : 501
+
+2020-03-19 00:29:47 - [TEST_STEP][PASSED] - message : Product mapping not found: message : Product mapping not found
+
+2020-03-19 00:29:47 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:47 - [MESSAGE][PASSED] - message : Product mapping not found
+
+2020-03-19 00:29:47 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Product Mapping Not Found: SCENARIO Product Mapping Not Found
+
+2020-03-19 00:29:47 - [TEST_STEP][PASSED] - Product Mapping : 300000 Config Not Set: Product Mapping : 300000 Config Not Set
+
+2020-03-19 00:29:47 - [MESSAGE][PASSED] - Product Mapping : 300000 Config Not Set
+
+2020-03-19 00:29:47 - [TEST_STEP][PASSED] - User Input biller_label : trunko_test: User Input biller_label : trunko_test
+
+2020-03-19 00:29:47 - [MESSAGE][PASSED] - User Input biller_label : trunko_test
+
+2020-03-19 00:29:47 - [TEST_STEP][PASSED] - User Input product_id : 300000: User Input product_id : 300000
+
+2020-03-19 00:29:47 - [MESSAGE][PASSED] - User Input product_id : 300000
+
+2020-03-19 00:29:47 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:29:47 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/3.har
+
+2020-03-19 00:29:47 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:29:47 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:29:47 - [TEST_STEP][PASSED] - User Get Http response code : 501: User Get Http response code : 501
+
+2020-03-19 00:29:47 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:29:47 - [MESSAGE][PASSED] - User Get Http response code : 501
+
+2020-03-19 00:29:47 - [TEST_STEP][PASSED] - message : Product mapping not found: message : Product mapping not found
+
+2020-03-19 00:29:47 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:47 - [MESSAGE][PASSED] - message : Product mapping not found
+
+2020-03-19 00:29:47 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Command Type Config Not Found: SCENARIO Command Type Config Not Found
+
+2020-03-19 00:29:47 - [TEST_STEP][PASSED] - Command Type : test Config Set: Command Type : test Config Set
+
+2020-03-19 00:29:47 - [MESSAGE][PASSED] - Command Type : test Config Set
+
+2020-03-19 00:29:47 - [TEST_STEP][PASSED] - User Input biller_label : trunko_test: User Input biller_label : trunko_test
+
+2020-03-19 00:29:47 - [MESSAGE][PASSED] - User Input biller_label : trunko_test
+
+2020-03-19 00:29:47 - [TEST_STEP][PASSED] - User Input command_type : test: User Input command_type : test
+
+2020-03-19 00:29:47 - [MESSAGE][PASSED] - User Input command_type : test
+
+2020-03-19 00:29:47 - [TEST_STEP][PASSED] - Input product_id : 175: Input product_id : 175
+
+2020-03-19 00:29:47 - [MESSAGE][PASSED] - Input product_id : 175
+
+2020-03-19 00:29:47 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:29:48 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/4.har
+
+2020-03-19 00:29:48 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:29:48 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:29:48 - [TEST_STEP][PASSED] - User Get Http response code : 501: User Get Http response code : 501
+
+2020-03-19 00:29:48 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:29:48 - [MESSAGE][PASSED] - User Get Http response code : 501
+
+2020-03-19 00:29:48 - [TEST_STEP][PASSED] - message : Command type config not found: message : Command type config not found
+
+2020-03-19 00:29:48 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:48 - [MESSAGE][PASSED] - message : Command type config not found
+
+2020-03-19 00:29:48 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Product Type Config Not Found: SCENARIO Product Type Config Not Found
+
+2020-03-19 00:29:48 - [TEST_STEP][PASSED] - Product Type Not Set: Product Type Not Set
+
+2020-03-19 00:29:48 - [MESSAGE][PASSED] - Product Type Not Set
+
+2020-03-19 00:29:48 - [TEST_STEP][PASSED] - User Input biller_label : trunko_test: User Input biller_label : trunko_test
+
+2020-03-19 00:29:48 - [MESSAGE][PASSED] - User Input biller_label : trunko_test
+
+2020-03-19 00:29:48 - [TEST_STEP][PASSED] - User Input command_type : purchase: User Input command_type : purchase
+
+2020-03-19 00:29:48 - [MESSAGE][PASSED] - User Input command_type : purchase
+
+2020-03-19 00:29:48 - [TEST_STEP][PASSED] - Input product_id : 175: Input product_id : 175
+
+2020-03-19 00:29:48 - [MESSAGE][PASSED] - Input product_id : 175
+
+2020-03-19 00:29:48 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:29:48 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/5.har
+
+2020-03-19 00:29:48 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:29:48 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:29:48 - [TEST_STEP][PASSED] - User Get Http response code : 501: User Get Http response code : 501
+
+2020-03-19 00:29:48 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:29:48 - [MESSAGE][PASSED] - User Get Http response code : 501
+
+2020-03-19 00:29:48 - [TEST_STEP][PASSED] - message : Product type config not found: message : Product type config not found
+
+2020-03-19 00:29:48 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:48 - [MESSAGE][PASSED] - message : Product type config not found
+
+2020-03-19 00:29:48 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Product Type Config Not Found: SCENARIO Product Type Config Not Found
+
+2020-03-19 00:29:48 - [TEST_STEP][PASSED] - Product Type Not Set: Product Type Not Set
+
+2020-03-19 00:29:48 - [MESSAGE][PASSED] - Product Type Not Set
+
+2020-03-19 00:29:48 - [TEST_STEP][PASSED] - User Input biller_label : trunko_test: User Input biller_label : trunko_test
+
+2020-03-19 00:29:48 - [MESSAGE][PASSED] - User Input biller_label : trunko_test
+
+2020-03-19 00:29:48 - [TEST_STEP][PASSED] - User Input command_type : purchase: User Input command_type : purchase
+
+2020-03-19 00:29:48 - [MESSAGE][PASSED] - User Input command_type : purchase
+
+2020-03-19 00:29:48 - [TEST_STEP][PASSED] - Input product_id : 221: Input product_id : 221
+
+2020-03-19 00:29:48 - [MESSAGE][PASSED] - Input product_id : 221
+
+2020-03-19 00:29:48 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:29:49 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/6.har
+
+2020-03-19 00:29:49 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:29:49 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:29:49 - [TEST_STEP][PASSED] - User Get Http response code : 501: User Get Http response code : 501
+
+2020-03-19 00:29:49 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:29:49 - [MESSAGE][PASSED] - User Get Http response code : 501
+
+2020-03-19 00:29:49 - [TEST_STEP][PASSED] - message : Product type config not found: message : Product type config not found
+
+2020-03-19 00:29:49 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:49 - [MESSAGE][PASSED] - message : Product type config not found
+
+2020-03-19 00:29:49 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO new error 501: Pending, waiting Biller's callback: SCENARIO new error 501: Pending, waiting Biller's callback
+
+2020-03-19 00:29:49 - [TEST_STEP][PASSED] - Product Type Not Set: Product Type Not Set
+
+2020-03-19 00:29:49 - [MESSAGE][PASSED] - Product Type Not Set
+
+2020-03-19 00:29:49 - [TEST_STEP][PASSED] - User Input biller_label : trunko_171227693: User Input biller_label : trunko_171227693
+
+2020-03-19 00:29:49 - [MESSAGE][PASSED] - User Input biller_label : trunko_171227693
+
+2020-03-19 00:29:49 - [TEST_STEP][PASSED] - User Input command_type : advice: User Input command_type : advice
+
+2020-03-19 00:29:49 - [MESSAGE][PASSED] - User Input command_type : advice
+
+2020-03-19 00:29:49 - [TEST_STEP][PASSED] - Input product_id : 175: Input product_id : 175
+
+2020-03-19 00:29:49 - [MESSAGE][PASSED] - Input product_id : 175
+
+2020-03-19 00:29:49 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:29:49 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/7.har
+
+2020-03-19 00:29:49 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:29:49 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:29:49 - [TEST_STEP][PASSED] - User Get Http response code : 501: User Get Http response code : 501
+
+2020-03-19 00:29:49 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:29:49 - [MESSAGE][PASSED] - User Get Http response code : 501
+
+2020-03-19 00:29:49 - [TEST_STEP][PASSED] - message : Pending, waiting Biller's callback: message : Pending, waiting Biller's callback
+
+2020-03-19 00:29:49 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:49 - [MESSAGE][PASSED] - message : Pending, waiting Biller's callback
+
+2020-03-19 00:29:49 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Execute Success: SCENARIO Execute Success
+
+2020-03-19 00:29:49 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:29:49 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:29:49 - [TEST_STEP][PASSED] - User Input biller_label : trunko_test: User Input biller_label : trunko_test
+
+2020-03-19 00:29:49 - [MESSAGE][PASSED] - User Input biller_label : trunko_test
+
+2020-03-19 00:29:49 - [TEST_STEP][PASSED] - User Input command_type : advise: User Input command_type : advise
+
+2020-03-19 00:29:49 - [MESSAGE][PASSED] - User Input command_type : advise
+
+2020-03-19 00:29:49 - [TEST_STEP][PASSED] - Input product_id : 175: Input product_id : 175
+
+2020-03-19 00:29:49 - [MESSAGE][PASSED] - Input product_id : 175
+
+2020-03-19 00:29:49 - [TEST_STEP][PASSED] - Input transaction_id : 1: Input transaction_id : 1
+
+2020-03-19 00:29:49 - [MESSAGE][PASSED] - Input transaction_id : 1
+
+2020-03-19 00:29:49 - [TEST_STEP][PASSED] - Input transaction_biller_id : 1: Input transaction_biller_id : 1
+
+2020-03-19 00:29:49 - [MESSAGE][PASSED] - Input transaction_biller_id : 1
+
+2020-03-19 00:29:49 - [TEST_STEP][PASSED] - Input remote_product_id : PKREG60WS: Input remote_product_id : PKREG60WS
+
+2020-03-19 00:29:49 - [MESSAGE][PASSED] - Input remote_product_id : PKREG60WS
+
+2020-03-19 00:29:49 - [TEST_STEP][PASSED] - Input customer_id : 085363783001: Input customer_id : 085363783001
+
+2020-03-19 00:29:49 - [MESSAGE][PASSED] - Input customer_id : 085363783001
+
+2020-03-19 00:29:49 - [TEST_STEP][PASSED] - Input partner_id : 6: Input partner_id : 6
+
+2020-03-19 00:29:49 - [MESSAGE][PASSED] - Input partner_id : 6
+
+2020-03-19 00:29:49 - [TEST_STEP][PASSED] - Input rawdata : rawdata: Input rawdata : rawdata
+
+2020-03-19 00:29:49 - [MESSAGE][PASSED] - Input rawdata : rawdata
+
+2020-03-19 00:29:49 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:29:50 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/8.har
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:29:50 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:29:50 - [TEST_STEP][PASSED] - Get response_code : 00: Get response_code : 00
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - Get response_code : 00
+
+2020-03-19 00:29:50 - [TEST_STEP][PASSED] - Get transaction_id : 1: Get transaction_id : 1
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - Get transaction_id : 1
+
+2020-03-19 00:29:50 - [TEST_STEP][PASSED] - transaction_biller_id : 1: transaction_biller_id : 1
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - transaction_biller_id : 1
+
+2020-03-19 00:29:50 - [TEST_STEP][PASSED] - remote_transaction_id : a: remote_transaction_id : a
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - remote_transaction_id : a
+
+2020-03-19 00:29:50 - [TEST_STEP][PASSED] - remote_product_id : PKREG60WS: remote_product_id : PKREG60WS
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - remote_product_id : PKREG60WS
+
+2020-03-19 00:29:50 - [TEST_STEP][PASSED] - customer_id : 085363783001: customer_id : 085363783001
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - customer_id : 085363783001
+
+2020-03-19 00:29:50 - [TEST_STEP][PASSED] - serial_number : a: serial_number : a
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - serial_number : a
+
+2020-03-19 00:29:50 - [TEST_STEP][PASSED] - biller_rescode : 0000: biller_rescode : 0000
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - biller_rescode : 0000
+
+2020-03-19 00:29:50 - [TEST_STEP][PASSED] - message : advise message: message : advise message
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - message : advise message
+
+2020-03-19 00:29:50 - [TEST_STEP][PASSED] - detail : null: detail : null
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - detail : null
+
+2020-03-19 00:29:50 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Execute Success: SCENARIO Execute Success
+
+2020-03-19 00:29:50 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:29:50 - [TEST_STEP][PASSED] - User Input biller_label : trunko_test: User Input biller_label : trunko_test
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - User Input biller_label : trunko_test
+
+2020-03-19 00:29:50 - [TEST_STEP][PASSED] - User Input command_type : reversal: User Input command_type : reversal
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - User Input command_type : reversal
+
+2020-03-19 00:29:50 - [TEST_STEP][PASSED] - Input product_id : 175: Input product_id : 175
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - Input product_id : 175
+
+2020-03-19 00:29:50 - [TEST_STEP][PASSED] - Input transaction_id : 2: Input transaction_id : 2
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - Input transaction_id : 2
+
+2020-03-19 00:29:50 - [TEST_STEP][PASSED] - Input transaction_biller_id : 2: Input transaction_biller_id : 2
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - Input transaction_biller_id : 2
+
+2020-03-19 00:29:50 - [TEST_STEP][PASSED] - Input remote_product_id : PKREG60WS: Input remote_product_id : PKREG60WS
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - Input remote_product_id : PKREG60WS
+
+2020-03-19 00:29:50 - [TEST_STEP][PASSED] - Input customer_id : 085363783002: Input customer_id : 085363783002
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - Input customer_id : 085363783002
+
+2020-03-19 00:29:50 - [TEST_STEP][PASSED] - Input partner_id : 6: Input partner_id : 6
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - Input partner_id : 6
+
+2020-03-19 00:29:50 - [TEST_STEP][PASSED] - Input rawdata : rawdata: Input rawdata : rawdata
+
+2020-03-19 00:29:50 - [MESSAGE][PASSED] - Input rawdata : rawdata
+
+2020-03-19 00:29:50 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:29:51 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/9.har
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:29:51 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:29:51 - [TEST_STEP][PASSED] - Get response_code : 20: Get response_code : 20
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - Get response_code : 20
+
+2020-03-19 00:29:51 - [TEST_STEP][PASSED] - Get transaction_id : 2: Get transaction_id : 2
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - Get transaction_id : 2
+
+2020-03-19 00:29:51 - [TEST_STEP][PASSED] - transaction_biller_id : 2: transaction_biller_id : 2
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - transaction_biller_id : 2
+
+2020-03-19 00:29:51 - [TEST_STEP][PASSED] - remote_transaction_id : abc: remote_transaction_id : abc
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - remote_transaction_id : abc
+
+2020-03-19 00:29:51 - [TEST_STEP][PASSED] - remote_product_id : PKREG60WS: remote_product_id : PKREG60WS
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - remote_product_id : PKREG60WS
+
+2020-03-19 00:29:51 - [TEST_STEP][PASSED] - customer_id : 085363783002: customer_id : 085363783002
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - customer_id : 085363783002
+
+2020-03-19 00:29:51 - [TEST_STEP][PASSED] - serial_number : serial: serial_number : serial
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - serial_number : serial
+
+2020-03-19 00:29:51 - [TEST_STEP][PASSED] - biller_rescode : 9006: biller_rescode : 9006
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - biller_rescode : 9006
+
+2020-03-19 00:29:51 - [TEST_STEP][PASSED] - message : reversal message: message : reversal message
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - message : reversal message
+
+2020-03-19 00:29:51 - [TEST_STEP][PASSED] - detail : null: detail : null
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - detail : null
+
+2020-03-19 00:29:51 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Execute Success: SCENARIO Execute Success
+
+2020-03-19 00:29:51 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:29:51 - [TEST_STEP][PASSED] - User Input biller_label : trunko_test: User Input biller_label : trunko_test
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - User Input biller_label : trunko_test
+
+2020-03-19 00:29:51 - [TEST_STEP][PASSED] - User Input command_type : inquiry: User Input command_type : inquiry
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - User Input command_type : inquiry
+
+2020-03-19 00:29:51 - [TEST_STEP][PASSED] - Input product_id : 221: Input product_id : 221
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - Input product_id : 221
+
+2020-03-19 00:29:51 - [TEST_STEP][PASSED] - Input transaction_id : 3: Input transaction_id : 3
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - Input transaction_id : 3
+
+2020-03-19 00:29:51 - [TEST_STEP][PASSED] - Input transaction_biller_id : 3: Input transaction_biller_id : 3
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - Input transaction_biller_id : 3
+
+2020-03-19 00:29:51 - [TEST_STEP][PASSED] - Input remote_product_id : testPdam: Input remote_product_id : testPdam
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - Input remote_product_id : testPdam
+
+2020-03-19 00:29:51 - [TEST_STEP][PASSED] - Input customer_id : 085363783003: Input customer_id : 085363783003
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - Input customer_id : 085363783003
+
+2020-03-19 00:29:51 - [TEST_STEP][PASSED] - Input partner_id : 6: Input partner_id : 6
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - Input partner_id : 6
+
+2020-03-19 00:29:51 - [TEST_STEP][PASSED] - Input rawdata : rawdata: Input rawdata : rawdata
+
+2020-03-19 00:29:51 - [MESSAGE][PASSED] - Input rawdata : rawdata
+
+2020-03-19 00:29:51 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:29:51 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/10.har
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:29:52 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:29:52 - [TEST_STEP][PASSED] - Get response_code : 22: Get response_code : 22
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - Get response_code : 22
+
+2020-03-19 00:29:52 - [TEST_STEP][PASSED] - Get transaction_id : 3: Get transaction_id : 3
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - Get transaction_id : 3
+
+2020-03-19 00:29:52 - [TEST_STEP][PASSED] - transaction_biller_id : 3: transaction_biller_id : 3
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - transaction_biller_id : 3
+
+2020-03-19 00:29:52 - [TEST_STEP][PASSED] - remote_transaction_id : 110931978314: remote_transaction_id : 110931978314
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - remote_transaction_id : 110931978314
+
+2020-03-19 00:29:52 - [TEST_STEP][PASSED] - remote_product_id : testPdam: remote_product_id : testPdam
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - remote_product_id : testPdam
+
+2020-03-19 00:29:52 - [TEST_STEP][PASSED] - customer_id : 085363783003: customer_id : 085363783003
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - customer_id : 085363783003
+
+2020-03-19 00:29:52 - [TEST_STEP][PASSED] - serial_number : 0051003619319900: serial_number : 0051003619319900
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - serial_number : 0051003619319900
+
+2020-03-19 00:29:52 - [TEST_STEP][PASSED] - biller_rescode : 9012: biller_rescode : 9012
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - biller_rescode : 9012
+
+2020-03-19 00:29:52 - [TEST_STEP][PASSED] - message : inquiry message: message : inquiry message
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - message : inquiry message
+
+2020-03-19 00:29:52 - [TEST_STEP][PASSED] - detail : {acquiring_institution_id=008,admin_charge=0,amount=184000,bill_count=2,bill_repeat_count=2,bills=[{bill_amount=[74000],bill_date=[201709],kubikasi=[527-541],penalty=[0]},{bill_amount=[100000],bill_date=[201708],kubikasi=[527-541],penalty=[10000]}],blth=201708201709,idpel=1998800007,local_trx_date=20171020,local_trx_time=062418,merchant_code=6012,mti=0210,name=SEPULSA2,pan=074003,processing_code=380000,rc=00,retrieval_ref_no=000135739333,rp_tag=184000,settlement_date=20171021,stan=000135739333,transmission_datetime=1020062418}: detail : {acquiring_institution_id=008,admin_charge=0,amount=184000,bill_count=2,bill_repeat_count=2,bills=[{bill_amount=[74000],bill_date=[201709],kubikasi=[527-541],penalty=[0]},{bill_amount=[100000],bill_date=[201708],kubikasi=[527-541],penalty=[10000]}],blth=201708201709,idpel=1998800007,local_trx_date=20171020,local_trx_time=062418,merchant_code=6012,mti=0210,name=SEPULSA2,pan=074003,processing_code=380000,rc=00,retrieval_ref_no=000135739333,rp_tag=184000,settlement_date=20171021,stan=000135739333,transmission_datetime=1020062418}
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - Actual text '{acquiring_institution_id=008,admin_charge=0,amount=184000,bill_count=2,bill_repeat_count=2,bills=[{bill_amount=[74000],bill_date=[201709],kubikasi=[527-541],penalty=[0]},{bill_amount=[100000],bill_date=[201708],kubikasi=[527-541],penalty=[10000]}],blth=201708201709,idpel=1998800007,local_trx_date=20171020,local_trx_time=062418,merchant_code=6012,mti=0210,name=SEPULSA2,pan=074003,processing_code=380000,rc=00,retrieval_ref_no=000135739333,rp_tag=184000,settlement_date=20171021,stan=000135739333,transmission_datetime=1020062418}' and expected text '{acquiring_institution_id=008,admin_charge=0,amount=184000,bill_count=2,bill_repeat_count=2,bills=[{bill_amount=[74000],bill_date=[201709],kubikasi=[527-541],penalty=[0]},{bill_amount=[100000],bill_date=[201708],kubikasi=[527-541],penalty=[10000]}],blth=201708201709,idpel=1998800007,local_trx_date=20171020,local_trx_time=062418,merchant_code=6012,mti=0210,name=SEPULSA2,pan=074003,processing_code=380000,rc=00,retrieval_ref_no=000135739333,rp_tag=184000,settlement_date=20171021,stan=000135739333,transmission_datetime=1020062418}' are matched 
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - detail : {acquiring_institution_id=008,admin_charge=0,amount=184000,bill_count=2,bill_repeat_count=2,bills=[{bill_amount=[74000],bill_date=[201709],kubikasi=[527-541],penalty=[0]},{bill_amount=[100000],bill_date=[201708],kubikasi=[527-541],penalty=[10000]}],blth=201708201709,idpel=1998800007,local_trx_date=20171020,local_trx_time=062418,merchant_code=6012,mti=0210,name=SEPULSA2,pan=074003,processing_code=380000,rc=00,retrieval_ref_no=000135739333,rp_tag=184000,settlement_date=20171021,stan=000135739333,transmission_datetime=1020062418}
+
+2020-03-19 00:29:52 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Response Rules Success: SCENARIO Response Rules Success
+
+2020-03-19 00:29:52 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:29:52 - [TEST_STEP][PASSED] - User Input biller_label : trunko_test: User Input biller_label : trunko_test
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - User Input biller_label : trunko_test
+
+2020-03-19 00:29:52 - [TEST_STEP][PASSED] - User Input command_type : advise: User Input command_type : advise
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - User Input command_type : advise
+
+2020-03-19 00:29:52 - [TEST_STEP][PASSED] - Input product_id : 175: Input product_id : 175
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - Input product_id : 175
+
+2020-03-19 00:29:52 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:29:52 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/11.har
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:29:52 - [TEST_STEP][PASSED] - User Get FBS response status : sukses: User Get FBS response status : sukses
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - User Get FBS response status : sukses
+
+2020-03-19 00:29:52 - [TEST_STEP][PASSED] - User Get FBS response data.serial_number : a: User Get FBS response data.serial_number : a
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - User Get FBS response data.serial_number : a
+
+2020-03-19 00:29:52 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:29:52 - [TEST_STEP][PASSED] - User get next command : advice: User get next command : advice
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - User get next command : advice
+
+2020-03-19 00:29:52 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Response Rules Success: SCENARIO Response Rules Success
+
+2020-03-19 00:29:52 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:29:52 - [TEST_STEP][PASSED] - User Input biller_label : trunko_test: User Input biller_label : trunko_test
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - User Input biller_label : trunko_test
+
+2020-03-19 00:29:52 - [TEST_STEP][PASSED] - User Input command_type : purchase: User Input command_type : purchase
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - User Input command_type : purchase
+
+2020-03-19 00:29:52 - [TEST_STEP][PASSED] - Input product_id : 26: Input product_id : 26
+
+2020-03-19 00:29:52 - [MESSAGE][PASSED] - Input product_id : 26
+
+2020-03-19 00:29:52 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:29:53 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/12.har
+
+2020-03-19 00:29:53 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:29:53 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:29:53 - [TEST_STEP][PASSED] - User Get FBS response status : gagal: User Get FBS response status : gagal
+
+2020-03-19 00:29:53 - [MESSAGE][PASSED] - User Get FBS response status : gagal
+
+2020-03-19 00:29:53 - [TEST_STEP][PASSED] - User Get FBS response data.serial_number : 110931978314: User Get FBS response data.serial_number : 110931978314
+
+2020-03-19 00:29:53 - [MESSAGE][PASSED] - User Get FBS response data.serial_number : 110931978314
+
+2020-03-19 00:29:53 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:29:53 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:29:53 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:29:53 - [TEST_STEP][PASSED] - User get next command : reversal: User get next command : reversal
+
+2020-03-19 00:29:53 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:53 - [MESSAGE][PASSED] - User get next command : reversal
+
+2020-03-19 00:29:53 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Response Rules Success: SCENARIO Response Rules Success
+
+2020-03-19 00:29:53 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:29:53 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:29:53 - [TEST_STEP][PASSED] - User Input biller_label : trunko_test: User Input biller_label : trunko_test
+
+2020-03-19 00:29:53 - [MESSAGE][PASSED] - User Input biller_label : trunko_test
+
+2020-03-19 00:29:53 - [TEST_STEP][PASSED] - User Input command_type : inquiry: User Input command_type : inquiry
+
+2020-03-19 00:29:53 - [MESSAGE][PASSED] - User Input command_type : inquiry
+
+2020-03-19 00:29:53 - [TEST_STEP][PASSED] - Input product_id : 221: Input product_id : 221
+
+2020-03-19 00:29:53 - [MESSAGE][PASSED] - Input product_id : 221
+
+2020-03-19 00:29:53 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:29:53 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/13.har
+
+2020-03-19 00:29:53 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:29:53 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:29:53 - [TEST_STEP][PASSED] - User Get FBS response status : sukses: User Get FBS response status : sukses
+
+2020-03-19 00:29:53 - [MESSAGE][PASSED] - User Get FBS response status : sukses
+
+2020-03-19 00:29:53 - [TEST_STEP][PASSED] - User Get FBS response data.serial_number : 0051003619319900: User Get FBS response data.serial_number : 0051003619319900
+
+2020-03-19 00:29:53 - [MESSAGE][PASSED] - User Get FBS response data.serial_number : 0051003619319900
+
+2020-03-19 00:29:53 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:29:53 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:29:53 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:29:53 - [TEST_STEP][PASSED] - User get next command : reversal: User get next command : reversal
+
+2020-03-19 00:29:53 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:53 - [MESSAGE][PASSED] - User get next command : reversal
+
+2020-03-19 00:29:53 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Response Rules Success: SCENARIO Response Rules Success
+
+2020-03-19 00:29:53 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:29:53 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:29:53 - [TEST_STEP][PASSED] - User Input biller_label : trunko_test: User Input biller_label : trunko_test
+
+2020-03-19 00:29:53 - [MESSAGE][PASSED] - User Input biller_label : trunko_test
+
+2020-03-19 00:29:53 - [TEST_STEP][PASSED] - User Input command_type : reversal: User Input command_type : reversal
+
+2020-03-19 00:29:53 - [MESSAGE][PASSED] - User Input command_type : reversal
+
+2020-03-19 00:29:53 - [TEST_STEP][PASSED] - Input product_id : 175: Input product_id : 175
+
+2020-03-19 00:29:53 - [MESSAGE][PASSED] - Input product_id : 175
+
+2020-03-19 00:29:53 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:29:54 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/14.har
+
+2020-03-19 00:29:54 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:29:54 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:29:54 - [TEST_STEP][PASSED] - User Get FBS response status : sukses: User Get FBS response status : sukses
+
+2020-03-19 00:29:54 - [MESSAGE][PASSED] - User Get FBS response status : sukses
+
+2020-03-19 00:29:54 - [TEST_STEP][PASSED] - User Get FBS response data.serial_number : serial: User Get FBS response data.serial_number : serial
+
+2020-03-19 00:29:54 - [MESSAGE][PASSED] - User Get FBS response data.serial_number : serial
+
+2020-03-19 00:29:54 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:29:54 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:29:54 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:29:54 - [TEST_STEP][PASSED] - User get next command : null: User get next command : null
+
+2020-03-19 00:29:54 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:54 - [MESSAGE][PASSED] - User get next command : null
+
+2020-03-19 00:29:54 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Response Rules Success: SCENARIO Response Rules Success
+
+2020-03-19 00:29:54 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:29:54 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:29:54 - [TEST_STEP][PASSED] - User Input biller_label : trunko_test: User Input biller_label : trunko_test
+
+2020-03-19 00:29:54 - [MESSAGE][PASSED] - User Input biller_label : trunko_test
+
+2020-03-19 00:29:54 - [TEST_STEP][PASSED] - User Input command_type : reversal: User Input command_type : reversal
+
+2020-03-19 00:29:54 - [MESSAGE][PASSED] - User Input command_type : reversal
+
+2020-03-19 00:29:54 - [TEST_STEP][PASSED] - Input product_id : 26: Input product_id : 26
+
+2020-03-19 00:29:54 - [MESSAGE][PASSED] - Input product_id : 26
+
+2020-03-19 00:29:54 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:29:55 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/15.har
+
+2020-03-19 00:29:55 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:29:55 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:29:55 - [TEST_STEP][PASSED] - User Get FBS response status : gagal: User Get FBS response status : gagal
+
+2020-03-19 00:29:55 - [MESSAGE][PASSED] - User Get FBS response status : gagal
+
+2020-03-19 00:29:55 - [TEST_STEP][PASSED] - User Get FBS response data.serial_number : a: User Get FBS response data.serial_number : a
+
+2020-03-19 00:29:55 - [MESSAGE][PASSED] - User Get FBS response data.serial_number : a
+
+2020-03-19 00:29:55 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:29:55 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:29:55 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:29:55 - [TEST_STEP][PASSED] - User get next command : reversal: User get next command : reversal
+
+2020-03-19 00:29:55 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:55 - [MESSAGE][PASSED] - User get next command : reversal
+
+2020-03-19 00:29:55 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Response Rules Failed: SCENARIO Response Rules Failed
+
+2020-03-19 00:29:55 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:29:55 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:29:55 - [TEST_STEP][PASSED] - User Input biller_label : Reinard: User Input biller_label : Reinard
+
+2020-03-19 00:29:55 - [MESSAGE][PASSED] - User Input biller_label : Reinard
+
+2020-03-19 00:29:55 - [TEST_STEP][PASSED] - User Input command_type : advise: User Input command_type : advise
+
+2020-03-19 00:29:55 - [MESSAGE][PASSED] - User Input command_type : advise
+
+2020-03-19 00:29:55 - [TEST_STEP][PASSED] - Input product_id : 26: Input product_id : 26
+
+2020-03-19 00:29:55 - [MESSAGE][PASSED] - Input product_id : 26
+
+2020-03-19 00:29:55 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:29:55 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/16.har
+
+2020-03-19 00:29:55 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:29:55 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:29:55 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:29:55 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:29:55 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:29:55 - [TEST_STEP][PASSED] - message : Invalid response mapping: message : Invalid response mapping
+
+2020-03-19 00:29:55 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:55 - [MESSAGE][PASSED] - message : Invalid response mapping
+
+2020-03-19 00:29:55 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Convert Biller Response XML to Json Success: SCENARIO Convert Biller Response XML to Json Success
+
+2020-03-19 00:29:55 - [TEST_STEP][PASSED] - Biller response with XML Content-Type: Biller response with XML Content-Type
+
+2020-03-19 00:29:55 - [MESSAGE][PASSED] - Biller response with XML Content-Type
+
+2020-03-19 00:29:55 - [TEST_STEP][PASSED] - User Input biller_label : Reinard: User Input biller_label : Reinard
+
+2020-03-19 00:29:55 - [MESSAGE][PASSED] - User Input biller_label : Reinard
+
+2020-03-19 00:29:55 - [TEST_STEP][PASSED] - User Input command_type : stock: User Input command_type : stock
+
+2020-03-19 00:29:55 - [MESSAGE][PASSED] - User Input command_type : stock
+
+2020-03-19 00:29:55 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:29:57 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/17.har
+
+2020-03-19 00:29:57 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:29:57 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:29:57 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:29:57 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:29:57 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:29:57 - [TEST_STEP][PASSED] - User get rawdata in json format: User get rawdata in json format
+
+2020-03-19 00:29:57 - [MESSAGE][PASSED] - User get rawdata in json format
+
+2020-03-19 00:29:57 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Convert Biller Response XML to Json Failed: SCENARIO Convert Biller Response XML to Json Failed
+
+2020-03-19 00:29:57 - [TEST_STEP][PASSED] - Biller response with wrong format XML Content-Type: Biller response with wrong format XML Content-Type
+
+2020-03-19 00:29:57 - [MESSAGE][PASSED] - Biller response with wrong format XML Content-Type
+
+2020-03-19 00:29:57 - [TEST_STEP][PASSED] - User Input biller_label : trunko_test: User Input biller_label : trunko_test
+
+2020-03-19 00:29:57 - [MESSAGE][PASSED] - User Input biller_label : trunko_test
+
+2020-03-19 00:29:57 - [TEST_STEP][PASSED] - User Input command_type : stock: User Input command_type : stock
+
+2020-03-19 00:29:57 - [MESSAGE][PASSED] - User Input command_type : stock
+
+2020-03-19 00:29:57 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:29:58 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/18.har
+
+2020-03-19 00:29:58 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:29:58 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:29:58 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:29:58 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:29:58 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:29:58 - [TEST_STEP][PASSED] - User get response : Invalid Parse XML Response: User get response : Invalid Parse XML Response
+
+2020-03-19 00:29:58 - [MESSAGE][PASSED] - Check contain string successfully
+
+2020-03-19 00:29:58 - [MESSAGE][PASSED] - User get response : Invalid Parse XML Response
+
+2020-03-19 00:29:58 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Function for operation Success: SCENARIO Function for operation Success
+
+2020-03-19 00:29:58 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:29:58 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:29:58 - [TEST_STEP][PASSED] - User Input biller_label : Reinard: User Input biller_label : Reinard
+
+2020-03-19 00:29:58 - [MESSAGE][PASSED] - User Input biller_label : Reinard
+
+2020-03-19 00:29:58 - [TEST_STEP][PASSED] - User Input command_type : purchase: User Input command_type : purchase
+
+2020-03-19 00:29:58 - [MESSAGE][PASSED] - User Input command_type : purchase
+
+2020-03-19 00:29:58 - [TEST_STEP][PASSED] - User Input product_id : 221: User Input product_id : 221
+
+2020-03-19 00:29:58 - [MESSAGE][PASSED] - User Input product_id : 221
+
+2020-03-19 00:29:58 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:29:58 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/19.har
+
+2020-03-19 00:29:58 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:29:58 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:29:58 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:29:58 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:29:58 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:29:58 - [TEST_STEP][PASSED] - remote_transaction_id : lower: remote_transaction_id : lower
+
+2020-03-19 00:29:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:58 - [MESSAGE][PASSED] - remote_transaction_id : lower
+
+2020-03-19 00:29:58 - [TEST_STEP][PASSED] - customer_id : replbce: customer_id : replbce
+
+2020-03-19 00:29:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:58 - [MESSAGE][PASSED] - customer_id : replbce
+
+2020-03-19 00:29:58 - [TEST_STEP][PASSED] - price : 10: price : 10
+
+2020-03-19 00:29:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:58 - [MESSAGE][PASSED] - price : 10
+
+2020-03-19 00:29:58 - [TEST_STEP][PASSED] - amount : 12000: amount : 12000
+
+2020-03-19 00:29:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:58 - [MESSAGE][PASSED] - amount : 12000
+
+2020-03-19 00:29:58 - [TEST_STEP][PASSED] - User get next command : UPPER: User get next command : UPPER
+
+2020-03-19 00:29:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:58 - [MESSAGE][PASSED] - User get next command : UPPER
+
+2020-03-19 00:29:58 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Function for operation Success: SCENARIO Function for operation Success
+
+2020-03-19 00:29:58 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:29:58 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:29:58 - [TEST_STEP][PASSED] - User Input biller_label : Reinard: User Input biller_label : Reinard
+
+2020-03-19 00:29:58 - [MESSAGE][PASSED] - User Input biller_label : Reinard
+
+2020-03-19 00:29:58 - [TEST_STEP][PASSED] - User Input command_type : purchase: User Input command_type : purchase
+
+2020-03-19 00:29:58 - [MESSAGE][PASSED] - User Input command_type : purchase
+
+2020-03-19 00:29:58 - [TEST_STEP][PASSED] - User Input product_id : 175: User Input product_id : 175
+
+2020-03-19 00:29:58 - [MESSAGE][PASSED] - User Input product_id : 175
+
+2020-03-19 00:29:58 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:29:59 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/20.har
+
+2020-03-19 00:29:59 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:29:59 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:29:59 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:29:59 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:29:59 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:29:59 - [TEST_STEP][PASSED] - remote_transaction_id : apel: remote_transaction_id : apel
+
+2020-03-19 00:29:59 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:59 - [MESSAGE][PASSED] - remote_transaction_id : apel
+
+2020-03-19 00:29:59 - [TEST_STEP][PASSED] - customer_id : concat value: customer_id : concat value
+
+2020-03-19 00:29:59 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:59 - [MESSAGE][PASSED] - customer_id : concat value
+
+2020-03-19 00:29:59 - [TEST_STEP][PASSED] - price : 51: price : 51
+
+2020-03-19 00:29:59 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:59 - [MESSAGE][PASSED] - price : 51
+
+2020-03-19 00:29:59 - [TEST_STEP][PASSED] - amount : 2: amount : 2
+
+2020-03-19 00:29:59 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:59 - [MESSAGE][PASSED] - amount : 2
+
+2020-03-19 00:29:59 - [TEST_STEP][PASSED] - User get next command : sukses gag: User get next command : sukses gag
+
+2020-03-19 00:29:59 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:29:59 - [MESSAGE][PASSED] - User get next command : sukses gag
+
+2020-03-19 00:29:59 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Request Rules Success: SCENARIO Request Rules Success
+
+2020-03-19 00:29:59 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:29:59 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:29:59 - [TEST_STEP][PASSED] - User Input biller_label : Reinard: User Input biller_label : Reinard
+
+2020-03-19 00:29:59 - [MESSAGE][PASSED] - User Input biller_label : Reinard
+
+2020-03-19 00:29:59 - [TEST_STEP][PASSED] - User Input command_type : reversal: User Input command_type : reversal
+
+2020-03-19 00:29:59 - [MESSAGE][PASSED] - User Input command_type : reversal
+
+2020-03-19 00:29:59 - [TEST_STEP][PASSED] - User Input product_id : 26: User Input product_id : 26
+
+2020-03-19 00:29:59 - [MESSAGE][PASSED] - User Input product_id : 26
+
+2020-03-19 00:29:59 - [TEST_STEP][PASSED] - Input transaction_id : 1: Input transaction_id : 1
+
+2020-03-19 00:29:59 - [MESSAGE][PASSED] - Input transaction_id : 1
+
+2020-03-19 00:29:59 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:30:00 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/21.har
+
+2020-03-19 00:30:00 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:30:00 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:30:00 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:30:00 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:30:00 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:30:00 - [TEST_STEP][PASSED] - User get next command : success request rules: User get next command : success request rules
+
+2020-03-19 00:30:00 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:00 - [MESSAGE][PASSED] - User get next command : success request rules
+
+2020-03-19 00:30:00 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Request Rules Success: SCENARIO Request Rules Success
+
+2020-03-19 00:30:00 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:30:00 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:30:00 - [TEST_STEP][PASSED] - User Input biller_label : Reinard: User Input biller_label : Reinard
+
+2020-03-19 00:30:00 - [MESSAGE][PASSED] - User Input biller_label : Reinard
+
+2020-03-19 00:30:00 - [TEST_STEP][PASSED] - User Input command_type : reversal: User Input command_type : reversal
+
+2020-03-19 00:30:00 - [MESSAGE][PASSED] - User Input command_type : reversal
+
+2020-03-19 00:30:00 - [TEST_STEP][PASSED] - User Input product_id : 26: User Input product_id : 26
+
+2020-03-19 00:30:00 - [MESSAGE][PASSED] - User Input product_id : 26
+
+2020-03-19 00:30:00 - [TEST_STEP][PASSED] - Input transaction_id : 2: Input transaction_id : 2
+
+2020-03-19 00:30:00 - [MESSAGE][PASSED] - Input transaction_id : 2
+
+2020-03-19 00:30:00 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:30:00 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/22.har
+
+2020-03-19 00:30:00 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:30:00 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:30:00 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:30:00 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:30:00 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:30:00 - [TEST_STEP][PASSED] - User get next command : failed request rules: User get next command : failed request rules
+
+2020-03-19 00:30:00 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:00 - [MESSAGE][PASSED] - User get next command : failed request rules
+
+2020-03-19 00:30:00 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Request Rules Success: SCENARIO Request Rules Success
+
+2020-03-19 00:30:00 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:30:00 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:30:00 - [TEST_STEP][PASSED] - User Input biller_label : stock_test: User Input biller_label : stock_test
+
+2020-03-19 00:30:00 - [MESSAGE][PASSED] - User Input biller_label : stock_test
+
+2020-03-19 00:30:00 - [TEST_STEP][PASSED] - User Input command_type : stock: User Input command_type : stock
+
+2020-03-19 00:30:00 - [MESSAGE][PASSED] - User Input command_type : stock
+
+2020-03-19 00:30:00 - [TEST_STEP][PASSED] - User Input product_id : 26: User Input product_id : 26
+
+2020-03-19 00:30:00 - [MESSAGE][PASSED] - User Input product_id : 26
+
+2020-03-19 00:30:00 - [TEST_STEP][PASSED] - Input transaction_id : 1: Input transaction_id : 1
+
+2020-03-19 00:30:00 - [MESSAGE][PASSED] - Input transaction_id : 1
+
+2020-03-19 00:30:00 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:30:01 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/23.har
+
+2020-03-19 00:30:01 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:30:01 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:30:01 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:30:01 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:30:01 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:30:01 - [TEST_STEP][PASSED] - User get next command : success request rules: User get next command : success request rules
+
+2020-03-19 00:30:01 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:01 - [MESSAGE][PASSED] - User get next command : success request rules
+
+2020-03-19 00:30:01 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Request Rules Success: SCENARIO Request Rules Success
+
+2020-03-19 00:30:01 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:30:01 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:30:01 - [TEST_STEP][PASSED] - User Input biller_label : stock_test: User Input biller_label : stock_test
+
+2020-03-19 00:30:01 - [MESSAGE][PASSED] - User Input biller_label : stock_test
+
+2020-03-19 00:30:01 - [TEST_STEP][PASSED] - User Input command_type : stock: User Input command_type : stock
+
+2020-03-19 00:30:01 - [MESSAGE][PASSED] - User Input command_type : stock
+
+2020-03-19 00:30:01 - [TEST_STEP][PASSED] - User Input product_id : 26: User Input product_id : 26
+
+2020-03-19 00:30:01 - [MESSAGE][PASSED] - User Input product_id : 26
+
+2020-03-19 00:30:01 - [TEST_STEP][PASSED] - Input transaction_id : 2: Input transaction_id : 2
+
+2020-03-19 00:30:01 - [MESSAGE][PASSED] - Input transaction_id : 2
+
+2020-03-19 00:30:01 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:30:02 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/24.har
+
+2020-03-19 00:30:02 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:30:02 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:30:02 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:30:02 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:30:02 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:30:02 - [TEST_STEP][PASSED] - User get next command : failed request rules: User get next command : failed request rules
+
+2020-03-19 00:30:02 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:02 - [MESSAGE][PASSED] - User get next command : failed request rules
+
+2020-03-19 00:30:02 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Request Rules Success: SCENARIO Request Rules Success
+
+2020-03-19 00:30:02 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:30:02 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:30:02 - [TEST_STEP][PASSED] - User Input biller_label : trunko_171460577: User Input biller_label : trunko_171460577
+
+2020-03-19 00:30:02 - [MESSAGE][PASSED] - User Input biller_label : trunko_171460577
+
+2020-03-19 00:30:02 - [TEST_STEP][PASSED] - User Input command_type : reversal: User Input command_type : reversal
+
+2020-03-19 00:30:02 - [MESSAGE][PASSED] - User Input command_type : reversal
+
+2020-03-19 00:30:02 - [TEST_STEP][PASSED] - Input customer_id : 6281282563: Input customer_id : 6281282563
+
+2020-03-19 00:30:02 - [MESSAGE][PASSED] - Input customer_id : 6281282563
+
+2020-03-19 00:30:02 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:30:02 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/25.har
+
+2020-03-19 00:30:02 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:30:02 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:30:02 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:30:02 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:30:02 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:30:02 - [TEST_STEP][PASSED] - User get next command : success start_with: User get next command : success start_with
+
+2020-03-19 00:30:02 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:02 - [MESSAGE][PASSED] - User get next command : success start_with
+
+2020-03-19 00:30:02 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Request Rules Success: SCENARIO Request Rules Success
+
+2020-03-19 00:30:02 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:30:02 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:30:02 - [TEST_STEP][PASSED] - User Input biller_label : trunko_171460577: User Input biller_label : trunko_171460577
+
+2020-03-19 00:30:02 - [MESSAGE][PASSED] - User Input biller_label : trunko_171460577
+
+2020-03-19 00:30:02 - [TEST_STEP][PASSED] - User Input command_type : reversal: User Input command_type : reversal
+
+2020-03-19 00:30:02 - [MESSAGE][PASSED] - User Input command_type : reversal
+
+2020-03-19 00:30:02 - [TEST_STEP][PASSED] - Input customer_id : 1282563755: Input customer_id : 1282563755
+
+2020-03-19 00:30:02 - [MESSAGE][PASSED] - Input customer_id : 1282563755
+
+2020-03-19 00:30:02 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:30:03 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/26.har
+
+2020-03-19 00:30:03 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:30:03 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:30:03 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:30:03 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:30:03 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:30:03 - [TEST_STEP][PASSED] - User get next command : success end_with: User get next command : success end_with
+
+2020-03-19 00:30:03 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:03 - [MESSAGE][PASSED] - User get next command : success end_with
+
+2020-03-19 00:30:03 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Request Rules Failed: SCENARIO Request Rules Failed
+
+2020-03-19 00:30:03 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:30:03 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:30:03 - [TEST_STEP][PASSED] - User Input biller_label : Reinard: User Input biller_label : Reinard
+
+2020-03-19 00:30:03 - [MESSAGE][PASSED] - User Input biller_label : Reinard
+
+2020-03-19 00:30:03 - [TEST_STEP][PASSED] - User Input command_type : advise: User Input command_type : advise
+
+2020-03-19 00:30:03 - [MESSAGE][PASSED] - User Input command_type : advise
+
+2020-03-19 00:30:03 - [TEST_STEP][PASSED] - User Input product_id : 175: User Input product_id : 175
+
+2020-03-19 00:30:03 - [MESSAGE][PASSED] - User Input product_id : 175
+
+2020-03-19 00:30:03 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:30:03 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/27.har
+
+2020-03-19 00:30:03 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:30:03 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:30:03 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:30:03 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:30:03 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:30:03 - [TEST_STEP][PASSED] - message : Invalid request mapping: message : Invalid request mapping
+
+2020-03-19 00:30:03 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:03 - [MESSAGE][PASSED] - message : Invalid request mapping
+
+2020-03-19 00:30:03 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Request using content-type application/x-www-form-urlencoded: SCENARIO Request using content-type application/x-www-form-urlencoded
+
+2020-03-19 00:30:03 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:30:03 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:30:03 - [TEST_STEP][PASSED] - User Input biller_label : trunko_urlencoded: User Input biller_label : trunko_urlencoded
+
+2020-03-19 00:30:03 - [MESSAGE][PASSED] - User Input biller_label : trunko_urlencoded
+
+2020-03-19 00:30:03 - [TEST_STEP][PASSED] - User Input command_type : advise: User Input command_type : advise
+
+2020-03-19 00:30:03 - [MESSAGE][PASSED] - User Input command_type : advise
+
+2020-03-19 00:30:03 - [TEST_STEP][PASSED] - User Input product_id : 26: User Input product_id : 26
+
+2020-03-19 00:30:03 - [MESSAGE][PASSED] - User Input product_id : 26
+
+2020-03-19 00:30:03 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:30:04 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/28.har
+
+2020-03-19 00:30:04 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:30:04 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:30:04 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:30:04 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:30:04 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:30:04 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Request using content-type application/x-www-form-urlencoded: SCENARIO Request using content-type application/x-www-form-urlencoded
+
+2020-03-19 00:30:04 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:30:04 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:30:04 - [TEST_STEP][PASSED] - User Input biller_label : trunko_urlencoded: User Input biller_label : trunko_urlencoded
+
+2020-03-19 00:30:04 - [MESSAGE][PASSED] - User Input biller_label : trunko_urlencoded
+
+2020-03-19 00:30:04 - [TEST_STEP][PASSED] - User Input command_type : advise: User Input command_type : advise
+
+2020-03-19 00:30:04 - [MESSAGE][PASSED] - User Input command_type : advise
+
+2020-03-19 00:30:04 - [TEST_STEP][PASSED] - User Input product_id : 175: User Input product_id : 175
+
+2020-03-19 00:30:04 - [MESSAGE][PASSED] - User Input product_id : 175
+
+2020-03-19 00:30:04 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:30:04 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/29.har
+
+2020-03-19 00:30:04 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:30:04 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:30:04 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:30:04 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:30:04 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:30:04 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Mapping Config not found: SCENARIO Mapping Config not found
+
+2020-03-19 00:30:04 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:30:04 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:30:04 - [TEST_STEP][PASSED] - User Input biller_label : trunko_mapping_config: User Input biller_label : trunko_mapping_config
+
+2020-03-19 00:30:04 - [MESSAGE][PASSED] - User Input biller_label : trunko_mapping_config
+
+2020-03-19 00:30:04 - [TEST_STEP][PASSED] - User Input command_type : inquiry: User Input command_type : inquiry
+
+2020-03-19 00:30:04 - [MESSAGE][PASSED] - User Input command_type : inquiry
+
+2020-03-19 00:30:04 - [TEST_STEP][PASSED] - User Input product_id : 221: User Input product_id : 221
+
+2020-03-19 00:30:04 - [MESSAGE][PASSED] - User Input product_id : 221
+
+2020-03-19 00:30:04 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:30:04 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/30.har
+
+2020-03-19 00:30:04 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:30:04 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:30:04 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:30:04 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:30:04 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:30:04 - [TEST_STEP][PASSED] - message : Mapping config not found: message : Mapping config not found
+
+2020-03-19 00:30:04 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:04 - [MESSAGE][PASSED] - message : Mapping config not found
+
+2020-03-19 00:30:04 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Mapping Config not found: SCENARIO Mapping Config not found
+
+2020-03-19 00:30:04 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:30:04 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:30:04 - [TEST_STEP][PASSED] - User Input biller_label : trunko_mapping_config: User Input biller_label : trunko_mapping_config
+
+2020-03-19 00:30:04 - [MESSAGE][PASSED] - User Input biller_label : trunko_mapping_config
+
+2020-03-19 00:30:04 - [TEST_STEP][PASSED] - User Input command_type : advise: User Input command_type : advise
+
+2020-03-19 00:30:04 - [MESSAGE][PASSED] - User Input command_type : advise
+
+2020-03-19 00:30:04 - [TEST_STEP][PASSED] - User Input product_id : 26: User Input product_id : 26
+
+2020-03-19 00:30:04 - [MESSAGE][PASSED] - User Input product_id : 26
+
+2020-03-19 00:30:04 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:30:05 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/31.har
+
+2020-03-19 00:30:05 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:30:05 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:30:05 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:30:05 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:30:05 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:30:05 - [TEST_STEP][PASSED] - message : Mapping config not found: message : Mapping config not found
+
+2020-03-19 00:30:05 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:05 - [MESSAGE][PASSED] - message : Mapping config not found
+
+2020-03-19 00:30:05 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Mapping Config not found: SCENARIO Mapping Config not found
+
+2020-03-19 00:30:05 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:30:05 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:30:05 - [TEST_STEP][PASSED] - User Input biller_label : trunko_mapping_config: User Input biller_label : trunko_mapping_config
+
+2020-03-19 00:30:05 - [MESSAGE][PASSED] - User Input biller_label : trunko_mapping_config
+
+2020-03-19 00:30:05 - [TEST_STEP][PASSED] - User Input command_type : advise: User Input command_type : advise
+
+2020-03-19 00:30:05 - [MESSAGE][PASSED] - User Input command_type : advise
+
+2020-03-19 00:30:05 - [TEST_STEP][PASSED] - User Input product_id : 175: User Input product_id : 175
+
+2020-03-19 00:30:05 - [MESSAGE][PASSED] - User Input product_id : 175
+
+2020-03-19 00:30:05 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:30:05 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/32.har
+
+2020-03-19 00:30:05 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:30:05 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:30:05 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:30:05 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:30:05 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:30:05 - [TEST_STEP][PASSED] - message : Mapping config not found: message : Mapping config not found
+
+2020-03-19 00:30:05 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:05 - [MESSAGE][PASSED] - message : Mapping config not found
+
+2020-03-19 00:30:05 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Run all rules condition: SCENARIO Run all rules condition
+
+2020-03-19 00:30:05 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:30:05 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:30:05 - [TEST_STEP][PASSED] - User Input biller_label : Reinard: User Input biller_label : Reinard
+
+2020-03-19 00:30:05 - [MESSAGE][PASSED] - User Input biller_label : Reinard
+
+2020-03-19 00:30:05 - [TEST_STEP][PASSED] - User Input command_type : purchase: User Input command_type : purchase
+
+2020-03-19 00:30:05 - [MESSAGE][PASSED] - User Input command_type : purchase
+
+2020-03-19 00:30:05 - [TEST_STEP][PASSED] - User Input product_id : 26: User Input product_id : 26
+
+2020-03-19 00:30:05 - [MESSAGE][PASSED] - User Input product_id : 26
+
+2020-03-19 00:30:05 - [TEST_STEP][PASSED] - Input transaction_id : 1: Input transaction_id : 1
+
+2020-03-19 00:30:05 - [MESSAGE][PASSED] - Input transaction_id : 1
+
+2020-03-19 00:30:05 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:30:06 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/33.har
+
+2020-03-19 00:30:06 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:30:06 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:30:06 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:30:06 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:30:06 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:30:06 - [TEST_STEP][PASSED] - User get next command : success bosku: User get next command : success bosku
+
+2020-03-19 00:30:06 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:06 - [MESSAGE][PASSED] - User get next command : success bosku
+
+2020-03-19 00:30:06 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Request rules applied for new key "parameters": SCENARIO Request rules applied for new key "parameters"
+
+2020-03-19 00:30:06 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:30:06 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:30:06 - [TEST_STEP][PASSED] - User Input biller_label : trunko_170842794: User Input biller_label : trunko_170842794
+
+2020-03-19 00:30:06 - [MESSAGE][PASSED] - User Input biller_label : trunko_170842794
+
+2020-03-19 00:30:06 - [TEST_STEP][PASSED] - User Input command_type : inquiry: User Input command_type : inquiry
+
+2020-03-19 00:30:06 - [MESSAGE][PASSED] - User Input command_type : inquiry
+
+2020-03-19 00:30:06 - [TEST_STEP][PASSED] - User Input product_id : 26: User Input product_id : 26
+
+2020-03-19 00:30:06 - [MESSAGE][PASSED] - User Input product_id : 26
+
+2020-03-19 00:30:06 - [TEST_STEP][PASSED] - Input parameters : 1: Input parameters : 1
+
+2020-03-19 00:30:06 - [MESSAGE][PASSED] - Input parameters : 1
+
+2020-03-19 00:30:06 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:30:06 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/34.har
+
+2020-03-19 00:30:06 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:30:06 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:30:06 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:30:06 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:30:06 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:30:06 - [TEST_STEP][PASSED] - User get next command : success request rules: User get next command : success request rules
+
+2020-03-19 00:30:06 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:06 - [MESSAGE][PASSED] - User get next command : success request rules
+
+2020-03-19 00:30:06 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Request rules applied for new key "parameters": SCENARIO Request rules applied for new key "parameters"
+
+2020-03-19 00:30:06 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:30:06 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:30:06 - [TEST_STEP][PASSED] - User Input biller_label : trunko_170842794: User Input biller_label : trunko_170842794
+
+2020-03-19 00:30:06 - [MESSAGE][PASSED] - User Input biller_label : trunko_170842794
+
+2020-03-19 00:30:06 - [TEST_STEP][PASSED] - User Input command_type : inquiry: User Input command_type : inquiry
+
+2020-03-19 00:30:06 - [MESSAGE][PASSED] - User Input command_type : inquiry
+
+2020-03-19 00:30:06 - [TEST_STEP][PASSED] - User Input product_id : 26: User Input product_id : 26
+
+2020-03-19 00:30:06 - [MESSAGE][PASSED] - User Input product_id : 26
+
+2020-03-19 00:30:06 - [TEST_STEP][PASSED] - Input parameters : 2: Input parameters : 2
+
+2020-03-19 00:30:06 - [MESSAGE][PASSED] - Input parameters : 2
+
+2020-03-19 00:30:06 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:30:07 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/35.har
+
+2020-03-19 00:30:07 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:30:07 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:30:07 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:30:07 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:30:07 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:30:07 - [TEST_STEP][PASSED] - User get next command : failed request rules: User get next command : failed request rules
+
+2020-03-19 00:30:07 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:07 - [MESSAGE][PASSED] - User get next command : failed request rules
+
+2020-03-19 00:30:07 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Request rules applied for new key "parameters": SCENARIO Request rules applied for new key "parameters"
+
+2020-03-19 00:30:07 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:30:07 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:30:07 - [TEST_STEP][PASSED] - User Input biller_label : trunko_170842794: User Input biller_label : trunko_170842794
+
+2020-03-19 00:30:07 - [MESSAGE][PASSED] - User Input biller_label : trunko_170842794
+
+2020-03-19 00:30:07 - [TEST_STEP][PASSED] - User Input command_type : purchase: User Input command_type : purchase
+
+2020-03-19 00:30:07 - [MESSAGE][PASSED] - User Input command_type : purchase
+
+2020-03-19 00:30:07 - [TEST_STEP][PASSED] - User Input product_id : 26: User Input product_id : 26
+
+2020-03-19 00:30:07 - [MESSAGE][PASSED] - User Input product_id : 26
+
+2020-03-19 00:30:07 - [TEST_STEP][PASSED] - Input parameters : 1: Input parameters : 1
+
+2020-03-19 00:30:07 - [MESSAGE][PASSED] - Input parameters : 1
+
+2020-03-19 00:30:07 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:30:07 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/36.har
+
+2020-03-19 00:30:07 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:30:07 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:30:07 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:30:07 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:30:07 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:30:07 - [TEST_STEP][PASSED] - User get next command : success request rules: User get next command : success request rules
+
+2020-03-19 00:30:07 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:07 - [MESSAGE][PASSED] - User get next command : success request rules
+
+2020-03-19 00:30:07 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Request rules applied for new key "parameters": SCENARIO Request rules applied for new key "parameters"
+
+2020-03-19 00:30:07 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:30:07 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:30:07 - [TEST_STEP][PASSED] - User Input biller_label : trunko_170842794: User Input biller_label : trunko_170842794
+
+2020-03-19 00:30:07 - [MESSAGE][PASSED] - User Input biller_label : trunko_170842794
+
+2020-03-19 00:30:07 - [TEST_STEP][PASSED] - User Input command_type : purchase: User Input command_type : purchase
+
+2020-03-19 00:30:07 - [MESSAGE][PASSED] - User Input command_type : purchase
+
+2020-03-19 00:30:07 - [TEST_STEP][PASSED] - User Input product_id : 26: User Input product_id : 26
+
+2020-03-19 00:30:07 - [MESSAGE][PASSED] - User Input product_id : 26
+
+2020-03-19 00:30:07 - [TEST_STEP][PASSED] - Input parameters : 2: Input parameters : 2
+
+2020-03-19 00:30:07 - [MESSAGE][PASSED] - Input parameters : 2
+
+2020-03-19 00:30:07 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:30:08 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/37.har
+
+2020-03-19 00:30:08 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:30:08 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:30:08 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:30:08 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:30:08 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:30:08 - [TEST_STEP][PASSED] - User get next command : failed request rules: User get next command : failed request rules
+
+2020-03-19 00:30:08 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:08 - [MESSAGE][PASSED] - User get next command : failed request rules
+
+2020-03-19 00:30:08 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Request rules applied for new key "parameters": SCENARIO Request rules applied for new key "parameters"
+
+2020-03-19 00:30:08 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:30:08 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:30:08 - [TEST_STEP][PASSED] - User Input biller_label : trunko_170842794: User Input biller_label : trunko_170842794
+
+2020-03-19 00:30:08 - [MESSAGE][PASSED] - User Input biller_label : trunko_170842794
+
+2020-03-19 00:30:08 - [TEST_STEP][PASSED] - User Input command_type : advice: User Input command_type : advice
+
+2020-03-19 00:30:08 - [MESSAGE][PASSED] - User Input command_type : advice
+
+2020-03-19 00:30:08 - [TEST_STEP][PASSED] - User Input product_id : 26: User Input product_id : 26
+
+2020-03-19 00:30:08 - [MESSAGE][PASSED] - User Input product_id : 26
+
+2020-03-19 00:30:08 - [TEST_STEP][PASSED] - Input parameters : 1: Input parameters : 1
+
+2020-03-19 00:30:08 - [MESSAGE][PASSED] - Input parameters : 1
+
+2020-03-19 00:30:08 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:30:08 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/38.har
+
+2020-03-19 00:30:08 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:30:08 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:30:08 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:30:08 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:30:08 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:30:08 - [TEST_STEP][PASSED] - User get next command : success request rules: User get next command : success request rules
+
+2020-03-19 00:30:08 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:08 - [MESSAGE][PASSED] - User get next command : success request rules
+
+2020-03-19 00:30:08 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Request rules applied for new key "parameters": SCENARIO Request rules applied for new key "parameters"
+
+2020-03-19 00:30:08 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:30:08 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:30:08 - [TEST_STEP][PASSED] - User Input biller_label : trunko_170842794: User Input biller_label : trunko_170842794
+
+2020-03-19 00:30:08 - [MESSAGE][PASSED] - User Input biller_label : trunko_170842794
+
+2020-03-19 00:30:08 - [TEST_STEP][PASSED] - User Input command_type : advice: User Input command_type : advice
+
+2020-03-19 00:30:08 - [MESSAGE][PASSED] - User Input command_type : advice
+
+2020-03-19 00:30:08 - [TEST_STEP][PASSED] - User Input product_id : 26: User Input product_id : 26
+
+2020-03-19 00:30:08 - [MESSAGE][PASSED] - User Input product_id : 26
+
+2020-03-19 00:30:08 - [TEST_STEP][PASSED] - Input parameters : 2: Input parameters : 2
+
+2020-03-19 00:30:08 - [MESSAGE][PASSED] - Input parameters : 2
+
+2020-03-19 00:30:08 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:30:09 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/39.har
+
+2020-03-19 00:30:09 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:30:09 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:30:09 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:30:09 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:30:09 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:30:09 - [TEST_STEP][PASSED] - User get next command : failed request rules: User get next command : failed request rules
+
+2020-03-19 00:30:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:09 - [MESSAGE][PASSED] - User get next command : failed request rules
+
+2020-03-19 00:30:09 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Request rules applied for new key "parameters": SCENARIO Request rules applied for new key "parameters"
+
+2020-03-19 00:30:09 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:30:09 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:30:09 - [TEST_STEP][PASSED] - User Input biller_label : trunko_170842794: User Input biller_label : trunko_170842794
+
+2020-03-19 00:30:09 - [MESSAGE][PASSED] - User Input biller_label : trunko_170842794
+
+2020-03-19 00:30:09 - [TEST_STEP][PASSED] - User Input command_type : reversal: User Input command_type : reversal
+
+2020-03-19 00:30:09 - [MESSAGE][PASSED] - User Input command_type : reversal
+
+2020-03-19 00:30:09 - [TEST_STEP][PASSED] - User Input product_id : 26: User Input product_id : 26
+
+2020-03-19 00:30:09 - [MESSAGE][PASSED] - User Input product_id : 26
+
+2020-03-19 00:30:09 - [TEST_STEP][PASSED] - Input parameters : 1: Input parameters : 1
+
+2020-03-19 00:30:09 - [MESSAGE][PASSED] - Input parameters : 1
+
+2020-03-19 00:30:09 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:30:09 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/40.har
+
+2020-03-19 00:30:09 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:30:09 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:30:09 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:30:09 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:30:09 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:30:09 - [TEST_STEP][PASSED] - User get next command : success request rules: User get next command : success request rules
+
+2020-03-19 00:30:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:09 - [MESSAGE][PASSED] - User get next command : success request rules
+
+2020-03-19 00:30:09 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Request rules applied for new key "parameters": SCENARIO Request rules applied for new key "parameters"
+
+2020-03-19 00:30:09 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:30:09 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:30:09 - [TEST_STEP][PASSED] - User Input biller_label : trunko_170842794: User Input biller_label : trunko_170842794
+
+2020-03-19 00:30:09 - [MESSAGE][PASSED] - User Input biller_label : trunko_170842794
+
+2020-03-19 00:30:09 - [TEST_STEP][PASSED] - User Input command_type : reversal: User Input command_type : reversal
+
+2020-03-19 00:30:09 - [MESSAGE][PASSED] - User Input command_type : reversal
+
+2020-03-19 00:30:09 - [TEST_STEP][PASSED] - User Input product_id : 26: User Input product_id : 26
+
+2020-03-19 00:30:09 - [MESSAGE][PASSED] - User Input product_id : 26
+
+2020-03-19 00:30:09 - [TEST_STEP][PASSED] - Input parameters : 2: Input parameters : 2
+
+2020-03-19 00:30:09 - [MESSAGE][PASSED] - Input parameters : 2
+
+2020-03-19 00:30:09 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:30:10 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/41.har
+
+2020-03-19 00:30:10 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:30:10 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:30:10 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:30:10 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:30:10 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:30:10 - [TEST_STEP][PASSED] - User get next command : failed request rules: User get next command : failed request rules
+
+2020-03-19 00:30:10 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:10 - [MESSAGE][PASSED] - User get next command : failed request rules
+
+2020-03-19 00:30:10 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Request rules applied for new key "parameters": SCENARIO Request rules applied for new key "parameters"
+
+2020-03-19 00:30:10 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:30:10 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:30:10 - [TEST_STEP][PASSED] - User Input biller_label : trunko_170842794: User Input biller_label : trunko_170842794
+
+2020-03-19 00:30:10 - [MESSAGE][PASSED] - User Input biller_label : trunko_170842794
+
+2020-03-19 00:30:10 - [TEST_STEP][PASSED] - User Input command_type : stock: User Input command_type : stock
+
+2020-03-19 00:30:10 - [MESSAGE][PASSED] - User Input command_type : stock
+
+2020-03-19 00:30:10 - [TEST_STEP][PASSED] - User Input product_id : 26: User Input product_id : 26
+
+2020-03-19 00:30:10 - [MESSAGE][PASSED] - User Input product_id : 26
+
+2020-03-19 00:30:10 - [TEST_STEP][PASSED] - Input parameters : 1: Input parameters : 1
+
+2020-03-19 00:30:10 - [MESSAGE][PASSED] - Input parameters : 1
+
+2020-03-19 00:30:10 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:30:10 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/42.har
+
+2020-03-19 00:30:10 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:30:10 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:30:10 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:30:10 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:30:10 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:30:10 - [TEST_STEP][PASSED] - User get next command : success request rules: User get next command : success request rules
+
+2020-03-19 00:30:10 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:10 - [MESSAGE][PASSED] - User get next command : success request rules
+
+2020-03-19 00:30:10 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Request rules applied for new key "parameters": SCENARIO Request rules applied for new key "parameters"
+
+2020-03-19 00:30:10 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:30:10 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:30:10 - [TEST_STEP][PASSED] - User Input biller_label : trunko_170842794: User Input biller_label : trunko_170842794
+
+2020-03-19 00:30:10 - [MESSAGE][PASSED] - User Input biller_label : trunko_170842794
+
+2020-03-19 00:30:10 - [TEST_STEP][PASSED] - User Input command_type : stock: User Input command_type : stock
+
+2020-03-19 00:30:10 - [MESSAGE][PASSED] - User Input command_type : stock
+
+2020-03-19 00:30:10 - [TEST_STEP][PASSED] - User Input product_id : 26: User Input product_id : 26
+
+2020-03-19 00:30:10 - [MESSAGE][PASSED] - User Input product_id : 26
+
+2020-03-19 00:30:10 - [TEST_STEP][PASSED] - Input parameters : 2: Input parameters : 2
+
+2020-03-19 00:30:10 - [MESSAGE][PASSED] - Input parameters : 2
+
+2020-03-19 00:30:10 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:30:11 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/43.har
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - User get next command : failed request rules: User get next command : failed request rules
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - User get next command : failed request rules
+
+2020-03-19 00:30:11 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Access kraken request payload in response mapping (Operation): SCENARIO Access kraken request payload in response mapping (Operation)
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - User Input biller_label : trunko_BPA262: User Input biller_label : trunko_BPA262
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - User Input biller_label : trunko_BPA262
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - User Input command_type : advise: User Input command_type : advise
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - User Input command_type : advise
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - Input product_id : 175: Input product_id : 175
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Input product_id : 175
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - Input transaction_id : 1: Input transaction_id : 1
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Input transaction_id : 1
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - Input remote_transaction_id : a: Input remote_transaction_id : a
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Input remote_transaction_id : a
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - Input transaction_biller_id : 1: Input transaction_biller_id : 1
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Input transaction_biller_id : 1
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - Input remote_product_id : PKREG60WS: Input remote_product_id : PKREG60WS
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Input remote_product_id : PKREG60WS
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - Input customer_id : 085363783001: Input customer_id : 085363783001
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Input customer_id : 085363783001
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - Input partner_id : 6: Input partner_id : 6
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Input partner_id : 6
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - Input rawdata : rawdata: Input rawdata : rawdata
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Input rawdata : rawdata
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:30:11 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/44.har
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - Get transaction_id : 1: Get transaction_id : 1
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Get transaction_id : 1
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - transaction_biller_id : 1: transaction_biller_id : 1
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - transaction_biller_id : 1
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - remote_transaction_id : PKREG60WS: remote_transaction_id : PKREG60WS
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - remote_transaction_id : PKREG60WS
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - remote_product_id : PKREG60WS: remote_product_id : PKREG60WS
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - remote_product_id : PKREG60WS
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - customer_id : 1: customer_id : 1
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - customer_id : 1
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - serial_number : 6: serial_number : 6
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - serial_number : 6
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - biller_rescode : advise: biller_rescode : advise
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - biller_rescode : advise
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - message : 085363783001: message : 085363783001
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - message : 085363783001
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - detail : a: detail : a
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Actual text 'a' and expected text 'a' are matched 
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - detail : a
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - User get next command : 1: User get next command : 1
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - User get next command : 1
+
+2020-03-19 00:30:11 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Access kraken request payload in response mapping (Operation): SCENARIO Access kraken request payload in response mapping (Operation)
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - User Input biller_label : trunko_BPA262: User Input biller_label : trunko_BPA262
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - User Input biller_label : trunko_BPA262
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - User Input command_type : purchase: User Input command_type : purchase
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - User Input command_type : purchase
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - Input product_id : 26: Input product_id : 26
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Input product_id : 26
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - Input transaction_id : 1: Input transaction_id : 1
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Input transaction_id : 1
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - Input transaction_biller_id : 1: Input transaction_biller_id : 1
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Input transaction_biller_id : 1
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - Input remote_transaction_id : genfm: Input remote_transaction_id : genfm
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Input remote_transaction_id : genfm
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - Input remote_product_id : testElec: Input remote_product_id : testElec
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Input remote_product_id : testElec
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - Input customer_id : 085363783001: Input customer_id : 085363783001
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Input customer_id : 085363783001
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - Input partner_id : 6: Input partner_id : 6
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Input partner_id : 6
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - Input rawdata : rawdata: Input rawdata : rawdata
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Input rawdata : rawdata
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - Input biller_id : 3: Input biller_id : 3
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Input biller_id : 3
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - Input parameters : parambos: Input parameters : parambos
+
+2020-03-19 00:30:11 - [MESSAGE][PASSED] - Input parameters : parambos
+
+2020-03-19 00:30:11 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:30:12 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/45.har
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:30:12 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:30:12 - [TEST_STEP][PASSED] - Get transaction_id : 1: Get transaction_id : 1
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - Get transaction_id : 1
+
+2020-03-19 00:30:12 - [TEST_STEP][PASSED] - transaction_biller_id : 1: transaction_biller_id : 1
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - transaction_biller_id : 1
+
+2020-03-19 00:30:12 - [TEST_STEP][PASSED] - remote_transaction_id : parambos: remote_transaction_id : parambos
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - remote_transaction_id : parambos
+
+2020-03-19 00:30:12 - [TEST_STEP][PASSED] - remote_product_id : testElec: remote_product_id : testElec
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - remote_product_id : testElec
+
+2020-03-19 00:30:12 - [TEST_STEP][PASSED] - customer_id : rawdata: customer_id : rawdata
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - customer_id : rawdata
+
+2020-03-19 00:30:12 - [TEST_STEP][PASSED] - serial_number : trunko_BPA262: serial_number : trunko_BPA262
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - serial_number : trunko_BPA262
+
+2020-03-19 00:30:12 - [TEST_STEP][PASSED] - biller_rescode : 26: biller_rescode : 26
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - biller_rescode : 26
+
+2020-03-19 00:30:12 - [TEST_STEP][PASSED] - message : 3: message : 3
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - message : 3
+
+2020-03-19 00:30:12 - [TEST_STEP][PASSED] - User get next command : 20: User get next command : 20
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - User get next command : 20
+
+2020-03-19 00:30:12 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Access kraken request payload in response mapping (Condition): SCENARIO Access kraken request payload in response mapping (Condition)
+
+2020-03-19 00:30:12 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:30:12 - [TEST_STEP][PASSED] - User Input biller_label : trunko_BPA262: User Input biller_label : trunko_BPA262
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - User Input biller_label : trunko_BPA262
+
+2020-03-19 00:30:12 - [TEST_STEP][PASSED] - User Input command_type : advise: User Input command_type : advise
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - User Input command_type : advise
+
+2020-03-19 00:30:12 - [TEST_STEP][PASSED] - Input product_id : 26: Input product_id : 26
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - Input product_id : 26
+
+2020-03-19 00:30:12 - [TEST_STEP][PASSED] - Input transaction_id : 1: Input transaction_id : 1
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - Input transaction_id : 1
+
+2020-03-19 00:30:12 - [TEST_STEP][PASSED] - Input transaction_biller_id : 1: Input transaction_biller_id : 1
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - Input transaction_biller_id : 1
+
+2020-03-19 00:30:12 - [TEST_STEP][PASSED] - Input remote_transaction_id : 110931978314: Input remote_transaction_id : 110931978314
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - Input remote_transaction_id : 110931978314
+
+2020-03-19 00:30:12 - [TEST_STEP][PASSED] - Input remote_product_id : asd: Input remote_product_id : asd
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - Input remote_product_id : asd
+
+2020-03-19 00:30:12 - [TEST_STEP][PASSED] - Input customer_id : 085363783001: Input customer_id : 085363783001
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - Input customer_id : 085363783001
+
+2020-03-19 00:30:12 - [TEST_STEP][PASSED] - Input partner_id : 6: Input partner_id : 6
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - Input partner_id : 6
+
+2020-03-19 00:30:12 - [TEST_STEP][PASSED] - Input rawdata : hi: Input rawdata : hi
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - Input rawdata : hi
+
+2020-03-19 00:30:12 - [TEST_STEP][PASSED] - Input biller_id : 1: Input biller_id : 1
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - Input biller_id : 1
+
+2020-03-19 00:30:12 - [TEST_STEP][PASSED] - Input parameters : param: Input parameters : param
+
+2020-03-19 00:30:12 - [MESSAGE][PASSED] - Input parameters : param
+
+2020-03-19 00:30:12 - [TEST_STEP][PASSED] - Send request for this scenario only: Send request for this scenario only
+
+2020-03-19 00:30:13 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/46.har
+
+2020-03-19 00:30:13 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:30:13 - [MESSAGE][PASSED] - Send request for this scenario only
+
+2020-03-19 00:30:13 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:30:13 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:30:13 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:30:13 - [TEST_STEP][PASSED] - biller_rescode : advise: biller_rescode : advise
+
+2020-03-19 00:30:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:13 - [MESSAGE][PASSED] - biller_rescode : advise
+
+2020-03-19 00:30:13 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Access kraken request payload in response mapping - Mapping still occured eventhough biller response is 404: SCENARIO Access kraken request payload in response mapping - Mapping still occured eventhough biller response is 404
+
+2020-03-19 00:30:13 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:30:13 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:30:13 - [TEST_STEP][PASSED] - User Input biller_label : trunko_BPA262: User Input biller_label : trunko_BPA262
+
+2020-03-19 00:30:13 - [MESSAGE][PASSED] - User Input biller_label : trunko_BPA262
+
+2020-03-19 00:30:13 - [TEST_STEP][PASSED] - User Input command_type : purchase: User Input command_type : purchase
+
+2020-03-19 00:30:13 - [MESSAGE][PASSED] - User Input command_type : purchase
+
+2020-03-19 00:30:13 - [TEST_STEP][PASSED] - Input product_id : 175: Input product_id : 175
+
+2020-03-19 00:30:13 - [MESSAGE][PASSED] - Input product_id : 175
+
+2020-03-19 00:30:13 - [TEST_STEP][PASSED] - Input transaction_id : 1: Input transaction_id : 1
+
+2020-03-19 00:30:13 - [MESSAGE][PASSED] - Input transaction_id : 1
+
+2020-03-19 00:30:13 - [TEST_STEP][PASSED] - Input transaction_biller_id : 1: Input transaction_biller_id : 1
+
+2020-03-19 00:30:13 - [MESSAGE][PASSED] - Input transaction_biller_id : 1
+
+2020-03-19 00:30:13 - [TEST_STEP][PASSED] - Input remote_transaction_id : <remote_tr	ansaction_id>: Input remote_transaction_id : <remote_tr	ansaction_id>
+
+2020-03-19 00:30:13 - [MESSAGE][PASSED] - Input remote_transaction_id : <remote_tr	ansaction_id>
+
+2020-03-19 00:30:13 - [TEST_STEP][PASSED] - Input remote_product_id : asd: Input remote_product_id : asd
+
+2020-03-19 00:30:13 - [MESSAGE][PASSED] - Input remote_product_id : asd
+
+2020-03-19 00:30:13 - [TEST_STEP][PASSED] - Input customer_id : 085363783001: Input customer_id : 085363783001
+
+2020-03-19 00:30:13 - [MESSAGE][PASSED] - Input customer_id : 085363783001
+
+2020-03-19 00:30:13 - [TEST_STEP][PASSED] - Input partner_id : 6: Input partner_id : 6
+
+2020-03-19 00:30:13 - [MESSAGE][PASSED] - Input partner_id : 6
+
+2020-03-19 00:30:13 - [TEST_STEP][PASSED] - Input rawdata : hi: Input rawdata : hi
+
+2020-03-19 00:30:13 - [MESSAGE][PASSED] - Input rawdata : hi
+
+2020-03-19 00:30:13 - [TEST_STEP][PASSED] - Input biller_id : 1: Input biller_id : 1
+
+2020-03-19 00:30:13 - [MESSAGE][PASSED] - Input biller_id : 1
+
+2020-03-19 00:30:13 - [TEST_STEP][PASSED] - Input parameters : param: Input parameters : param
+
+2020-03-19 00:30:13 - [MESSAGE][PASSED] - Input parameters : param
+
+2020-03-19 00:30:13 - [TEST_STEP][PASSED] - Send request for this scenario only: Send request for this scenario only
+
+2020-03-19 00:30:14 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/47.har
+
+2020-03-19 00:30:14 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:30:14 - [MESSAGE][PASSED] - Send request for this scenario only
+
+2020-03-19 00:30:14 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:30:14 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:30:14 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:30:14 - [TEST_STEP][PASSED] - biller_rescode : purchase: biller_rescode : purchase
+
+2020-03-19 00:30:14 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:14 - [MESSAGE][PASSED] - biller_rescode : purchase
+
+2020-03-19 00:30:14 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Access kraken request payload in response mapping - Mapping still occured eventhough biller timeout: SCENARIO Access kraken request payload in response mapping - Mapping still occured eventhough biller timeout
+
+2020-03-19 00:30:14 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:30:14 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:30:14 - [TEST_STEP][PASSED] - User Input biller_label : trunko_BPA262: User Input biller_label : trunko_BPA262
+
+2020-03-19 00:30:14 - [MESSAGE][PASSED] - User Input biller_label : trunko_BPA262
+
+2020-03-19 00:30:14 - [TEST_STEP][PASSED] - User Input command_type : reversal: User Input command_type : reversal
+
+2020-03-19 00:30:14 - [MESSAGE][PASSED] - User Input command_type : reversal
+
+2020-03-19 00:30:14 - [TEST_STEP][PASSED] - Input product_id : 175: Input product_id : 175
+
+2020-03-19 00:30:14 - [MESSAGE][PASSED] - Input product_id : 175
+
+2020-03-19 00:30:14 - [TEST_STEP][PASSED] - Input transaction_id : 1: Input transaction_id : 1
+
+2020-03-19 00:30:14 - [MESSAGE][PASSED] - Input transaction_id : 1
+
+2020-03-19 00:30:14 - [TEST_STEP][PASSED] - Input transaction_biller_id : 1: Input transaction_biller_id : 1
+
+2020-03-19 00:30:14 - [MESSAGE][PASSED] - Input transaction_biller_id : 1
+
+2020-03-19 00:30:14 - [TEST_STEP][PASSED] - Input remote_transaction_id : 110931978314: Input remote_transaction_id : 110931978314
+
+2020-03-19 00:30:14 - [MESSAGE][PASSED] - Input remote_transaction_id : 110931978314
+
+2020-03-19 00:30:14 - [TEST_STEP][PASSED] - Input remote_product_id : asd: Input remote_product_id : asd
+
+2020-03-19 00:30:14 - [MESSAGE][PASSED] - Input remote_product_id : asd
+
+2020-03-19 00:30:14 - [TEST_STEP][PASSED] - Input customer_id : 085363783001: Input customer_id : 085363783001
+
+2020-03-19 00:30:14 - [MESSAGE][PASSED] - Input customer_id : 085363783001
+
+2020-03-19 00:30:14 - [TEST_STEP][PASSED] - Input partner_id : 6: Input partner_id : 6
+
+2020-03-19 00:30:14 - [MESSAGE][PASSED] - Input partner_id : 6
+
+2020-03-19 00:30:14 - [TEST_STEP][PASSED] - Input rawdata : hi: Input rawdata : hi
+
+2020-03-19 00:30:14 - [MESSAGE][PASSED] - Input rawdata : hi
+
+2020-03-19 00:30:14 - [TEST_STEP][PASSED] - Input biller_id : 1: Input biller_id : 1
+
+2020-03-19 00:30:14 - [MESSAGE][PASSED] - Input biller_id : 1
+
+2020-03-19 00:30:14 - [TEST_STEP][PASSED] - Input parameters : param: Input parameters : param
+
+2020-03-19 00:30:14 - [MESSAGE][PASSED] - Input parameters : param
+
+2020-03-19 00:30:14 - [TEST_STEP][PASSED] - Send request for this scenario only: Send request for this scenario only
+
+2020-03-19 00:30:16 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/48.har
+
+2020-03-19 00:30:16 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:30:16 - [MESSAGE][PASSED] - Send request for this scenario only
+
+2020-03-19 00:30:16 - [TEST_STEP][PASSED] - User Get Http response code : 200: User Get Http response code : 200
+
+2020-03-19 00:30:16 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:30:16 - [MESSAGE][PASSED] - User Get Http response code : 200
+
+2020-03-19 00:30:16 - [TEST_STEP][PASSED] - message : Timeout: message : Timeout
+
+2020-03-19 00:30:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:16 - [MESSAGE][PASSED] - message : Timeout
+
+2020-03-19 00:30:16 - [TEST_STEP][PASSED] - biller_rescode : reversal: biller_rescode : reversal
+
+2020-03-19 00:30:16 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:16 - [MESSAGE][PASSED] - biller_rescode : reversal
+
+2020-03-19 00:30:16 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Kraken halt process: SCENARIO Kraken halt process
+
+2020-03-19 00:30:16 - [TEST_STEP][PASSED] - Biller Config Set: Biller Config Set
+
+2020-03-19 00:30:16 - [MESSAGE][PASSED] - Biller Config Set
+
+2020-03-19 00:30:16 - [TEST_STEP][PASSED] - User Input biller_label : trunko_BPA278: User Input biller_label : trunko_BPA278
+
+2020-03-19 00:30:16 - [MESSAGE][PASSED] - User Input biller_label : trunko_BPA278
+
+2020-03-19 00:30:16 - [TEST_STEP][PASSED] - User Input command_type : advise: User Input command_type : advise
+
+2020-03-19 00:30:16 - [MESSAGE][PASSED] - User Input command_type : advise
+
+2020-03-19 00:30:16 - [TEST_STEP][PASSED] - User Input product_id : 26: User Input product_id : 26
+
+2020-03-19 00:30:16 - [MESSAGE][PASSED] - User Input product_id : 26
+
+2020-03-19 00:30:16 - [TEST_STEP][PASSED] - Send request: Send request
+
+2020-03-19 00:30:17 - [MESSAGE][INFO] - HAR: /Users/alterra/Documents/Katalon Project/Trunko/Reports/20200319_002926/Execute Trunko/20200319_002926/requests/main/49.har
+
+2020-03-19 00:30:17 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-19 00:30:17 - [MESSAGE][PASSED] - Send request
+
+2020-03-19 00:30:17 - [TEST_STEP][PASSED] - User Get Http response code : 501: User Get Http response code : 501
+
+2020-03-19 00:30:17 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-19 00:30:17 - [MESSAGE][PASSED] - User Get Http response code : 501
+
+2020-03-19 00:30:17 - [TEST_STEP][PASSED] - message : kraken-halt-process: message : kraken-halt-process
+
+2020-03-19 00:30:17 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-19 00:30:17 - [MESSAGE][PASSED] - message : kraken-halt-process
+
+2020-03-19 00:30:17 - [MESSAGE][PASSED] - Feature file: 'Include/features/Kraken - BM Adapter/Execute Trunko.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-19 00:29:38 - [TEST_SUITE][PASSED] - Execute Trunko: Test Cases/Kraken - BM Adapter/Execute Trunko]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

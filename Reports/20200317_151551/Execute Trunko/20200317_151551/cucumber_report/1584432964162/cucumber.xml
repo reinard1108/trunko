@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="44" time="30.477874">
+<testcase classname="Trunko" name="Biller Config Not Found" time="3.958083">
+<system-out><![CDATA[Given Biller Config : tidak ada Not Set.....................................passed
+When User Input biller_label : tidak ada....................................passed
+And Send request............................................................passed
+Then User Get Http response code : 501......................................passed
+And message : Biller config not found.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Biller Config Not Found 2" time="0.42302">
+<system-out><![CDATA[Given Biller Config : TestBiller Not Set....................................passed
+When User Input biller_label : TestBiller...................................passed
+And Send request............................................................passed
+Then User Get Http response code : 501......................................passed
+And message : Biller config not found.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Product Mapping Not Found" time="0.545647">
+<system-out><![CDATA[Given Product Mapping : 2 Config Not Set....................................passed
+When User Input biller_label : trunko_test..................................passed
+And User Input product_id : 2...............................................passed
+And Send request............................................................passed
+Then User Get Http response code : 501......................................passed
+And message : Product mapping not found.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Product Mapping Not Found 2" time="0.582476">
+<system-out><![CDATA[Given Product Mapping : 300000 Config Not Set...............................passed
+When User Input biller_label : trunko_test..................................passed
+And User Input product_id : 300000..........................................passed
+And Send request............................................................passed
+Then User Get Http response code : 501......................................passed
+And message : Product mapping not found.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Command Type Config Not Found" time="0.559142">
+<system-out><![CDATA[Given Command Type : test Config Set........................................passed
+When User Input biller_label : trunko_test..................................passed
+And User Input command_type : test..........................................passed
+And Input product_id : 175..................................................passed
+And Send request............................................................passed
+Then User Get Http response code : 501......................................passed
+And message : Command type config not found.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Product Type Config Not Found" time="0.444438">
+<system-out><![CDATA[Given Product Type Not Set..................................................passed
+When User Input biller_label : trunko_test..................................passed
+And User Input command_type : purchase......................................passed
+And Input product_id : 175..................................................passed
+And Send request............................................................passed
+Then User Get Http response code : 501......................................passed
+And message : Product type config not found.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Product Type Config Not Found 2" time="0.451402">
+<system-out><![CDATA[Given Product Type Not Set..................................................passed
+When User Input biller_label : trunko_test..................................passed
+And User Input command_type : purchase......................................passed
+And Input product_id : 221..................................................passed
+And Send request............................................................passed
+Then User Get Http response code : 501......................................passed
+And message : Product type config not found.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="new error 501: Pending, waiting Biller's callback" time="0.435322">
+<system-out><![CDATA[Given Product Type Not Set..................................................passed
+When User Input biller_label : trunko_171227693.............................passed
+And User Input command_type : advice........................................passed
+And Input product_id : 175..................................................passed
+And Send request............................................................passed
+Then User Get Http response code : 501......................................passed
+And message : Pending, waiting Biller's callback............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Execute Success" time="0.73557">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : trunko_test..................................passed
+And User Input command_type : advise........................................passed
+And Input product_id : 175..................................................passed
+And Input transaction_id : 1................................................passed
+And Input transaction_biller_id : 1.........................................passed
+And Input remote_product_id : PKREG60WS.....................................passed
+And Input customer_id : 085363783001........................................passed
+And Input partner_id : 6....................................................passed
+And Input rawdata : rawdata.................................................passed
+And Send request............................................................passed
+Then User Get Http response code : 200......................................passed
+And Get response_code : 00..................................................passed
+And Get transaction_id : 1..................................................passed
+And transaction_biller_id : 1...............................................passed
+And remote_transaction_id : a...............................................passed
+And remote_product_id : PKREG60WS...........................................passed
+And customer_id : 085363783001..............................................passed
+And serial_number : a.......................................................passed
+And biller_rescode : 0000...................................................passed
+And message : advise message................................................passed
+And detail : null...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Execute Success 2" time="0.750935">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : trunko_test..................................passed
+And User Input command_type : reversal......................................passed
+And Input product_id : 175..................................................passed
+And Input transaction_id : 2................................................passed
+And Input transaction_biller_id : 2.........................................passed
+And Input remote_product_id : PKREG60WS.....................................passed
+And Input customer_id : 085363783002........................................passed
+And Input partner_id : 6....................................................passed
+And Input rawdata : rawdata.................................................passed
+And Send request............................................................passed
+Then User Get Http response code : 200......................................passed
+And Get response_code : 20..................................................passed
+And Get transaction_id : 2..................................................passed
+And transaction_biller_id : 2...............................................passed
+And remote_transaction_id : abc.............................................passed
+And remote_product_id : PKREG60WS...........................................passed
+And customer_id : 085363783002..............................................passed
+And serial_number : serial..................................................passed
+And biller_rescode : 9006...................................................passed
+And message : reversal message..............................................passed
+And detail : null...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Execute Success 3" time="0.998896">
+<failure message="java.lang.NullPointerException: Cannot invoke method replace() on null object&#10;&#9;at com.ea.steps.Steps.detail(Steps.groovy:378)&#10;&#9;at ✽.detail : {acquiring_institution_id=008,admin_charge=0,amount=184000,bill_count=2,bill_repeat_count=2,bills=[{bill_amount=[74000],bill_date=[201709],kubikasi=[527-541],penalty=[0]},{bill_amount=[100000],bill_date=[201708],kubikasi=[527-541],penalty=[10000]}],blth=201708201709,idpel=1998800007,local_trx_date=20171020,local_trx_time=062418,merchant_code=6012,mti=0210,name=SEPULSA2,pan=074003,processing_code=380000,rc=00,retrieval_ref_no=000135739333,rp_tag=184000,settlement_date=20171021,stan=000135739333,transmission_datetime=1020062418}(/Users/alterra/Documents/Katalon Project/Trunko/Include/features/Kraken - BM Adapter/Execute Trunko.feature:93)&#10;"><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : trunko_test..................................passed
+And User Input command_type : inquiry.......................................passed
+And Input product_id : 221..................................................passed
+And Input transaction_id : 3................................................passed
+And Input transaction_biller_id : 3.........................................passed
+And Input remote_product_id : testPdam......................................passed
+And Input customer_id : 085363783003........................................passed
+And Input partner_id : 6....................................................passed
+And Input rawdata : rawdata.................................................passed
+And Send request............................................................passed
+Then User Get Http response code : 200......................................passed
+And Get response_code : 22..................................................passed
+And Get transaction_id : 3..................................................passed
+And transaction_biller_id : 3...............................................passed
+And remote_transaction_id : 110931978314....................................passed
+And remote_product_id : testPdam............................................passed
+And customer_id : 085363783003..............................................passed
+And serial_number : 0051003619319900........................................passed
+And biller_rescode : 9012...................................................passed
+And message : inquiry message...............................................passed
+And detail : {acquiring_institution_id=008,admin_charge=0,amount=184000,bill_count=2,bill_repeat_count=2,bills=[{bill_amount=[74000],bill_date=[201709],kubikasi=[527-541],penalty=[0]},{bill_amount=[100000],bill_date=[201708],kubikasi=[527-541],penalty=[10000]}],blth=201708201709,idpel=1998800007,local_trx_date=20171020,local_trx_time=062418,merchant_code=6012,mti=0210,name=SEPULSA2,pan=074003,processing_code=380000,rc=00,retrieval_ref_no=000135739333,rp_tag=184000,settlement_date=20171021,stan=000135739333,transmission_datetime=1020062418}.failed
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke method replace() on null object
+	at com.ea.steps.Steps.detail(Steps.groovy:378)
+	at ✽.detail : {acquiring_institution_id=008,admin_charge=0,amount=184000,bill_count=2,bill_repeat_count=2,bills=[{bill_amount=[74000],bill_date=[201709],kubikasi=[527-541],penalty=[0]},{bill_amount=[100000],bill_date=[201708],kubikasi=[527-541],penalty=[10000]}],blth=201708201709,idpel=1998800007,local_trx_date=20171020,local_trx_time=062418,merchant_code=6012,mti=0210,name=SEPULSA2,pan=074003,processing_code=380000,rc=00,retrieval_ref_no=000135739333,rp_tag=184000,settlement_date=20171021,stan=000135739333,transmission_datetime=1020062418}(/Users/alterra/Documents/Katalon Project/Trunko/Include/features/Kraken - BM Adapter/Execute Trunko.feature:93)
+]]></failure>
+</testcase>
+<testcase classname="Trunko" name="Response Rules Success" time="0.582725">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : trunko_test..................................passed
+When User Input command_type : advise.......................................passed
+And Input product_id : 175..................................................passed
+And Send request............................................................passed
+And User Get FBS response status : sukses...................................passed
+And User Get FBS response data.serial_number : a............................passed
+Then User Get Http response code : 200......................................passed
+And User get next command : advice..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Response Rules Success 2" time="0.490262">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : trunko_test..................................passed
+When User Input command_type : purchase.....................................passed
+And Input product_id : 26...................................................passed
+And Send request............................................................passed
+And User Get FBS response status : gagal....................................passed
+And User Get FBS response data.serial_number : 110931978314.................passed
+Then User Get Http response code : 200......................................passed
+And User get next command : reversal........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Response Rules Success 3" time="0.520051">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : trunko_test..................................passed
+When User Input command_type : inquiry......................................passed
+And Input product_id : 221..................................................passed
+And Send request............................................................passed
+And User Get FBS response status : sukses...................................passed
+And User Get FBS response data.serial_number : 0051003619319900.............passed
+Then User Get Http response code : 200......................................passed
+And User get next command : reversal........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Response Rules Success 4" time="0.47333">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : trunko_test..................................passed
+When User Input command_type : reversal.....................................passed
+And Input product_id : 175..................................................passed
+And Send request............................................................passed
+And User Get FBS response status : sukses...................................passed
+And User Get FBS response data.serial_number : serial.......................passed
+Then User Get Http response code : 200......................................passed
+And User get next command : null............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Response Rules Success 5" time="0.498651">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : trunko_test..................................passed
+When User Input command_type : reversal.....................................passed
+And Input product_id : 26...................................................passed
+And Send request............................................................passed
+And User Get FBS response status : gagal....................................passed
+And User Get FBS response data.serial_number : a............................passed
+Then User Get Http response code : 200......................................passed
+And User get next command : reversal........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Response Rules Failed" time="0.539114">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : Reinard......................................passed
+When User Input command_type : advise.......................................passed
+And Input product_id : 26...................................................passed
+And Send request............................................................passed
+Then User Get Http response code : 200......................................passed
+And message : Invalid response mapping......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Convert Biller Response XML to Json Success" time="0.478796">
+<system-out><![CDATA[Given Biller response with XML Content-Type.................................passed
+When User Input biller_label : Reinard......................................passed
+And User Input command_type : stock.........................................passed
+And Send request............................................................passed
+Then User Get Http response code : 200......................................passed
+And User get rawdata in json format.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Convert Biller Response XML to Json Failed" time="0.519079">
+<system-out><![CDATA[Given Biller response with wrong format XML Content-Type....................passed
+When User Input biller_label : trunko_test..................................passed
+And User Input command_type : stock.........................................passed
+And Send request............................................................passed
+Then User Get Http response code : 200......................................passed
+And User get response : Invalid Parse XML Response..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Function for operation Success" time="0.561747">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : Reinard......................................passed
+And User Input command_type : purchase......................................passed
+And User Input product_id : 221.............................................passed
+And Send request............................................................passed
+Then User Get Http response code : 200......................................passed
+And remote_transaction_id : lower...........................................passed
+And customer_id : replbce...................................................passed
+And price : 10..............................................................passed
+And amount : 12000..........................................................passed
+And User get next command : UPPER...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Function for operation Success 2" time="0.690568">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : Reinard......................................passed
+And User Input command_type : purchase......................................passed
+And User Input product_id : 175.............................................passed
+And Send request............................................................passed
+Then User Get Http response code : 200......................................passed
+And remote_transaction_id : apel............................................passed
+And customer_id : concat value..............................................passed
+And price : 51..............................................................passed
+And amount : 2..............................................................passed
+And User get next command : sukses gag......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Request Rules Success" time="0.714195">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : Reinard......................................passed
+And User Input command_type : reversal......................................passed
+And User Input product_id : 26..............................................passed
+And Input transaction_id : 1................................................passed
+And Send request............................................................passed
+Then User Get Http response code : 200......................................passed
+And User get next command : success request rules...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Request Rules Success 2" time="0.562462">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : Reinard......................................passed
+And User Input command_type : reversal......................................passed
+And User Input product_id : 26..............................................passed
+And Input transaction_id : 2................................................passed
+And Send request............................................................passed
+Then User Get Http response code : 200......................................passed
+And User get next command : failed request rules............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Request Rules Success 3" time="0.692357">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : stock_test...................................passed
+And User Input command_type : stock.........................................passed
+And User Input product_id : 26..............................................passed
+And Input transaction_id : 1................................................passed
+And Send request............................................................passed
+Then User Get Http response code : 200......................................passed
+And User get next command : success request rules...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Request Rules Success 4" time="1.810839">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : stock_test...................................passed
+And User Input command_type : stock.........................................passed
+And User Input product_id : 26..............................................passed
+And Input transaction_id : 2................................................passed
+And Send request............................................................passed
+Then User Get Http response code : 200......................................passed
+And User get next command : failed request rules............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Request Rules Success 5" time="1.233508">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : trunko_171460577.............................passed
+And User Input command_type : reversal......................................passed
+And Input customer_id : 6281282563..........................................passed
+And Send request............................................................passed
+Then User Get Http response code : 200......................................passed
+And User get next command : success start_with..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Request Rules Success 6" time="0.6199">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : trunko_171460577.............................passed
+And User Input command_type : reversal......................................passed
+And Input customer_id : 1282563755..........................................passed
+And Send request............................................................passed
+Then User Get Http response code : 200......................................passed
+And User get next command : success end_with................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Request Rules Failed" time="0.571481">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : Reinard......................................passed
+And User Input command_type : advise........................................passed
+And User Input product_id : 175.............................................passed
+And Send request............................................................passed
+Then User Get Http response code : 200......................................passed
+And message : Invalid request mapping.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Request using content-type application/x-www-form-urlencoded" time="0.876909">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : trunko_urlencoded............................passed
+And User Input command_type : advise........................................passed
+And User Input product_id : 26..............................................passed
+And Send request............................................................passed
+Then User Get Http response code : 200......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Request using content-type application/x-www-form-urlencoded 2" time="0.306997">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : trunko_urlencoded............................passed
+And User Input command_type : advise........................................passed
+And User Input product_id : 175.............................................passed
+And Send request............................................................passed
+Then User Get Http response code : 200......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Mapping Config not found" time="0.628726">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : trunko_mapping_config........................passed
+And User Input command_type : inquiry.......................................passed
+And User Input product_id : 221.............................................passed
+And Send request............................................................passed
+Then User Get Http response code : 200......................................passed
+And message : Mapping config not found......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Mapping Config not found 2" time="0.76426">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : trunko_mapping_config........................passed
+And User Input command_type : advise........................................passed
+And User Input product_id : 26..............................................passed
+And Send request............................................................passed
+Then User Get Http response code : 200......................................passed
+And message : Mapping config not found......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Mapping Config not found 3" time="0.425601">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : trunko_mapping_config........................passed
+And User Input command_type : advise........................................passed
+And User Input product_id : 175.............................................passed
+And Send request............................................................passed
+Then User Get Http response code : 200......................................passed
+And message : Mapping config not found......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Run all rules condition" time="0.587569">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : Reinard......................................passed
+And User Input command_type : purchase......................................passed
+And User Input product_id : 26..............................................passed
+And Input transaction_id : 1................................................passed
+And Send request............................................................passed
+Then User Get Http response code : 200......................................passed
+And User get next command : success bosku...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Request rules applied for new key &quot;parameters&quot;" time="0.549545">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : trunko_170842794.............................passed
+And User Input command_type : inquiry.......................................passed
+And User Input product_id : 26..............................................passed
+And Input parameters : 1....................................................passed
+And Send request............................................................passed
+Then User Get Http response code : 200......................................passed
+And User get next command : success request rules...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Request rules applied for new key &quot;parameters&quot; 2" time="0.605265">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : trunko_170842794.............................passed
+And User Input command_type : inquiry.......................................passed
+And User Input product_id : 26..............................................passed
+And Input parameters : 2....................................................passed
+And Send request............................................................passed
+Then User Get Http response code : 200......................................passed
+And User get next command : failed request rules............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Request rules applied for new key &quot;parameters&quot; 3" time="0.555643">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : trunko_170842794.............................passed
+And User Input command_type : purchase......................................passed
+And User Input product_id : 26..............................................passed
+And Input parameters : 1....................................................passed
+And Send request............................................................passed
+Then User Get Http response code : 200......................................passed
+And User get next command : success request rules...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Request rules applied for new key &quot;parameters&quot; 4" time="0.54046">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : trunko_170842794.............................passed
+And User Input command_type : purchase......................................passed
+And User Input product_id : 26..............................................passed
+And Input parameters : 2....................................................passed
+And Send request............................................................passed
+Then User Get Http response code : 200......................................passed
+And User get next command : failed request rules............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Request rules applied for new key &quot;parameters&quot; 5" time="0.473764">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : trunko_170842794.............................passed
+And User Input command_type : advice........................................passed
+And User Input product_id : 26..............................................passed
+And Input parameters : 1....................................................passed
+And Send request............................................................passed
+Then User Get Http response code : 200......................................passed
+And User get next command : success request rules...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Request rules applied for new key &quot;parameters&quot; 6" time="0.464691">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : trunko_170842794.............................passed
+And User Input command_type : advice........................................passed
+And User Input product_id : 26..............................................passed
+And Input parameters : 2....................................................passed
+And Send request............................................................passed
+Then User Get Http response code : 200......................................passed
+And User get next command : failed request rules............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Request rules applied for new key &quot;parameters&quot; 7" time="0.581705">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : trunko_170842794.............................passed
+And User Input command_type : reversal......................................passed
+And User Input product_id : 26..............................................passed
+And Input parameters : 1....................................................passed
+And Send request............................................................passed
+Then User Get Http response code : 200......................................passed
+And User get next command : success request rules...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Request rules applied for new key &quot;parameters&quot; 8" time="0.495276">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : trunko_170842794.............................passed
+And User Input command_type : reversal......................................passed
+And User Input product_id : 26..............................................passed
+And Input parameters : 2....................................................passed
+And Send request............................................................passed
+Then User Get Http response code : 200......................................passed
+And User get next command : failed request rules............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Request rules applied for new key &quot;parameters&quot; 9" time="0.562211">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : trunko_170842794.............................passed
+And User Input command_type : stock.........................................passed
+And User Input product_id : 26..............................................passed
+And Input parameters : 1....................................................passed
+And Send request............................................................passed
+Then User Get Http response code : 200......................................passed
+And User get next command : success request rules...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Trunko" name="Request rules applied for new key &quot;parameters&quot; 10" time="0.615256">
+<system-out><![CDATA[Given Biller Config Set.....................................................passed
+When User Input biller_label : trunko_170842794.............................passed
+And User Input command_type : stock.........................................passed
+And User Input product_id : 26..............................................passed
+And Input parameters : 2....................................................passed
+And Send request............................................................passed
+Then User Get Http response code : 200......................................passed
+And User get next command : failed request rules............................passed
+]]></system-out>
+</testcase>
+</testsuite>
